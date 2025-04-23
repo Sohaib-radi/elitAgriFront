@@ -1,7 +1,5 @@
 'use client';
 
-import { useState, useCallback } from 'react';
-
 import type { Theme, SxProps } from '@mui/material/styles';
 
 import { m } from 'framer-motion';
@@ -9,16 +7,14 @@ import { m } from 'framer-motion';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 
-import { ForbiddenIllustration } from 'src/assets/illustrations';
-
 import { paths } from 'src/routes/paths';
 
 import { DashboardContent } from 'src/layouts/dashboard';
+import { ForbiddenIllustration } from 'src/assets/illustrations';
 
 import { varBounce, MotionContainer } from 'src/components/animate';
-
-import { RoleBasedGuard } from 'src/auth/guard';
 import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
+
 // ----------------------------------------------------------------------
 export type PermissionDeniedProps = {
   sx?: SxProps<Theme>;

@@ -1,7 +1,7 @@
 import type { IUserItem } from 'src/types/user';
 
 import { useBoolean, usePopover } from 'minimal-shared/hooks';
-import { USER_STATUS_OPTIONS } from 'src/_mock/_user';
+
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
@@ -16,6 +16,8 @@ import TableCell from '@mui/material/TableCell';
 import IconButton from '@mui/material/IconButton';
 
 import { RouterLink } from 'src/routes/components';
+
+import { USER_STATUS_OPTIONS } from 'src/_mock/_user';
 
 import { Label } from 'src/components/label';
 import { Iconify } from 'src/components/iconify';

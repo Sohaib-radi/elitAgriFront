@@ -1,6 +1,8 @@
 import type { IUserItem } from 'src/types/user';
 
 import { z as zod } from 'zod';
+import { useState, useEffect } from 'react';
+import { useBoolean } from 'minimal-shared/hooks';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm, Controller } from 'react-hook-form';
 import { isValidPhoneNumber } from 'react-phone-number-input/input';
@@ -13,20 +15,21 @@ import Button from '@mui/material/Button';
 import Switch from '@mui/material/Switch';
 import Typography from '@mui/material/Typography';
 import FormControlLabel from '@mui/material/FormControlLabel';
-import { CONFIG } from 'src/global-config';
+import { Dialog, MenuItem, DialogTitle, DialogActions, DialogContent } from '@mui/material';
 
-import { paths } from 'src/routes/paths';
 import { useRouter } from 'src/routes/hooks';
-import { useBoolean } from 'minimal-shared/hooks';
+
 import { fData } from 'src/utils/format-number';
+
+import { CONFIG } from 'src/global-config';
 import axios, { endpoints } from 'src/lib/axios';
+
 import { Label } from 'src/components/label';
 import { toast } from 'src/components/snackbar';
 import { Form, Field, schemaHelper } from 'src/components/hook-form';
-import { canEditUserField } from 'src/auth/utils/user-permissions';
+
 import { useAuthContext } from 'src/auth/hooks';
-import { Dialog, DialogActions, DialogContent, DialogTitle, MenuItem } from '@mui/material';
-import { useState, useEffect } from 'react';
+import { canEditUserField } from 'src/auth/utils/user-permissions';
 // ----------------------------------------------------------------------
 
 export type NewUserSchemaType = zod.infer<typeof NewUserSchema>;
@@ -203,7 +206,7 @@ export function UserNewEditForm({ currentUser }: Props) {
       } catch (error) {
         console.error('Failed to load roles', error);
       } finally {
-
+        console.log('finaly')
       }
     };
 

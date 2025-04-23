@@ -53,7 +53,7 @@ export function AuthProvider({ children }: Props) {
 
   useEffect(() => {
     checkUserSession();
-  }, []);
+  }, [checkUserSession]);
 
   const checkAuthenticated = state.user ? 'authenticated' : 'unauthenticated';
   const status = state.loading ? 'loading' : checkAuthenticated;

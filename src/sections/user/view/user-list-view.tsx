@@ -3,8 +3,8 @@
 import type { TableHeadCellProps } from 'src/components/table';
 import type { IUserItem, IUserTableFilters } from 'src/types/user';
 
-import { useState, useCallback, useEffect } from 'react';
 import { varAlpha } from 'minimal-shared/utils';
+import { useState, useEffect, useCallback } from 'react';
 import { useBoolean, useSetState } from 'minimal-shared/hooks';
 
 import Box from '@mui/material/Box';
@@ -20,9 +20,10 @@ import IconButton from '@mui/material/IconButton';
 import { paths } from 'src/routes/paths';
 import { RouterLink } from 'src/routes/components';
 
-import { DashboardContent } from 'src/layouts/dashboard';
-import { _roles, _userList, USER_STATUS_OPTIONS } from 'src/_mock';
+import { USER_STATUS_OPTIONS } from 'src/_mock';
 import axios, { endpoints } from 'src/lib/axios';
+import { DashboardContent } from 'src/layouts/dashboard';
+
 import { Label } from 'src/components/label';
 import { toast } from 'src/components/snackbar';
 import { Iconify } from 'src/components/iconify';
@@ -78,7 +79,7 @@ export function UserListView() {
       } catch (error) {
         console.error('Failed to load roles', error);
       } finally {
-
+        console.log("finaly")
       }
     };
 
@@ -93,7 +94,7 @@ export function UserListView() {
       } catch (error) {
         console.error('Failed to fetch users:', error);
       } finally {
-
+        console.log('finaly')
       }
     };
     fetchUsers();
@@ -249,7 +250,7 @@ export function UserListView() {
           <UserTableToolbar
             filters={filters}
             onResetPage={table.onResetPage}
-            options={{ roles: roles }}
+            options={{ roles }}
           />
 
           {canReset && (

@@ -1,12 +1,15 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-import { UserEditView } from 'src/sections/user/view';
 import type { IUserItem } from 'src/types/user';
 
+import { useState, useEffect } from 'react';
+
+import axios, { endpoints } from 'src/lib/axios';
+
+import { UserEditView } from 'src/sections/user/view';
 
 import { JWT_STORAGE_KEY } from 'src/auth/context/jwt/constant';
-import axios, { endpoints } from 'src/lib/axios';
+
 type Props = {
   userId: string;
 };

@@ -1,6 +1,7 @@
 'use client';
 
-import { ReactNode } from 'react';
+import type { ReactNode } from 'react';
+
 import { useAuthContext } from '../hooks';
 import { hasPermission, hasAnyPermission, hasAllPermissions } from '../utils/permission';
 

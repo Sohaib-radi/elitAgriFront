@@ -1,10 +1,11 @@
 import type { Metadata } from 'next';
 
 import { CONFIG } from 'src/global-config';
-import { PermissionGuard } from 'src/auth/components/PermissionGuard';
-import { PermissionDeniedView } from 'src/sections/permission-denied/view';
 
 import { UserListView } from 'src/sections/user/view';
+import { PermissionDeniedView } from 'src/sections/permission-denied/view';
+
+import { PermissionGuard } from 'src/auth/components/PermissionGuard';
 
 // ----------------------------------------------------------------------
 

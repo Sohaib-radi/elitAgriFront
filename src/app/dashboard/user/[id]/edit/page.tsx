@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+
 import { CONFIG } from 'src/global-config';
 import ClientUserEdit from 'src/app/dashboard/user/client-user-edit';
 

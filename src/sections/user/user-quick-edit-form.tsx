@@ -15,11 +15,10 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 
 import { USER_STATUS_OPTIONS } from 'src/_mock';
+import axios, { endpoints } from 'src/lib/axios';
 
 import { toast } from 'src/components/snackbar';
 import { Form, Field, schemaHelper } from 'src/components/hook-form';
-import { Checkbox, Select } from '@mui/material';
-import axios, { endpoints } from 'src/lib/axios';
 
 
 // ----------------------------------------------------------------------
