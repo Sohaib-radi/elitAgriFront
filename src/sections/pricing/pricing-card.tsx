@@ -1,18 +1,18 @@
 import type { CardProps } from '@mui/material/Card';
 
-import { varAlpha } from 'minimal-shared/utils';
-
 import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
-import Stack from '@mui/material/Stack';
+
 import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
+import Link from '@mui/material/Link';
+import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
+import { varAlpha } from 'minimal-shared/utils';
 
 import { PlanFreeIcon, PlanStarterIcon, PlanPremiumIcon } from 'src/assets/icons';
 
-import { Label } from 'src/components/label';
 import { Iconify } from 'src/components/iconify';
+import { Label } from 'src/components/label';
 
 // ----------------------------------------------------------------------
 

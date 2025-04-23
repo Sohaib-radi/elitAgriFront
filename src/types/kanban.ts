@@ -1,6 +1,6 @@
-import type { UniqueIdentifier } from '@dnd-kit/core';
-
 import type { IDateValue } from './common';
+
+import type { UniqueIdentifier } from '@dnd-kit/core';
 
 // ----------------------------------------------------------------------
 

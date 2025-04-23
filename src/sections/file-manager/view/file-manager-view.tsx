@@ -2,33 +2,33 @@
 
 import type { IFile, IFileFilters } from 'src/types/file';
 
-import { useState, useCallback } from 'react';
-import { useBoolean, useSetState } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+
+import Stack from '@mui/material/Stack';
 import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
+import Typography from '@mui/material/Typography';
+import { useBoolean, useSetState } from 'minimal-shared/hooks';
+import { useState, useCallback } from 'react';
 
-import { fIsAfter, fIsBetween } from 'src/utils/format-time';
-
-import { DashboardContent } from 'src/layouts/dashboard';
 import { _allFiles, FILE_TYPE_OPTIONS } from 'src/_mock';
 
-import { toast } from 'src/components/snackbar';
-import { Iconify } from 'src/components/iconify';
-import { fileFormat } from 'src/components/file-thumbnail';
-import { EmptyContent } from 'src/components/empty-content';
 import { ConfirmDialog } from 'src/components/custom-dialog';
-import { useTable, rowInPage, getComparator } from 'src/components/table';
+import { EmptyContent } from 'src/components/empty-content';
 
-import { FileManagerTable } from '../file-manager-table';
+import { fileFormat } from 'src/components/file-thumbnail';
+import { Iconify } from 'src/components/iconify';
+import { toast } from 'src/components/snackbar';
+import { useTable, rowInPage, getComparator } from 'src/components/table';
+import { DashboardContent } from 'src/layouts/dashboard';
+import { fIsAfter, fIsBetween } from 'src/utils/format-time';
+
 import { FileManagerFilters } from '../file-manager-filters';
-import { FileManagerGridView } from '../file-manager-grid-view';
 import { FileManagerFiltersResult } from '../file-manager-filters-result';
+import { FileManagerGridView } from '../file-manager-grid-view';
 import { FileManagerNewFolderDialog } from '../file-manager-new-folder-dialog';
+import { FileManagerTable } from '../file-manager-table';
 
 // ----------------------------------------------------------------------
 

@@ -1,16 +1,16 @@
-import type { IDateValue } from 'src/types/common';
-import type { CardProps } from '@mui/material/Card';
 import type { TimelineItemProps } from '@mui/lab/TimelineItem';
+import type { CardProps } from '@mui/material/Card';
+import type { IDateValue } from 'src/types/common';
 
-import Card from '@mui/material/Card';
 import Timeline from '@mui/lab/Timeline';
-import TimelineDot from '@mui/lab/TimelineDot';
-import Typography from '@mui/material/Typography';
-import CardHeader from '@mui/material/CardHeader';
-import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
+import TimelineContent from '@mui/lab/TimelineContent';
+import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineItem, { timelineItemClasses } from '@mui/lab/TimelineItem';
+import TimelineSeparator from '@mui/lab/TimelineSeparator';
+import Card from '@mui/material/Card';
+import CardHeader from '@mui/material/CardHeader';
+import Typography from '@mui/material/Typography';
 
 import { fDateTime } from 'src/utils/format-time';
 

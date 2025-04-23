@@ -1,6 +1,6 @@
-import type { IKanbanTask } from 'src/types/kanban';
 import type { UniqueIdentifier } from '@dnd-kit/core';
 import type { Theme, SxProps } from '@mui/material/styles';
+import type { IKanbanTask } from 'src/types/kanban';
 
 import { useSortable } from '@dnd-kit/sortable';
 import { useBoolean } from 'minimal-shared/hooks';
@@ -10,8 +10,8 @@ import { deleteTask, updateTask } from 'src/actions/kanban';
 
 import { toast } from 'src/components/snackbar';
 
-import ItemBase from './item-base';
 import { KanbanDetails } from '../details/kanban-details';
+import ItemBase from './item-base';
 
 // ----------------------------------------------------------------------
 

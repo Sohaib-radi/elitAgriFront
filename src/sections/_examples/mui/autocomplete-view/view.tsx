@@ -2,15 +2,15 @@
 
 import type { BoxProps } from '@mui/material/Box';
 
-import { useState } from 'react';
+import Autocomplete from '@mui/material/Autocomplete';
 
 import Box from '@mui/material/Box';
+import Checkbox from '@mui/material/Checkbox';
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
-import Checkbox from '@mui/material/Checkbox';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
-import Autocomplete from '@mui/material/Autocomplete';
+import { useState } from 'react';
 
 import { CountrySelect } from 'src/components/country-select';
 

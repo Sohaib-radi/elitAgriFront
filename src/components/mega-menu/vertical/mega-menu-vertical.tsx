@@ -1,13 +1,13 @@
-import { mergeClasses } from 'minimal-shared/utils';
-import { useClientRect } from 'minimal-shared/hooks';
-
+import type { MegaMenuProps } from '../types';
 import { useTheme } from '@mui/material/styles';
 
-import { NavList } from './nav-list';
+import { useClientRect } from 'minimal-shared/hooks';
+
+import { mergeClasses } from 'minimal-shared/utils';
 import { Nav, NavUl } from '../components';
 import { megaMenuVars, megaMenuClasses } from '../styles';
 
-import type { MegaMenuProps } from '../types';
+import { NavList } from './nav-list';
 
 // ----------------------------------------------------------------------
 

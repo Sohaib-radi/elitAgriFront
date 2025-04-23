@@ -2,21 +2,21 @@
 
 import type { ITourItem } from 'src/types/tour';
 
-import { useState, useCallback } from 'react';
-import { useTabs } from 'minimal-shared/hooks';
-
 import Tab from '@mui/material/Tab';
 import Tabs from '@mui/material/Tabs';
 
-import { paths } from 'src/routes/paths';
+import { useTabs } from 'minimal-shared/hooks';
+import { useState, useCallback } from 'react';
 
-import { DashboardContent } from 'src/layouts/dashboard';
 import { TOUR_DETAILS_TABS, TOUR_PUBLISH_OPTIONS } from 'src/_mock';
 
 import { Label } from 'src/components/label';
+import { DashboardContent } from 'src/layouts/dashboard';
 
-import { TourDetailsContent } from '../tour-details-content';
+import { paths } from 'src/routes/paths';
+
 import { TourDetailsBookers } from '../tour-details-bookers';
+import { TourDetailsContent } from '../tour-details-content';
 import { TourDetailsToolbar } from '../tour-details-toolbar';
 
 // ----------------------------------------------------------------------

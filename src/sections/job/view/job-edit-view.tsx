@@ -2,11 +2,11 @@
 
 import type { IJobItem } from 'src/types/job';
 
-import { paths } from 'src/routes/paths';
+import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
 
 import { DashboardContent } from 'src/layouts/dashboard';
 
-import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
+import { paths } from 'src/routes/paths';
 
 import { JobNewEditForm } from '../job-new-edit-form';
 

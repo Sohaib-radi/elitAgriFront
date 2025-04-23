@@ -1,9 +1,9 @@
 import type { IChatParticipant } from 'src/types/chat';
 
-import Box from '@mui/material/Box';
 import Avatar from '@mui/material/Avatar';
-import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
 import ListItemButton from '@mui/material/ListItemButton';
+import Typography from '@mui/material/Typography';
 
 import { SearchNotFound } from 'src/components/search-not-found';
 

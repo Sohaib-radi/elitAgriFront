@@ -1,30 +1,30 @@
 'use client';
 
+import type { HeaderSectionProps } from '../core/header-section';
+
+import type { LayoutSectionProps } from '../core/layout-section';
+
+import type { MainSectionProps } from '../core/main-section';
+import type { AuthCenteredContentProps } from './content';
 import type { Theme, CSSObject, Breakpoint } from '@mui/material/styles';
+
+import Alert from '@mui/material/Alert';
+import Box from '@mui/material/Box';
+
+import Link from '@mui/material/Link';
 
 import { merge } from 'es-toolkit';
 
-import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
-import Alert from '@mui/material/Alert';
-
-import { paths } from 'src/routes/paths';
-import { RouterLink } from 'src/routes/components';
-
-import { CONFIG } from 'src/global-config';
-
 import { Logo } from 'src/components/logo';
-
-import { AuthCenteredContent } from './content';
-import { MainSection } from '../core/main-section';
-import { LayoutSection } from '../core/layout-section';
-import { HeaderSection } from '../core/header-section';
+import { CONFIG } from 'src/global-config';
+import { RouterLink } from 'src/routes/components';
+import { paths } from 'src/routes/paths';
 import { SettingsButton } from '../components/settings-button';
 
-import type { AuthCenteredContentProps } from './content';
-import type { MainSectionProps } from '../core/main-section';
-import type { HeaderSectionProps } from '../core/header-section';
-import type { LayoutSectionProps } from '../core/layout-section';
+import { HeaderSection } from '../core/header-section';
+import { LayoutSection } from '../core/layout-section';
+import { MainSection } from '../core/main-section';
+import { AuthCenteredContent } from './content';
 
 // ----------------------------------------------------------------------
 

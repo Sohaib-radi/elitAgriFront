@@ -7,11 +7,11 @@ import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import Typography from '@mui/material/Typography';
 
-import { fShortenNumber } from 'src/utils/format-number';
+import { FlagIcon } from 'src/components/flag-icon';
 
 import { Iconify } from 'src/components/iconify';
-import { FlagIcon } from 'src/components/flag-icon';
 import { Scrollbar } from 'src/components/scrollbar';
+import { fShortenNumber } from 'src/utils/format-number';
 
 // ----------------------------------------------------------------------
 

@@ -1,14 +1,14 @@
 'use client';
 
+import type { SettingsState, SettingsProviderProps } from '../types';
 import { isEqual } from 'es-toolkit';
-import { getCookie, getStorage } from 'minimal-shared/utils';
-import { useMemo, useState, useEffect, useCallback } from 'react';
 import { useCookies, useLocalStorage } from 'minimal-shared/hooks';
+import { getCookie, getStorage } from 'minimal-shared/utils';
 
-import { SettingsContext } from './settings-context';
+import { useMemo, useState, useEffect, useCallback } from 'react';
 import { SETTINGS_STORAGE_KEY } from '../settings-config';
 
-import type { SettingsState, SettingsProviderProps } from '../types';
+import { SettingsContext } from './settings-context';
 
 // ----------------------------------------------------------------------
 

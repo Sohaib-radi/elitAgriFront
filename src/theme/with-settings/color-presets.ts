@@ -1,6 +1,6 @@
-import { primary, secondary } from '../core/palette';
-
 import type { PaletteColorNoChannels } from '../core';
+
+import { primary, secondary } from '../core/palette';
 
 // ----------------------------------------------------------------------
 

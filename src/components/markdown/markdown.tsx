@@ -1,24 +1,24 @@
 import './code-highlight-block.css';
 
-import type { Options } from 'react-markdown';
+import type { MarkdownProps } from './types';
 
+import type { Options } from 'react-markdown';
+import Link from '@mui/material/Link';
+import { mergeClasses, isExternalLink } from 'minimal-shared/utils';
 import { useMemo } from 'react';
-import remarkGfm from 'remark-gfm';
-import rehypeRaw from 'rehype-raw';
 import ReactMarkdown from 'react-markdown';
 import rehypeHighlight from 'rehype-highlight';
-import { mergeClasses, isExternalLink } from 'minimal-shared/utils';
 
-import Link from '@mui/material/Link';
+import rehypeRaw from 'rehype-raw';
+
+import remarkGfm from 'remark-gfm';
 
 import { RouterLink } from 'src/routes/components';
-
 import { Image } from '../image';
-import { MarkdownRoot } from './styles';
 import { markdownClasses } from './classes';
 import { htmlToMarkdown, isMarkdownContent } from './html-to-markdown';
 
-import type { MarkdownProps } from './types';
+import { MarkdownRoot } from './styles';
 
 // ----------------------------------------------------------------------
 

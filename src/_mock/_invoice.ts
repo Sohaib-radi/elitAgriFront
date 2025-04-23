@@ -1,8 +1,8 @@
 import { fSub, fAdd } from 'src/utils/format-time';
 
 import { _mock } from './_mock';
-import { _tags } from './assets';
 import { _addressBooks } from './_others';
+import { _tags } from './assets';
 
 // ----------------------------------------------------------------------
 

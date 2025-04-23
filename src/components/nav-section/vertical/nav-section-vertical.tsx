@@ -1,14 +1,14 @@
-import { useBoolean } from 'minimal-shared/hooks';
-import { mergeClasses } from 'minimal-shared/utils';
-
+import type { NavGroupProps, NavSectionProps } from '../types';
 import Collapse from '@mui/material/Collapse';
-import { useTheme } from '@mui/material/styles';
 
-import { NavList } from './nav-list';
+import { useTheme } from '@mui/material/styles';
+import { useBoolean } from 'minimal-shared/hooks';
+
+import { mergeClasses } from 'minimal-shared/utils';
 import { Nav, NavUl, NavLi, NavSubheader } from '../components';
 import { navSectionClasses, navSectionCssVars } from '../styles';
 
-import type { NavGroupProps, NavSectionProps } from '../types';
+import { NavList } from './nav-list';
 
 // ----------------------------------------------------------------------
 

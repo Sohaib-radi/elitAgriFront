@@ -1,6 +1,6 @@
-import Autoplay from 'embla-carousel-autoplay';
-
 import Box from '@mui/material/Box';
+
+import Autoplay from 'embla-carousel-autoplay';
 
 import { Carousel, useCarousel, CarouselDotButtons } from 'src/components/carousel';
 

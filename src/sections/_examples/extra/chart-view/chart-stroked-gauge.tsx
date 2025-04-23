@@ -1,6 +1,6 @@
-import { varAlpha } from 'minimal-shared/utils';
-
 import { useTheme } from '@mui/material/styles';
+
+import { varAlpha } from 'minimal-shared/utils';
 
 import { Chart, useChart } from 'src/components/chart';
 

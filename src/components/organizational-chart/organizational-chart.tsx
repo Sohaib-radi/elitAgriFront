@@ -1,9 +1,9 @@
-import dynamic from 'next/dynamic';
-import { cloneElement } from 'react';
-
+import type { OrgChartProps, OrgChartListProps, OrgChartSubListProps } from './types';
 import { useTheme } from '@mui/material/styles';
 
-import type { OrgChartProps, OrgChartListProps, OrgChartSubListProps } from './types';
+import dynamic from 'next/dynamic';
+
+import { cloneElement } from 'react';
 
 // ----------------------------------------------------------------------
 

@@ -1,7 +1,7 @@
-import { Nav, NavUl } from '../components';
-import { NavList } from './nav-desktop-list';
-
 import type { NavMainProps } from '../types';
+import { Nav, NavUl } from '../components';
+
+import { NavList } from './nav-desktop-list';
 
 // ----------------------------------------------------------------------
 

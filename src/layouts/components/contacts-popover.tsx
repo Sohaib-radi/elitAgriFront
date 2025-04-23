@@ -3,23 +3,23 @@
 import type { BadgeProps } from '@mui/material/Badge';
 import type { IconButtonProps } from '@mui/material/IconButton';
 
-import { m } from 'framer-motion';
-import { usePopover } from 'minimal-shared/hooks';
-
-import Badge from '@mui/material/Badge';
 import Avatar from '@mui/material/Avatar';
+import Badge from '@mui/material/Badge';
+
+import IconButton from '@mui/material/IconButton';
+import ListItemText from '@mui/material/ListItemText';
 import MenuItem from '@mui/material/MenuItem';
 import MenuList from '@mui/material/MenuList';
 import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
-import ListItemText from '@mui/material/ListItemText';
+import { m } from 'framer-motion';
+import { usePopover } from 'minimal-shared/hooks';
 
-import { fToNow } from 'src/utils/format-time';
+import { varTap, varHover, transitionTap } from 'src/components/animate';
 
+import { CustomPopover } from 'src/components/custom-popover';
 import { Iconify } from 'src/components/iconify';
 import { Scrollbar } from 'src/components/scrollbar';
-import { CustomPopover } from 'src/components/custom-popover';
-import { varTap, varHover, transitionTap } from 'src/components/animate';
+import { fToNow } from 'src/utils/format-time';
 
 // ----------------------------------------------------------------------
 

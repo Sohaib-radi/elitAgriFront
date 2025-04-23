@@ -4,10 +4,8 @@ import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import Tooltip from '@mui/material/Tooltip';
 
-import { RouterLink } from 'src/routes/components';
-
-import { CONFIG } from 'src/global-config';
 import { countries } from 'src/assets/data';
+
 import {
   SentIcon,
   PasswordIcon,
@@ -31,12 +29,14 @@ import {
   PageNotFoundIllustration,
   OrderCompleteIllustration,
 } from 'src/assets/illustrations';
-
-import { Logo } from 'src/components/logo';
-import { Iconify } from 'src/components/iconify';
-import { SvgColor } from 'src/components/svg-color';
-import { FlagIcon } from 'src/components/flag-icon';
 import { FileThumbnail } from 'src/components/file-thumbnail';
+import { FlagIcon } from 'src/components/flag-icon';
+
+import { Iconify } from 'src/components/iconify';
+import { Logo } from 'src/components/logo';
+import { SvgColor } from 'src/components/svg-color';
+import { CONFIG } from 'src/global-config';
+import { RouterLink } from 'src/routes/components';
 
 import { ComponentBox, ComponentLayout } from '../../layout';
 

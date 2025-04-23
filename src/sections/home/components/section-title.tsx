@@ -1,12 +1,12 @@
-import type { MotionProps } from 'framer-motion';
 import type { BoxProps } from '@mui/material/Box';
 import type { Theme, SxProps } from '@mui/material/styles';
-
-import { m } from 'framer-motion';
-import { varAlpha } from 'minimal-shared/utils';
+import type { MotionProps } from 'framer-motion';
 
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+
+import { m } from 'framer-motion';
+import { varAlpha } from 'minimal-shared/utils';
 
 import { varFade } from 'src/components/animate';
 

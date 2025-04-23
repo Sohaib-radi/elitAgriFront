@@ -1,3 +1,5 @@
+import type { MapSettings } from './control-panel';
+
 import type { MapProps } from 'src/components/map';
 
 import { useState, useCallback } from 'react';
@@ -5,8 +7,6 @@ import { useState, useCallback } from 'react';
 import { Map, MapControls } from 'src/components/map';
 
 import { MapControlPanel } from './control-panel';
-
-import type { MapSettings } from './control-panel';
 
 // ----------------------------------------------------------------------
 

@@ -1,12 +1,12 @@
-import { mergeClasses } from 'minimal-shared/utils';
+import type { MegaMenuProps } from '../types';
 
 import { useTheme } from '@mui/material/styles';
 
-import { NavList } from './nav-list';
+import { mergeClasses } from 'minimal-shared/utils';
 import { Nav, NavUl } from '../components';
 import { megaMenuVars, megaMenuClasses } from '../styles';
 
-import type { MegaMenuProps } from '../types';
+import { NavList } from './nav-list';
 
 // ----------------------------------------------------------------------
 

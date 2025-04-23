@@ -1,32 +1,32 @@
-import type { IFileManager } from 'src/types/file';
 import type { CardProps } from '@mui/material/Card';
+import type { IFileManager } from 'src/types/file';
 
-import { useState, useCallback } from 'react';
-import { useBoolean, usePopover, useCopyToClipboard } from 'minimal-shared/hooks';
-
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
-import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar';
-import Divider from '@mui/material/Divider';
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
-import Checkbox from '@mui/material/Checkbox';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import AvatarGroup, { avatarGroupClasses } from '@mui/material/AvatarGroup';
 
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Checkbox from '@mui/material/Checkbox';
+import Divider from '@mui/material/Divider';
+import IconButton from '@mui/material/IconButton';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
+import Paper from '@mui/material/Paper';
+import Typography from '@mui/material/Typography';
+import { useBoolean, usePopover, useCopyToClipboard } from 'minimal-shared/hooks';
+import { useState, useCallback } from 'react';
+
+import { ConfirmDialog } from 'src/components/custom-dialog';
+import { CustomPopover } from 'src/components/custom-popover';
+
+import { FileThumbnail } from 'src/components/file-thumbnail';
+import { Iconify } from 'src/components/iconify';
+import { toast } from 'src/components/snackbar';
 import { fData } from 'src/utils/format-number';
 import { fDateTime } from 'src/utils/format-time';
 
-import { toast } from 'src/components/snackbar';
-import { Iconify } from 'src/components/iconify';
-import { ConfirmDialog } from 'src/components/custom-dialog';
-import { FileThumbnail } from 'src/components/file-thumbnail';
-import { CustomPopover } from 'src/components/custom-popover';
-
-import { FileManagerShareDialog } from './file-manager-share-dialog';
 import { FileManagerFileDetails } from './file-manager-file-details';
+import { FileManagerShareDialog } from './file-manager-share-dialog';
 
 // ----------------------------------------------------------------------
 

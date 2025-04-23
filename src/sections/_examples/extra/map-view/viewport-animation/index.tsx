@@ -1,4 +1,6 @@
+import type { CityProps } from './control-panel';
 import type { MapRef } from 'react-map-gl/mapbox';
+
 import type { MapProps } from 'src/components/map';
 
 import { useRef, useState, useCallback } from 'react';
@@ -6,8 +8,6 @@ import { useRef, useState, useCallback } from 'react';
 import { Map, MapControls } from 'src/components/map';
 
 import { MapControlPanel } from './control-panel';
-
-import type { CityProps } from './control-panel';
 
 // ----------------------------------------------------------------------
 

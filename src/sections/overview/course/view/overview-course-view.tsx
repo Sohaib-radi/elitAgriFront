@@ -1,22 +1,22 @@
 'use client';
 
-import { varAlpha } from 'minimal-shared/utils';
-
 import Box from '@mui/material/Box';
+
 import { cardClasses } from '@mui/material/Card';
 import Typography from '@mui/material/Typography';
+import { varAlpha } from 'minimal-shared/utils';
 
+import { _coursesContinue, _coursesFeatured, _coursesReminder } from 'src/_mock';
 import { CONFIG } from 'src/global-config';
 import { DashboardContent } from 'src/layouts/dashboard';
-import { _coursesContinue, _coursesFeatured, _coursesReminder } from 'src/_mock';
 
-import { CourseProgress } from '../course-progress';
 import { CourseContinue } from '../course-continue';
 import { CourseFeatured } from '../course-featured';
-import { CourseReminders } from '../course-reminders';
-import { CourseMyAccount } from '../course-my-account';
 import { CourseHoursSpent } from '../course-hours-spent';
+import { CourseMyAccount } from '../course-my-account';
 import { CourseMyStrength } from '../course-my-strength';
+import { CourseProgress } from '../course-progress';
+import { CourseReminders } from '../course-reminders';
 import { CourseWidgetSummary } from '../course-widget-summary';
 
 // ----------------------------------------------------------------------

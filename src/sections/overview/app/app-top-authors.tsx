@@ -1,17 +1,17 @@
 import type { BoxProps } from '@mui/material/Box';
 import type { CardProps } from '@mui/material/Card';
 
+import Avatar from '@mui/material/Avatar';
+import Box from '@mui/material/Box';
+
+import Card from '@mui/material/Card';
+import CardHeader from '@mui/material/CardHeader';
 import { orderBy } from 'es-toolkit';
 import { varAlpha } from 'minimal-shared/utils';
 
-import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
-import Avatar from '@mui/material/Avatar';
-import CardHeader from '@mui/material/CardHeader';
+import { Iconify } from 'src/components/iconify';
 
 import { fShortenNumber } from 'src/utils/format-number';
-
-import { Iconify } from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

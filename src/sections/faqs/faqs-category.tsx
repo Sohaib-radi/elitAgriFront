@@ -1,16 +1,16 @@
-import { useBoolean } from 'minimal-shared/hooks';
+import Avatar from '@mui/material/Avatar';
 
 import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
-import Avatar from '@mui/material/Avatar';
-import Drawer from '@mui/material/Drawer';
 import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+import Drawer from '@mui/material/Drawer';
 import ListItemButton from '@mui/material/ListItemButton';
-
-import { CONFIG } from 'src/global-config';
+import Paper from '@mui/material/Paper';
+import Typography from '@mui/material/Typography';
+import { useBoolean } from 'minimal-shared/hooks';
 
 import { Iconify } from 'src/components/iconify';
+
+import { CONFIG } from 'src/global-config';
 
 // ----------------------------------------------------------------------
 

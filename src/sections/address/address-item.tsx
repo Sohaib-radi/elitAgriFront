@@ -1,5 +1,5 @@
-import type { IAddressItem } from 'src/types/common';
 import type { PaperProps } from '@mui/material/Paper';
+import type { IAddressItem } from 'src/types/common';
 
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';

@@ -1,13 +1,13 @@
-import { mergeClasses } from 'minimal-shared/utils';
-import ReactLightbox, { useLightboxState } from 'yet-another-react-lightbox';
-
+import type { LightBoxProps } from './types';
 import Box from '@mui/material/Box';
 
+import { mergeClasses } from 'minimal-shared/utils';
+
+import ReactLightbox, { useLightboxState } from 'yet-another-react-lightbox';
 import { Iconify } from '../iconify';
-import { getPlugins } from './utils';
 import { lightboxClasses } from './classes';
 
-import type { LightBoxProps } from './types';
+import { getPlugins } from './utils';
 
 // ----------------------------------------------------------------------
 

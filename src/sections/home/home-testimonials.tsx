@@ -1,21 +1,20 @@
 import type { BoxProps } from '@mui/material/Box';
 
+import Avatar from '@mui/material/Avatar';
+import Box from '@mui/material/Box';
+
+import Container from '@mui/material/Container';
+import Divider from '@mui/material/Divider';
+import Rating from '@mui/material/Rating';
+import Stack from '@mui/material/Stack';
+import Typography from '@mui/material/Typography';
 import { m } from 'framer-motion';
 import { varAlpha } from 'minimal-shared/utils';
-
-import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
-import Avatar from '@mui/material/Avatar';
-import Rating from '@mui/material/Rating';
-import Divider from '@mui/material/Divider';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-
-import { fToNow } from 'src/utils/format-time';
 
 import { _mock } from 'src/_mock';
 
 import { varFade, MotionViewport, AnimateCountUp } from 'src/components/animate';
+
 import {
   Carousel,
   useCarousel,
@@ -23,6 +22,7 @@ import {
   carouselBreakpoints,
   CarouselArrowBasicButtons,
 } from 'src/components/carousel';
+import { fToNow } from 'src/utils/format-time';
 
 import { SectionTitle } from './components/section-title';
 import { FloatLine, FloatTriangleDownIcon } from './components/svg-elements';

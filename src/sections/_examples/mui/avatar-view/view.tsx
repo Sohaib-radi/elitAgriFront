@@ -1,9 +1,9 @@
 'use client';
 
-import Badge from '@mui/material/Badge';
 import Avatar from '@mui/material/Avatar';
-import Tooltip from '@mui/material/Tooltip';
 import AvatarGroup, { avatarGroupClasses } from '@mui/material/AvatarGroup';
+import Badge from '@mui/material/Badge';
+import Tooltip from '@mui/material/Tooltip';
 
 import { _mock } from 'src/_mock';
 

@@ -1,11 +1,11 @@
-import type { SWRConfiguration } from 'swr';
 import type { IMail, IMailLabel } from 'src/types/mail';
+import type { SWRConfiguration } from 'swr';
+
+import { keyBy } from 'es-toolkit';
+import { useMemo } from 'react';
+import { fetcher, endpoints } from 'src/lib/axios';
 
 import useSWR from 'swr';
-import { useMemo } from 'react';
-import { keyBy } from 'es-toolkit';
-
-import { fetcher, endpoints } from 'src/lib/axios';
 
 // ----------------------------------------------------------------------
 

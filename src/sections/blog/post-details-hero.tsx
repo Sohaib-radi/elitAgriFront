@@ -1,22 +1,22 @@
-import type { IPostHero } from 'src/types/blog';
 import type { BoxProps } from '@mui/material/Box';
+import type { IPostHero } from 'src/types/blog';
 
-import { varAlpha } from 'minimal-shared/utils';
+import Avatar from '@mui/material/Avatar';
 
 import Box from '@mui/material/Box';
-import Avatar from '@mui/material/Avatar';
 import Container from '@mui/material/Container';
-import SpeedDial from '@mui/material/SpeedDial';
-import Typography from '@mui/material/Typography';
 import ListItemText from '@mui/material/ListItemText';
-import useMediaQuery from '@mui/material/useMediaQuery';
+import SpeedDial from '@mui/material/SpeedDial';
 import SpeedDialAction from '@mui/material/SpeedDialAction';
-
-import { fDate } from 'src/utils/format-time';
+import Typography from '@mui/material/Typography';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { varAlpha } from 'minimal-shared/utils';
 
 import { _socials } from 'src/_mock';
 
 import { Iconify } from 'src/components/iconify';
+
+import { fDate } from 'src/utils/format-time';
 
 // ----------------------------------------------------------------------
 

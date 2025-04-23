@@ -1,23 +1,23 @@
+import type { CountryListProps } from './types';
+
 import type { Country } from 'react-phone-number-input/input';
-
-import { useMemo } from 'react';
-import { usePopover } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
-import Popover from '@mui/material/Popover';
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
-import TextField from '@mui/material/TextField';
+
 import ButtonBase from '@mui/material/ButtonBase';
 import IconButton from '@mui/material/IconButton';
-import ListItemText from '@mui/material/ListItemText';
 import InputAdornment from '@mui/material/InputAdornment';
+import ListItemText from '@mui/material/ListItemText';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
+import Popover from '@mui/material/Popover';
+import TextField from '@mui/material/TextField';
+import { usePopover } from 'minimal-shared/hooks';
 
-import { Iconify } from '../iconify';
+import { useMemo } from 'react';
 import { FlagIcon } from '../flag-icon';
-import { SearchNotFound } from '../search-not-found';
+import { Iconify } from '../iconify';
 
-import type { CountryListProps } from './types';
+import { SearchNotFound } from '../search-not-found';
 
 // ----------------------------------------------------------------------
 

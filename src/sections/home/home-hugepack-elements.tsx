@@ -1,23 +1,23 @@
-import type { MotionValue } from 'framer-motion';
 import type { BoxProps } from '@mui/material/Box';
-
-import { useRef, useState } from 'react';
-import { useClientRect } from 'minimal-shared/hooks';
-import { m, useSpring, useScroll, useTransform, useMotionValueEvent } from 'framer-motion';
+import type { MotionValue } from 'framer-motion';
 
 import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
+
+import Grid from '@mui/material/Grid';
 import { styled, useTheme } from '@mui/material/styles';
+import Typography from '@mui/material/Typography';
+import { m, useSpring, useScroll, useTransform, useMotionValueEvent } from 'framer-motion';
+import { useClientRect } from 'minimal-shared/hooks';
+import { useRef, useState } from 'react';
 
-import { paths } from 'src/routes/paths';
-
-import { CONFIG } from 'src/global-config';
+import { varFade, MotionViewport } from 'src/components/animate';
 
 import { Iconify } from 'src/components/iconify';
-import { varFade, MotionViewport } from 'src/components/animate';
+
+import { CONFIG } from 'src/global-config';
+import { paths } from 'src/routes/paths';
 
 import { SectionTitle, SectionCaption } from './components/section-title';
 import { FloatLine, FloatTriangleLeftIcon } from './components/svg-elements';

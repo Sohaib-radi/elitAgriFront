@@ -1,9 +1,9 @@
-import type { MotionProps } from 'framer-motion';
 import type { BoxProps } from '@mui/material/Box';
-
-import { m } from 'framer-motion';
+import type { MotionProps } from 'framer-motion';
 
 import Box from '@mui/material/Box';
+
+import { m } from 'framer-motion';
 
 import { varContainer } from './variants';
 

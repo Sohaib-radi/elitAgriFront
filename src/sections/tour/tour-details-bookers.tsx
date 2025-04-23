@@ -1,16 +1,16 @@
-import type { ITourBooker } from 'src/types/tour';
 import type { BoxProps } from '@mui/material/Box';
+import type { ITourBooker } from 'src/types/tour';
 
-import { useState, useCallback } from 'react';
-import { varAlpha } from 'minimal-shared/utils';
-
-import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
-import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar';
-import Pagination from '@mui/material/Pagination';
+import Box from '@mui/material/Box';
+
+import Button from '@mui/material/Button';
+import Card from '@mui/material/Card';
 import IconButton from '@mui/material/IconButton';
 import ListItemText from '@mui/material/ListItemText';
+import Pagination from '@mui/material/Pagination';
+import { varAlpha } from 'minimal-shared/utils';
+import { useState, useCallback } from 'react';
 
 import { Iconify } from 'src/components/iconify';
 

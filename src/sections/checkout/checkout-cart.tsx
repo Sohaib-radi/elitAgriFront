@@ -1,22 +1,22 @@
 import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
-import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
+import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
-import Typography from '@mui/material/Typography';
+import Grid from '@mui/material/Grid';
 import LinearProgress from '@mui/material/LinearProgress';
+import Typography from '@mui/material/Typography';
 
-import { paths } from 'src/routes/paths';
-import { RouterLink } from 'src/routes/components';
+import { EmptyContent } from 'src/components/empty-content';
+import { Iconify } from 'src/components/iconify';
 
 import { CONFIG } from 'src/global-config';
 
-import { Iconify } from 'src/components/iconify';
-import { EmptyContent } from 'src/components/empty-content';
+import { RouterLink } from 'src/routes/components';
+import { paths } from 'src/routes/paths';
 
-import { useCheckoutContext } from './context';
-import { CheckoutSummary } from './checkout-summary';
 import { CheckoutCartProductList } from './checkout-cart-product-list';
+import { CheckoutSummary } from './checkout-summary';
+import { useCheckoutContext } from './context';
 
 // ----------------------------------------------------------------------
 

@@ -1,10 +1,10 @@
-import { varAlpha } from 'minimal-shared/utils';
-
 import { useTheme } from '@mui/material/styles';
 
-import { fNumber } from 'src/utils/format-number';
+import { varAlpha } from 'minimal-shared/utils';
 
 import { Chart, useChart, ChartLegends } from 'src/components/chart';
+
+import { fNumber } from 'src/utils/format-number';
 
 // ----------------------------------------------------------------------
 

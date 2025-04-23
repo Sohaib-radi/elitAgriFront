@@ -1,8 +1,8 @@
 import type { IconButtonProps } from '@mui/material/IconButton';
 
-import { varAlpha } from 'minimal-shared/utils';
-
 import IconButton from '@mui/material/IconButton';
+
+import { varAlpha } from 'minimal-shared/utils';
 
 import { Iconify } from 'src/components/iconify';
 

@@ -1,16 +1,16 @@
-import { useState, useEffect } from 'react';
-import { useDropzone } from 'react-dropzone';
-import { varAlpha, mergeClasses } from 'minimal-shared/utils';
-
+import type { UploadProps } from './types';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
-import { Image } from '../image';
-import { Iconify } from '../iconify';
-import { uploadClasses } from './classes';
-import { RejectionFiles } from './components/rejection-files';
+import { varAlpha, mergeClasses } from 'minimal-shared/utils';
+import { useState, useEffect } from 'react';
 
-import type { UploadProps } from './types';
+import { useDropzone } from 'react-dropzone';
+import { Iconify } from '../iconify';
+import { Image } from '../image';
+import { uploadClasses } from './classes';
+
+import { RejectionFiles } from './components/rejection-files';
 
 // ----------------------------------------------------------------------
 

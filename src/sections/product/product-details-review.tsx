@@ -1,19 +1,19 @@
 import type { IProductReview } from 'src/types/product';
 
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+
+import Divider from '@mui/material/Divider';
+import LinearProgress from '@mui/material/LinearProgress';
+import Rating from '@mui/material/Rating';
+import Stack from '@mui/material/Stack';
+import Typography from '@mui/material/Typography';
 import { sumBy } from 'es-toolkit';
 import { useBoolean } from 'minimal-shared/hooks';
 
-import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
-import Rating from '@mui/material/Rating';
-import Button from '@mui/material/Button';
-import Divider from '@mui/material/Divider';
-import Typography from '@mui/material/Typography';
-import LinearProgress from '@mui/material/LinearProgress';
+import { Iconify } from 'src/components/iconify';
 
 import { fShortenNumber } from 'src/utils/format-number';
-
-import { Iconify } from 'src/components/iconify';
 
 import { ProductReviewList } from './product-review-list';
 import { ProductReviewNewForm } from './product-review-new-form';

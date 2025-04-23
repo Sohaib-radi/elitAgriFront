@@ -1,12 +1,12 @@
+import type { UniqueIdentifier, DraggableSyntheticListeners } from '@dnd-kit/core';
 import type { Transform } from '@dnd-kit/utilities';
 import type { Theme, SxProps } from '@mui/material/styles';
-import type { UniqueIdentifier, DraggableSyntheticListeners } from '@dnd-kit/core';
 
-import { memo, useEffect } from 'react';
-import { varAlpha, mergeClasses } from 'minimal-shared/utils';
-
-import { styled } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
+import { styled } from '@mui/material/styles';
+
+import { varAlpha, mergeClasses } from 'minimal-shared/utils';
+import { memo, useEffect } from 'react';
 
 import { Iconify } from 'src/components/iconify';
 

@@ -7,13 +7,6 @@ import {
   zhCN as zhCNCore,
   arSA as arSACore,
 } from '@mui/material/locale';
-// date pickers (MUI)
-import {
-  enUS as enUSDate,
-  frFR as frFRDate,
-  viVN as viVNDate,
-  zhCN as zhCNDate,
-} from '@mui/x-date-pickers/locales';
 // data grid (MUI)
 import {
   enUS as enUSDataGrid,
@@ -22,6 +15,13 @@ import {
   zhCN as zhCNDataGrid,
   arSD as arSDDataGrid,
 } from '@mui/x-data-grid/locales';
+// date pickers (MUI)
+import {
+  enUS as enUSDate,
+  frFR as frFRDate,
+  viVN as viVNDate,
+  zhCN as zhCNDate,
+} from '@mui/x-date-pickers/locales';
 
 // ----------------------------------------------------------------------
 

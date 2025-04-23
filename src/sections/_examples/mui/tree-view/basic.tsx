@@ -1,8 +1,8 @@
 import type { TreeViewBaseItem } from '@mui/x-tree-view/models';
 
-import { TreeItem } from '@mui/x-tree-view/TreeItem';
 import { RichTreeView } from '@mui/x-tree-view/RichTreeView';
 import { SimpleTreeView } from '@mui/x-tree-view/SimpleTreeView';
+import { TreeItem } from '@mui/x-tree-view/TreeItem';
 
 // ----------------------------------------------------------------------
 

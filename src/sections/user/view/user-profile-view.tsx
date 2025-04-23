@@ -1,29 +1,29 @@
 'use client';
 
+import Box from '@mui/material/Box';
+
+import Card from '@mui/material/Card';
+import Tab from '@mui/material/Tab';
+import Tabs from '@mui/material/Tabs';
 import { useState, useCallback } from 'react';
 
-import Box from '@mui/material/Box';
-import Tab from '@mui/material/Tab';
-import Card from '@mui/material/Card';
-import Tabs from '@mui/material/Tabs';
+import { _userAbout, _userFeeds, _userFriends, _userGallery, _userFollowers } from 'src/_mock';
+import { useMockedUser } from 'src/auth/hooks';
+import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
 
-import { paths } from 'src/routes/paths';
+import { Iconify } from 'src/components/iconify';
+import { DashboardContent } from 'src/layouts/dashboard';
+
 import { RouterLink } from 'src/routes/components';
 import { usePathname, useSearchParams } from 'src/routes/hooks';
 
-import { DashboardContent } from 'src/layouts/dashboard';
-import { _userAbout, _userFeeds, _userFriends, _userGallery, _userFollowers } from 'src/_mock';
+import { paths } from 'src/routes/paths';
 
-import { Iconify } from 'src/components/iconify';
-import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
-
-import { useMockedUser } from 'src/auth/hooks';
-
-import { ProfileHome } from '../profile-home';
 import { ProfileCover } from '../profile-cover';
+import { ProfileFollowers } from '../profile-followers';
 import { ProfileFriends } from '../profile-friends';
 import { ProfileGallery } from '../profile-gallery';
-import { ProfileFollowers } from '../profile-followers';
+import { ProfileHome } from '../profile-home';
 
 // ----------------------------------------------------------------------
 

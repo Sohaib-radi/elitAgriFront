@@ -1,8 +1,8 @@
-import type { SvgIconProps } from '@mui/material/SvgIcon';
 import type { Theme, Components } from '@mui/material/styles';
+import type { SvgIconProps } from '@mui/material/SvgIcon';
 
-import SvgIcon from '@mui/material/SvgIcon';
 import { radioClasses } from '@mui/material/Radio';
+import SvgIcon from '@mui/material/SvgIcon';
 
 // ----------------------------------------------------------------------
 

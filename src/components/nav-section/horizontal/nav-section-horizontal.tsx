@@ -1,13 +1,13 @@
-import { mergeClasses } from 'minimal-shared/utils';
+import type { NavGroupProps, NavSectionProps } from '../types';
 
 import { useTheme } from '@mui/material/styles';
 
-import { NavList } from './nav-list';
+import { mergeClasses } from 'minimal-shared/utils';
 import { Scrollbar } from '../../scrollbar';
 import { Nav, NavUl, NavLi } from '../components';
 import { navSectionClasses, navSectionCssVars } from '../styles';
 
-import type { NavGroupProps, NavSectionProps } from '../types';
+import { NavList } from './nav-list';
 
 // ----------------------------------------------------------------------
 

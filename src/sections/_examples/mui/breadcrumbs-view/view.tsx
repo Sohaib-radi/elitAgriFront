@@ -1,12 +1,12 @@
 'use client';
 
-import Link from '@mui/material/Link';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
+import Button from '@mui/material/Button';
+import Link from '@mui/material/Link';
+import Typography from '@mui/material/Typography';
 
-import { Iconify } from 'src/components/iconify';
 import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
+import { Iconify } from 'src/components/iconify';
 
 import { ComponentBox, ComponentLayout } from '../../layout';
 

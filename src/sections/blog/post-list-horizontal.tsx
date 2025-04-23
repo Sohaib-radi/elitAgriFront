@@ -5,8 +5,8 @@ import Pagination, { paginationClasses } from '@mui/material/Pagination';
 
 import { paths } from 'src/routes/paths';
 
-import { PostItemSkeleton } from './post-skeleton';
 import { PostItemHorizontal } from './post-item-horizontal';
+import { PostItemSkeleton } from './post-skeleton';
 
 // ----------------------------------------------------------------------
 

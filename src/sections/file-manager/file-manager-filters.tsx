@@ -1,25 +1,25 @@
-import type { IFileFilters } from 'src/types/file';
-import type { IDatePickerControl } from 'src/types/common';
 import type { UseSetStateReturn } from 'minimal-shared/hooks';
-
-import { useCallback } from 'react';
-import { varAlpha } from 'minimal-shared/utils';
-import { usePopover } from 'minimal-shared/hooks';
+import type { IDatePickerControl } from 'src/types/common';
+import type { IFileFilters } from 'src/types/file';
 
 import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
-import TextField from '@mui/material/TextField';
 import CardActionArea from '@mui/material/CardActionArea';
+
 import InputAdornment from '@mui/material/InputAdornment';
+import Stack from '@mui/material/Stack';
+import TextField from '@mui/material/TextField';
+import { usePopover } from 'minimal-shared/hooks';
+import { varAlpha } from 'minimal-shared/utils';
+import { useCallback } from 'react';
 
-import { fDateRangeShortLabel } from 'src/utils/format-time';
-
-import { Label } from 'src/components/label';
-import { Iconify } from 'src/components/iconify';
-import { FileThumbnail } from 'src/components/file-thumbnail';
-import { CustomPopover } from 'src/components/custom-popover';
 import { CustomDateRangePicker } from 'src/components/custom-date-range-picker';
+
+import { CustomPopover } from 'src/components/custom-popover';
+import { FileThumbnail } from 'src/components/file-thumbnail';
+import { Iconify } from 'src/components/iconify';
+import { Label } from 'src/components/label';
+import { fDateRangeShortLabel } from 'src/utils/format-time';
 
 // ----------------------------------------------------------------------
 

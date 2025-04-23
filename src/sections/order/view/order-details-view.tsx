@@ -2,25 +2,25 @@
 
 import type { IOrderItem } from 'src/types/order';
 
+import Box from '@mui/material/Box';
+
+import Card from '@mui/material/Card';
+import Divider from '@mui/material/Divider';
+import Grid from '@mui/material/Grid';
 import { useState, useCallback } from 'react';
 
-import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
-import Grid from '@mui/material/Grid';
-import Divider from '@mui/material/Divider';
+import { ORDER_STATUS_OPTIONS } from 'src/_mock';
 
+import { DashboardContent } from 'src/layouts/dashboard';
 import { paths } from 'src/routes/paths';
 
-import { ORDER_STATUS_OPTIONS } from 'src/_mock';
-import { DashboardContent } from 'src/layouts/dashboard';
-
-import { OrderDetailsItems } from '../order-details-items';
-import { OrderDetailsToolbar } from '../order-details-toolbar';
-import { OrderDetailsHistory } from '../order-details-history';
-import { OrderDetailsPayment } from '../order-details-payment';
 import { OrderDetailsCustomer } from '../order-details-customer';
 import { OrderDetailsDelivery } from '../order-details-delivery';
+import { OrderDetailsHistory } from '../order-details-history';
+import { OrderDetailsItems } from '../order-details-items';
+import { OrderDetailsPayment } from '../order-details-payment';
 import { OrderDetailsShipping } from '../order-details-shipping';
+import { OrderDetailsToolbar } from '../order-details-toolbar';
 
 // ----------------------------------------------------------------------
 

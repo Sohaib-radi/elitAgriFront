@@ -1,11 +1,11 @@
 'use client';
 
-import { useState } from 'react';
-
 import Box from '@mui/material/Box';
+
+import FormControlLabel from '@mui/material/FormControlLabel';
 import Switch from '@mui/material/Switch';
 import Typography from '@mui/material/Typography';
-import FormControlLabel from '@mui/material/FormControlLabel';
+import { useState } from 'react';
 
 import { Editor } from 'src/components/editor';
 import { Markdown } from 'src/components/markdown';

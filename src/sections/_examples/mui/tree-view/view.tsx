@@ -1,9 +1,9 @@
 'use client';
 
+import { ComponentBox, ComponentLayout } from '../../layout';
+import { BasicRichTree, BasicSimpleTree } from './basic';
 import { CustomIcons } from './custom-icon';
 import { CustomStyling } from './custom-styling';
-import { BasicRichTree, BasicSimpleTree } from './basic';
-import { ComponentBox, ComponentLayout } from '../../layout';
 
 // ----------------------------------------------------------------------
 

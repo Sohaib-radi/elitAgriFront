@@ -1,19 +1,19 @@
 import type { BoxProps } from '@mui/material/Box';
 
-import { varAlpha } from 'minimal-shared/utils';
-import { useBoolean, usePopover } from 'minimal-shared/hooks';
-import { useId, useRef, useState, useEffect, useCallback } from 'react';
-
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
 import IconButton from '@mui/material/IconButton';
 
-import { Label } from 'src/components/label';
-import { Iconify } from 'src/components/iconify';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
+import { useBoolean, usePopover } from 'minimal-shared/hooks';
+import { varAlpha } from 'minimal-shared/utils';
+import { useId, useRef, useState, useEffect, useCallback } from 'react';
+
 import { ConfirmDialog } from 'src/components/custom-dialog';
 import { CustomPopover } from 'src/components/custom-popover';
+import { Iconify } from 'src/components/iconify';
+import { Label } from 'src/components/label';
 
 import { KanbanInputName } from '../components/kanban-input-name';
 

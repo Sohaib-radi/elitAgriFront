@@ -1,23 +1,23 @@
 import type { BoxProps } from '@mui/material/Box';
 import type { UseClientRectReturn } from 'minimal-shared/hooks';
 
-import { useRef, useState } from 'react';
-import { varAlpha } from 'minimal-shared/utils';
-import { useClientRect } from 'minimal-shared/hooks';
-import { m, useSpring, useScroll, useTransform, useMotionValueEvent } from 'framer-motion';
-
 import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
-import SvgIcon from '@mui/material/SvgIcon';
 import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
+import Stack from '@mui/material/Stack';
 import { styled, useTheme } from '@mui/material/styles';
+
+import SvgIcon from '@mui/material/SvgIcon';
+import Typography from '@mui/material/Typography';
+import { m, useSpring, useScroll, useTransform, useMotionValueEvent } from 'framer-motion';
+import { useClientRect } from 'minimal-shared/hooks';
+import { varAlpha } from 'minimal-shared/utils';
+import { useRef, useState } from 'react';
+
+import { varFade, MotionViewport } from 'src/components/animate';
+import { Iconify } from 'src/components/iconify';
 
 import { CONFIG } from 'src/global-config';
 import { primaryColorPresets } from 'src/theme/with-settings';
-
-import { Iconify } from 'src/components/iconify';
-import { varFade, MotionViewport } from 'src/components/animate';
 
 import { SectionTitle } from './components/section-title';
 import { FloatLine, FloatPlusIcon } from './components/svg-elements';

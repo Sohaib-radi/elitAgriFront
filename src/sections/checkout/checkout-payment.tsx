@@ -4,21 +4,21 @@ import type {
   ICheckoutDeliveryOption,
 } from 'src/types/checkout';
 
-import { z as zod } from 'zod';
-import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
-
-import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
+import Grid from '@mui/material/Grid';
 
+import { useForm } from 'react-hook-form';
 import { Form } from 'src/components/hook-form';
-import { Iconify } from 'src/components/iconify';
 
-import { useCheckoutContext } from './context';
-import { CheckoutSummary } from './checkout-summary';
-import { CheckoutDelivery } from './checkout-delivery';
+import { Iconify } from 'src/components/iconify';
+import { z as zod } from 'zod';
+
 import { CheckoutBillingInfo } from './checkout-billing-info';
+import { CheckoutDelivery } from './checkout-delivery';
 import { CheckoutPaymentMethods } from './checkout-payment-methods';
+import { CheckoutSummary } from './checkout-summary';
+import { useCheckoutContext } from './context';
 
 // ----------------------------------------------------------------------
 

@@ -1,9 +1,9 @@
 'use client';
 
 import Box from '@mui/material/Box';
-import Switch from '@mui/material/Switch';
-import SvgIcon from '@mui/material/SvgIcon';
 import Container from '@mui/material/Container';
+import SvgIcon from '@mui/material/SvgIcon';
+import Switch from '@mui/material/Switch';
 import Typography from '@mui/material/Typography';
 
 import { _pricingPlans } from 'src/_mock';

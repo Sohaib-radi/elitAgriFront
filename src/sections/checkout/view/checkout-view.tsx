@@ -1,15 +1,15 @@
 'use client';
 
-import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 
-import { CheckoutCart } from '../checkout-cart';
-import { useCheckoutContext } from '../context';
-import { CheckoutSteps } from '../checkout-steps';
-import { CheckoutPayment } from '../checkout-payment';
-import { CheckoutOrderComplete } from '../checkout-order-complete';
 import { CheckoutBillingAddress } from '../checkout-billing-address';
+import { CheckoutCart } from '../checkout-cart';
+import { CheckoutOrderComplete } from '../checkout-order-complete';
+import { CheckoutPayment } from '../checkout-payment';
+import { CheckoutSteps } from '../checkout-steps';
+import { useCheckoutContext } from '../context';
 
 // ----------------------------------------------------------------------
 

@@ -1,18 +1,18 @@
-import type { IPaymentCard } from 'src/types/common';
 import type { PaperProps } from '@mui/material/Paper';
-
-import { usePopover } from 'minimal-shared/hooks';
+import type { IPaymentCard } from 'src/types/common';
 
 import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 
-import { Label } from 'src/components/label';
-import { Iconify } from 'src/components/iconify';
+import IconButton from '@mui/material/IconButton';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
+import Paper from '@mui/material/Paper';
+import Typography from '@mui/material/Typography';
+import { usePopover } from 'minimal-shared/hooks';
+
 import { CustomPopover } from 'src/components/custom-popover';
+import { Iconify } from 'src/components/iconify';
+import { Label } from 'src/components/label';
 
 // ----------------------------------------------------------------------
 

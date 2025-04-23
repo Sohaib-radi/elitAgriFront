@@ -1,8 +1,8 @@
 import type { Theme, SxProps } from '@mui/material/styles';
 
-import { useState } from 'react';
-
 import Box from '@mui/material/Box';
+
+import { useState } from 'react';
 
 import { ColorPicker, ColorPreview } from 'src/components/color-utils';
 

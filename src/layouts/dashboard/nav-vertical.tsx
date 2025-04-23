@@ -1,18 +1,18 @@
 import type { Breakpoint } from '@mui/material/styles';
 import type { NavSectionProps } from 'src/components/nav-section';
 
+import Box from '@mui/material/Box';
+
+import { styled } from '@mui/material/styles';
 import { varAlpha, mergeClasses } from 'minimal-shared/utils';
 
-import Box from '@mui/material/Box';
-import { styled } from '@mui/material/styles';
-
 import { Logo } from 'src/components/logo';
-import { Scrollbar } from 'src/components/scrollbar';
 import { NavSectionMini, NavSectionVertical } from 'src/components/nav-section';
+import { Scrollbar } from 'src/components/scrollbar';
 
-import { layoutClasses } from '../core/classes';
-import { NavUpgrade } from '../components/nav-upgrade';
 import { NavToggleButton } from '../components/nav-toggle-button';
+import { NavUpgrade } from '../components/nav-upgrade';
+import { layoutClasses } from '../core/classes';
 
 // ----------------------------------------------------------------------
 

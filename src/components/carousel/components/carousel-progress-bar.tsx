@@ -1,10 +1,10 @@
-import { varAlpha, mergeClasses } from 'minimal-shared/utils';
+import type { CarouselProgressBarProps } from '../types';
 
 import { styled } from '@mui/material/styles';
 
-import { carouselClasses } from '../classes';
+import { varAlpha, mergeClasses } from 'minimal-shared/utils';
 
-import type { CarouselProgressBarProps } from '../types';
+import { carouselClasses } from '../classes';
 
 // ----------------------------------------------------------------------
 

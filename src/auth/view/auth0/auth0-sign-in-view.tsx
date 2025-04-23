@@ -1,16 +1,16 @@
 'use client';
 
-import { useCallback } from 'react';
 import { useAuth0 } from '@auth0/auth0-react';
-
 import Box from '@mui/material/Box';
+
 import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
-
-import { useSearchParams } from 'src/routes/hooks';
+import { useCallback } from 'react';
 
 import { CONFIG } from 'src/global-config';
+
+import { useSearchParams } from 'src/routes/hooks';
 
 // ----------------------------------------------------------------------
 

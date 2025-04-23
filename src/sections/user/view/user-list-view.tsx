@@ -3,33 +3,29 @@
 import type { TableHeadCellProps } from 'src/components/table';
 import type { IUserItem, IUserTableFilters } from 'src/types/user';
 
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Card from '@mui/material/Card';
+
+import IconButton from '@mui/material/IconButton';
+import Tab from '@mui/material/Tab';
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import Tabs from '@mui/material/Tabs';
+import Tooltip from '@mui/material/Tooltip';
+import { useBoolean, useSetState } from 'minimal-shared/hooks';
 import { varAlpha } from 'minimal-shared/utils';
 import { useState, useEffect, useCallback } from 'react';
-import { useBoolean, useSetState } from 'minimal-shared/hooks';
-
-import Box from '@mui/material/Box';
-import Tab from '@mui/material/Tab';
-import Tabs from '@mui/material/Tabs';
-import Card from '@mui/material/Card';
-import Table from '@mui/material/Table';
-import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
-import TableBody from '@mui/material/TableBody';
-import IconButton from '@mui/material/IconButton';
-
-import { paths } from 'src/routes/paths';
-import { RouterLink } from 'src/routes/components';
 
 import { USER_STATUS_OPTIONS } from 'src/_mock';
-import axios, { endpoints } from 'src/lib/axios';
-import { DashboardContent } from 'src/layouts/dashboard';
-
-import { Label } from 'src/components/label';
-import { toast } from 'src/components/snackbar';
-import { Iconify } from 'src/components/iconify';
-import { Scrollbar } from 'src/components/scrollbar';
-import { ConfirmDialog } from 'src/components/custom-dialog';
 import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
+
+import { ConfirmDialog } from 'src/components/custom-dialog';
+import { Iconify } from 'src/components/iconify';
+import { Label } from 'src/components/label';
+
+import { Scrollbar } from 'src/components/scrollbar';
+import { toast } from 'src/components/snackbar';
 import {
   useTable,
   emptyRows,
@@ -41,10 +37,14 @@ import {
   TableSelectedAction,
   TablePaginationCustom,
 } from 'src/components/table';
+import { DashboardContent } from 'src/layouts/dashboard';
+import axios, { endpoints } from 'src/lib/axios';
+import { RouterLink } from 'src/routes/components';
+import { paths } from 'src/routes/paths';
 
+import { UserTableFiltersResult } from '../user-table-filters-result';
 import { UserTableRow } from '../user-table-row';
 import { UserTableToolbar } from '../user-table-toolbar';
-import { UserTableFiltersResult } from '../user-table-filters-result';
 
 // ----------------------------------------------------------------------
 

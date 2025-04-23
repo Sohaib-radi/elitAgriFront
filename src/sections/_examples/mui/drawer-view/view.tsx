@@ -1,7 +1,7 @@
 'use client';
 
-import { AnchorDrawer } from './anchor-drawer';
 import { ComponentBox, ComponentLayout } from '../../layout';
+import { AnchorDrawer } from './anchor-drawer';
 
 // ----------------------------------------------------------------------
 

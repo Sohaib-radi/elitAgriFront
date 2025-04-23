@@ -2,11 +2,11 @@ import type { BoxProps } from '@mui/material/Box';
 import type { Theme, SxProps } from '@mui/material/styles';
 import type { Transition, MotionProps } from 'framer-motion';
 
-import { useId } from 'react';
-import { m } from 'framer-motion';
-
 import Box from '@mui/material/Box';
 import { styled } from '@mui/material/styles';
+
+import { m } from 'framer-motion';
+import { useId } from 'react';
 
 import { varFade } from 'src/components/animate';
 

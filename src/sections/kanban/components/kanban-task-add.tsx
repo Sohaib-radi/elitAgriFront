@@ -1,16 +1,16 @@
 import type { IKanbanTask } from 'src/types/kanban';
 
+import ClickAwayListener from '@mui/material/ClickAwayListener';
+import FormHelperText from '@mui/material/FormHelperText';
+
+import InputBase, { inputBaseClasses } from '@mui/material/InputBase';
+import Paper from '@mui/material/Paper';
 import { uuidv4 } from 'minimal-shared/utils';
 import { useMemo, useState, useCallback } from 'react';
 
-import Paper from '@mui/material/Paper';
-import FormHelperText from '@mui/material/FormHelperText';
-import ClickAwayListener from '@mui/material/ClickAwayListener';
-import InputBase, { inputBaseClasses } from '@mui/material/InputBase';
+import { _mock } from 'src/_mock';
 
 import { fAdd, today } from 'src/utils/format-time';
-
-import { _mock } from 'src/_mock';
 
 // ----------------------------------------------------------------------
 

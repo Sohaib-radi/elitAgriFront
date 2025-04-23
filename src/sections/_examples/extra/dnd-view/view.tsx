@@ -1,7 +1,7 @@
 'use client';
 
-import { itemClasses } from './classes';
 import { ComponentLayout } from '../../layout';
+import { itemClasses } from './classes';
 import { SortableContainer } from './sortable-container';
 
 // ----------------------------------------------------------------------

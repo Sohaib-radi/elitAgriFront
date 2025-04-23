@@ -1,18 +1,18 @@
 import type { BoxProps } from '@mui/material/Box';
 
+import Box from '@mui/material/Box';
+
+import Button from '@mui/material/Button';
+import IconButton from '@mui/material/IconButton';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
+import Tooltip from '@mui/material/Tooltip';
 import { usePopover } from 'minimal-shared/hooks';
 
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
-import IconButton from '@mui/material/IconButton';
-
-import { RouterLink } from 'src/routes/components';
+import { CustomPopover } from 'src/components/custom-popover';
 
 import { Iconify } from 'src/components/iconify';
-import { CustomPopover } from 'src/components/custom-popover';
+import { RouterLink } from 'src/routes/components';
 
 // ----------------------------------------------------------------------
 

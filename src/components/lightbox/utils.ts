@@ -1,11 +1,11 @@
-import Zoom from 'yet-another-react-lightbox/plugins/zoom';
-import Video from 'yet-another-react-lightbox/plugins/video';
-import Captions from 'yet-another-react-lightbox/plugins/captions';
-import Slideshow from 'yet-another-react-lightbox/plugins/slideshow';
-import Fullscreen from 'yet-another-react-lightbox/plugins/fullscreen';
-import Thumbnails from 'yet-another-react-lightbox/plugins/thumbnails';
-
 import type { LightBoxProps } from './types';
+import Captions from 'yet-another-react-lightbox/plugins/captions';
+import Fullscreen from 'yet-another-react-lightbox/plugins/fullscreen';
+import Slideshow from 'yet-another-react-lightbox/plugins/slideshow';
+import Thumbnails from 'yet-another-react-lightbox/plugins/thumbnails';
+import Video from 'yet-another-react-lightbox/plugins/video';
+
+import Zoom from 'yet-another-react-lightbox/plugins/zoom';
 
 // ----------------------------------------------------------------------
 

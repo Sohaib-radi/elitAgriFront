@@ -1,15 +1,15 @@
 import type { UseSetStateReturn } from 'minimal-shared/hooks';
-import type { ITourGuide, ITourFilters } from 'src/types/tour';
 import type { FiltersResultProps } from 'src/components/filters-result';
+import type { ITourGuide, ITourFilters } from 'src/types/tour';
 
-import { useCallback } from 'react';
-
-import Chip from '@mui/material/Chip';
 import Avatar from '@mui/material/Avatar';
 
-import { fDateRangeShortLabel } from 'src/utils/format-time';
+import Chip from '@mui/material/Chip';
+import { useCallback } from 'react';
 
 import { chipProps, FiltersBlock, FiltersResult } from 'src/components/filters-result';
+
+import { fDateRangeShortLabel } from 'src/utils/format-time';
 
 // ----------------------------------------------------------------------
 

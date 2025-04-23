@@ -1,14 +1,14 @@
 import type { BoxProps } from '@mui/material/Box';
 import type { CardProps } from '@mui/material/Card';
 
-import { varAlpha } from 'minimal-shared/utils';
+import Avatar from '@mui/material/Avatar';
 
 import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
 import Card from '@mui/material/Card';
-import Avatar from '@mui/material/Avatar';
 import CardHeader from '@mui/material/CardHeader';
 import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress';
+import Link from '@mui/material/Link';
+import { varAlpha } from 'minimal-shared/utils';
 
 import { fPercent } from 'src/utils/format-number';
 

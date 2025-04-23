@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
-import { CONFIG } from 'src/global-config';
 import { getProducts } from 'src/actions/product-ssr';
+import { CONFIG } from 'src/global-config';
 
 import { ProductShopView } from 'src/sections/product/view';
 

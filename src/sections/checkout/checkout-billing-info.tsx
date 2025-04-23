@@ -2,11 +2,11 @@ import type { CardProps } from '@mui/material/Card';
 import type { CheckoutContextValue } from 'src/types/checkout';
 
 import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
-import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
+import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import LinearProgress from '@mui/material/LinearProgress';
+import Stack from '@mui/material/Stack';
 
 import { Iconify } from 'src/components/iconify';
 

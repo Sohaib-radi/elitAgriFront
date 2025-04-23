@@ -2,18 +2,18 @@ import type { Theme, SxProps } from '@mui/material/styles';
 import type { CheckoutContextValue } from 'src/types/checkout';
 
 import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
-import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
-import Divider from '@mui/material/Divider';
-import TextField from '@mui/material/TextField';
+import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
-import Typography from '@mui/material/Typography';
+import Divider from '@mui/material/Divider';
 import InputAdornment from '@mui/material/InputAdornment';
-
-import { fCurrency } from 'src/utils/format-number';
+import Stack from '@mui/material/Stack';
+import TextField from '@mui/material/TextField';
+import Typography from '@mui/material/Typography';
 
 import { Iconify } from 'src/components/iconify';
+
+import { fCurrency } from 'src/utils/format-number';
 
 // ----------------------------------------------------------------------
 

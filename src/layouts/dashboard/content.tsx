@@ -1,12 +1,12 @@
 'use client';
 
-import type { Breakpoint } from '@mui/material/styles';
 import type { ContainerProps } from '@mui/material/Container';
+import type { Breakpoint } from '@mui/material/styles';
 
-import { mergeClasses } from 'minimal-shared/utils';
+import Container from '@mui/material/Container';
 
 import { styled } from '@mui/material/styles';
-import Container from '@mui/material/Container';
+import { mergeClasses } from 'minimal-shared/utils';
 
 import { useSettingsContext } from 'src/components/settings';
 

@@ -3,15 +3,15 @@
 import type { Theme, SxProps } from '@mui/material/styles';
 
 import Box from '@mui/material/Box';
-import { fabClasses } from '@mui/material/Fab';
 import { buttonClasses } from '@mui/material/Button';
+import { fabClasses } from '@mui/material/Fab';
 
-import { IconButtons } from './icon-buttons';
-import { ButtonGroups } from './button-groups';
 import { ComponentLayout } from '../../layout';
-import { ToggleButtons } from './toggle-buttons';
+import { ButtonGroups } from './button-groups';
 import { ButtonVariants } from './button-variants';
 import { FloatingActionButton } from './floating-action-button';
+import { IconButtons } from './icon-buttons';
+import { ToggleButtons } from './toggle-buttons';
 
 // ----------------------------------------------------------------------
 

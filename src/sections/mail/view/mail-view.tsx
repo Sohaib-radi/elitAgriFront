@@ -1,23 +1,23 @@
 'use client';
 
-import { useBoolean } from 'minimal-shared/hooks';
-import { useEffect, useCallback, startTransition } from 'react';
-
 import Typography from '@mui/material/Typography';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
-import { paths } from 'src/routes/paths';
-import { useRouter, useSearchParams } from 'src/routes/hooks';
+import { useBoolean } from 'minimal-shared/hooks';
+import { useEffect, useCallback, startTransition } from 'react';
 
-import { DashboardContent } from 'src/layouts/dashboard';
 import { useGetMail, useGetMails, useGetLabels } from 'src/actions/mail';
+import { DashboardContent } from 'src/layouts/dashboard';
 
-import { MailNav } from '../mail-nav';
+import { useRouter, useSearchParams } from 'src/routes/hooks';
+import { paths } from 'src/routes/paths';
+
 import { MailLayout } from '../layout';
-import { MailList } from '../mail-list';
-import { MailHeader } from '../mail-header';
 import { MailCompose } from '../mail-compose';
 import { MailDetails } from '../mail-details';
+import { MailHeader } from '../mail-header';
+import { MailList } from '../mail-list';
+import { MailNav } from '../mail-nav';
 
 // ----------------------------------------------------------------------
 

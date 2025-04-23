@@ -3,23 +3,23 @@
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 
-import { DashboardContent } from 'src/layouts/dashboard';
 import { _bookings, _bookingNew, _bookingReview, _bookingsOverview } from 'src/_mock';
 import {
   BookingIllustration,
   CheckInIllustration,
   CheckoutIllustration,
 } from 'src/assets/illustrations';
+import { DashboardContent } from 'src/layouts/dashboard';
 
-import { BookingBooked } from '../booking-booked';
-import { BookingNewest } from '../booking-newest';
-import { BookingDetails } from '../booking-details';
 import { BookingAvailable } from '../booking-available';
+import { BookingBooked } from '../booking-booked';
+import { BookingCheckInWidgets } from '../booking-check-in-widgets';
+import { BookingCustomerReviews } from '../booking-customer-reviews';
+import { BookingDetails } from '../booking-details';
+import { BookingNewest } from '../booking-newest';
 import { BookingStatistics } from '../booking-statistics';
 import { BookingTotalIncomes } from '../booking-total-incomes';
 import { BookingWidgetSummary } from '../booking-widget-summary';
-import { BookingCheckInWidgets } from '../booking-check-in-widgets';
-import { BookingCustomerReviews } from '../booking-customer-reviews';
 
 // ----------------------------------------------------------------------
 

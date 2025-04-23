@@ -1,17 +1,17 @@
 'use client';
 
+import type { LanguageValue } from './locales-config';
 import dayjs from 'dayjs';
 import { useCallback } from 'react';
-import { useTranslation } from 'react-i18next';
 
-import { useRouter } from 'src/routes/hooks';
+import { useTranslation } from 'react-i18next';
 
 import { toast } from 'src/components/snackbar';
 
+import { useRouter } from 'src/routes/hooks';
 import { allLangs } from './all-langs';
-import { fallbackLng, changeLangMessages as messages } from './locales-config';
 
-import type { LanguageValue } from './locales-config';
+import { fallbackLng, changeLangMessages as messages } from './locales-config';
 
 // ----------------------------------------------------------------------
 

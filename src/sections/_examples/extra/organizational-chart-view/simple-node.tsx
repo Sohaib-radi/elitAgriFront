@@ -1,9 +1,9 @@
-import { varAlpha } from 'minimal-shared/utils';
+import type { NodeProps } from './data';
 
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
-import type { NodeProps } from './data';
+import { varAlpha } from 'minimal-shared/utils';
 
 // ----------------------------------------------------------------------
 

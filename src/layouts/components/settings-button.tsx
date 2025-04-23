@@ -1,13 +1,13 @@
 import type { IconButtonProps } from '@mui/material/IconButton';
 
+import Badge from '@mui/material/Badge';
+
+import IconButton from '@mui/material/IconButton';
+import SvgIcon from '@mui/material/SvgIcon';
 import { m } from 'framer-motion';
 
-import Badge from '@mui/material/Badge';
-import SvgIcon from '@mui/material/SvgIcon';
-import IconButton from '@mui/material/IconButton';
-
-import { useSettingsContext } from 'src/components/settings';
 import { varTap, varHover, transitionTap } from 'src/components/animate';
+import { useSettingsContext } from 'src/components/settings';
 
 // ----------------------------------------------------------------------
 

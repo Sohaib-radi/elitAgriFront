@@ -1,15 +1,15 @@
 import type { CardProps } from '@mui/material/Card';
 
+import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
-import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 
-import { Iconify } from 'src/components/iconify';
+import { useMockedUser } from 'src/auth/hooks';
 import { AnimateBorder } from 'src/components/animate';
 
-import { useMockedUser } from 'src/auth/hooks';
+import { Iconify } from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

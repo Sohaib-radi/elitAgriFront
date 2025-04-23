@@ -1,24 +1,24 @@
 import type { IUserProfile, IUserProfilePost } from 'src/types/user';
 
-import { useRef } from 'react';
-import { varAlpha } from 'minimal-shared/utils';
-
-import Fab from '@mui/material/Fab';
 import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
-import Card from '@mui/material/Card';
-import Grid from '@mui/material/Grid';
-import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
-import Divider from '@mui/material/Divider';
-import InputBase from '@mui/material/InputBase';
-import CardHeader from '@mui/material/CardHeader';
 
-import { fNumber } from 'src/utils/format-number';
+import Card from '@mui/material/Card';
+import CardHeader from '@mui/material/CardHeader';
+import Divider from '@mui/material/Divider';
+import Fab from '@mui/material/Fab';
+import Grid from '@mui/material/Grid';
+import InputBase from '@mui/material/InputBase';
+import Link from '@mui/material/Link';
+import Stack from '@mui/material/Stack';
+import { varAlpha } from 'minimal-shared/utils';
+import { useRef } from 'react';
 
 import { _socials } from 'src/_mock';
 
 import { Iconify } from 'src/components/iconify';
+
+import { fNumber } from 'src/utils/format-number';
 
 import { ProfilePostItem } from './profile-post-item';
 

@@ -1,22 +1,22 @@
 import type { IUserProfileFriend } from 'src/types/user';
 
-import { usePopover } from 'minimal-shared/hooks';
+import Avatar from '@mui/material/Avatar';
 
 import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
 import Card from '@mui/material/Card';
-import Avatar from '@mui/material/Avatar';
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
-import TextField from '@mui/material/TextField';
 import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import InputAdornment from '@mui/material/InputAdornment';
+import Link from '@mui/material/Link';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
+import TextField from '@mui/material/TextField';
+import Typography from '@mui/material/Typography';
+import { usePopover } from 'minimal-shared/hooks';
 
 import { _socials } from 'src/_mock';
 
-import { Iconify } from 'src/components/iconify';
 import { CustomPopover } from 'src/components/custom-popover';
+import { Iconify } from 'src/components/iconify';
 import { SearchNotFound } from 'src/components/search-not-found';
 
 // ----------------------------------------------------------------------

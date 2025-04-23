@@ -1,12 +1,12 @@
-import type { BoxProps } from '@mui/material/Box';
+import type { SettingsState } from '../types';
 
-import { varAlpha } from 'minimal-shared/utils';
+import type { BoxProps } from '@mui/material/Box';
 
 import Box from '@mui/material/Box';
 
-import { OptionButton } from './styles';
+import { varAlpha } from 'minimal-shared/utils';
 
-import type { SettingsState } from '../types';
+import { OptionButton } from './styles';
 
 // ----------------------------------------------------------------------
 

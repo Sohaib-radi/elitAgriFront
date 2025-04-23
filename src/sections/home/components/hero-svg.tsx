@@ -1,11 +1,11 @@
-import type { MotionProps } from 'framer-motion';
 import type { BoxProps } from '@mui/material/Box';
-import type { PaletteColorKey } from 'src/theme/core';
 import type { Theme, SxProps } from '@mui/material/styles';
-
-import { m } from 'framer-motion';
+import type { MotionProps } from 'framer-motion';
+import type { PaletteColorKey } from 'src/theme/core';
 
 import Box from '@mui/material/Box';
+
+import { m } from 'framer-motion';
 
 import { varFade } from 'src/components/animate';
 

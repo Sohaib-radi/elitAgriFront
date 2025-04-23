@@ -1,6 +1,6 @@
-import { Popup } from 'react-map-gl/mapbox';
-
 import { styled } from '@mui/material/styles';
+
+import { Popup } from 'react-map-gl/mapbox';
 
 // ----------------------------------------------------------------------
 

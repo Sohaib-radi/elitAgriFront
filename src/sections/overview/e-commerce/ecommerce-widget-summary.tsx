@@ -1,16 +1,16 @@
 import type { CardProps } from '@mui/material/Card';
 import type { ChartOptions } from 'src/components/chart';
 
-import { varAlpha } from 'minimal-shared/utils';
-
 import Box from '@mui/material/Box';
+
 import Card from '@mui/material/Card';
 import { useTheme } from '@mui/material/styles';
+import { varAlpha } from 'minimal-shared/utils';
 
-import { fNumber, fPercent } from 'src/utils/format-number';
+import { Chart, useChart } from 'src/components/chart';
 
 import { Iconify } from 'src/components/iconify';
-import { Chart, useChart } from 'src/components/chart';
+import { fNumber, fPercent } from 'src/utils/format-number';
 
 // ----------------------------------------------------------------------
 

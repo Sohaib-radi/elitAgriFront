@@ -1,10 +1,10 @@
 import type { Theme, Components } from '@mui/material/styles';
 
-import { varAlpha } from 'minimal-shared/utils';
+import { filledInputClasses } from '@mui/material/FilledInput';
 
 import { inputBaseClasses } from '@mui/material/InputBase';
-import { filledInputClasses } from '@mui/material/FilledInput';
 import { outlinedInputClasses } from '@mui/material/OutlinedInput';
+import { varAlpha } from 'minimal-shared/utils';
 
 // ----------------------------------------------------------------------
 

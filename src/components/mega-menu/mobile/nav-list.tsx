@@ -1,16 +1,16 @@
-import { useBoolean } from 'minimal-shared/hooks';
-import { useRef, useEffect, useCallback } from 'react';
-import { isActiveLink, isExternalLink } from 'minimal-shared/utils';
-
+import type { NavListProps } from '../types';
 import Divider from '@mui/material/Divider';
 import Drawer, { drawerClasses } from '@mui/material/Drawer';
 
+import { useBoolean } from 'minimal-shared/hooks';
+import { isActiveLink, isExternalLink } from 'minimal-shared/utils';
+
+import { useRef, useEffect, useCallback } from 'react';
+
 import { usePathname } from 'src/routes/hooks';
-
 import { Scrollbar } from '../../scrollbar';
-import { Nav, NavUl, NavLi, NavItem, NavSubList, NavDrawerHeader } from '../components';
 
-import type { NavListProps } from '../types';
+import { Nav, NavUl, NavLi, NavItem, NavSubList, NavDrawerHeader } from '../components';
 
 // ----------------------------------------------------------------------
 

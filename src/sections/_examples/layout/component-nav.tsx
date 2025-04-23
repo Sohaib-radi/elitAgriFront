@@ -1,17 +1,17 @@
+import type { NavItemData } from '../layout/nav-config-components';
+
 import type { Theme, SxProps } from '@mui/material/styles';
+
+import ListSubheader from '@mui/material/ListSubheader';
+import { styled } from '@mui/material/styles';
 
 import { isEqualPath, mergeClasses } from 'minimal-shared/utils';
 
-import { styled } from '@mui/material/styles';
-import ListSubheader from '@mui/material/ListSubheader';
-
 import { usePathname } from 'src/routes/hooks';
+import { componentLayoutClasses } from '../layout/classes';
+import { NavItem } from './component-nav-item';
 
 import { NavSearch } from './component-search';
-import { NavItem } from './component-nav-item';
-import { componentLayoutClasses } from '../layout/classes';
-
-import type { NavItemData } from '../layout/nav-config-components';
 
 // ----------------------------------------------------------------------
 

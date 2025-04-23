@@ -1,28 +1,28 @@
 'use client';
 
-import { z as zod } from 'zod';
-import { useState } from 'react';
-import { useForm } from 'react-hook-form';
-import { useBoolean } from 'minimal-shared/hooks';
 import { zodResolver } from '@hookform/resolvers/zod';
-
-import Box from '@mui/material/Box';
 import Alert from '@mui/material/Alert';
+import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
+
 import InputAdornment from '@mui/material/InputAdornment';
-
-import { paths } from 'src/routes/paths';
-import { useRouter } from 'src/routes/hooks';
-
+import { useBoolean } from 'minimal-shared/hooks';
+import { useState } from 'react';
+import { useForm } from 'react-hook-form';
 import { NewPasswordIcon } from 'src/assets/icons';
 
-import { Iconify } from 'src/components/iconify';
 import { Form, Field } from 'src/components/hook-form';
+import { Iconify } from 'src/components/iconify';
 
-import { getErrorMessage } from '../../utils';
+import { useRouter } from 'src/routes/hooks';
+
+import { paths } from 'src/routes/paths';
+import { z as zod } from 'zod';
+
 import { FormHead } from '../../components/form-head';
 import { updatePassword } from '../../context/supabase';
+import { getErrorMessage } from '../../utils';
 
 // ----------------------------------------------------------------------
 

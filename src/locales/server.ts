@@ -1,12 +1,12 @@
-import { cache } from 'react';
-import { cookies } from 'next/headers';
+import type { LanguageValue } from './locales-config';
 import { createInstance } from 'i18next';
 import resourcesToBackend from 'i18next-resources-to-backend';
+import { cookies } from 'next/headers';
+import { cache } from 'react';
+
 import { initReactI18next } from 'react-i18next/initReactI18next';
 
 import { defaultNS, cookieName, i18nOptions, fallbackLng } from './locales-config';
-
-import type { LanguageValue } from './locales-config';
 
 // ----------------------------------------------------------------------
 

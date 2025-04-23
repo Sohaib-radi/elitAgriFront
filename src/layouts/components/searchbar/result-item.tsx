@@ -1,14 +1,14 @@
 import type { ListItemButtonProps } from '@mui/material/ListItemButton';
 
+import Box from '@mui/material/Box';
+
+import ListItemButton from '@mui/material/ListItemButton';
+import ListItemText from '@mui/material/ListItemText';
 import { varAlpha, isExternalLink } from 'minimal-shared/utils';
 
-import Box from '@mui/material/Box';
-import ListItemText from '@mui/material/ListItemText';
-import ListItemButton from '@mui/material/ListItemButton';
+import { Label } from 'src/components/label';
 
 import { RouterLink } from 'src/routes/components';
-
-import { Label } from 'src/components/label';
 
 // ----------------------------------------------------------------------
 

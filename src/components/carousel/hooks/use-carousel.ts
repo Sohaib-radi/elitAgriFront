@@ -1,19 +1,19 @@
+import type { CarouselOptions, UseCarouselReturn } from '../types';
+
 import type { EmblaPluginType } from 'embla-carousel';
-
-import { useMemo } from 'react';
-import useEmblaCarousel from 'embla-carousel-react';
-
 import { useTheme } from '@mui/material/styles';
 
-import { useThumbs } from './use-thumbs';
-import { useCarouselDots } from './use-carousel-dots';
-import { useParallax } from './use-carousel-parallax';
+import useEmblaCarousel from 'embla-carousel-react';
+
+import { useMemo } from 'react';
 import { useCarouselArrows } from './use-carousel-arrows';
-import { useCarouselProgress } from './use-carousel-progress';
 import { useCarouselAutoPlay } from './use-carousel-auto-play';
 import { useCarouselAutoScroll } from './use-carousel-auto-scroll';
+import { useCarouselDots } from './use-carousel-dots';
+import { useParallax } from './use-carousel-parallax';
+import { useCarouselProgress } from './use-carousel-progress';
 
-import type { CarouselOptions, UseCarouselReturn } from '../types';
+import { useThumbs } from './use-thumbs';
 
 // ----------------------------------------------------------------------
 

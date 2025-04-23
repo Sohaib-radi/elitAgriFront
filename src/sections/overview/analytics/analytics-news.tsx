@@ -1,19 +1,19 @@
 import type { BoxProps } from '@mui/material/Box';
-import type { IDateValue } from 'src/types/common';
 import type { CardProps } from '@mui/material/Card';
+import type { IDateValue } from 'src/types/common';
 
-import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
-import Card from '@mui/material/Card';
-import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
+import Link from '@mui/material/Link';
 import ListItemText from '@mui/material/ListItemText';
 
-import { fToNow } from 'src/utils/format-time';
-
 import { Iconify } from 'src/components/iconify';
+
 import { Scrollbar } from 'src/components/scrollbar';
+import { fToNow } from 'src/utils/format-time';
 
 // ----------------------------------------------------------------------
 

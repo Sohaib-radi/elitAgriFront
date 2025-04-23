@@ -1,16 +1,16 @@
-import { isEqualPath } from 'minimal-shared/utils';
+import type { NavSubItemProps, NavSubListProps } from '../types';
 
 import Link from '@mui/material/Link';
 import { styled } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 
-import { usePathname } from 'src/routes/hooks';
+import { isEqualPath } from 'minimal-shared/utils';
 import { RouterLink } from 'src/routes/components';
 
-import { megaMenuClasses } from '../styles';
+import { usePathname } from 'src/routes/hooks';
 import { NavUl, NavLi } from '../components/nav-elements';
 
-import type { NavSubItemProps, NavSubListProps } from '../types';
+import { megaMenuClasses } from '../styles';
 
 // ----------------------------------------------------------------------
 

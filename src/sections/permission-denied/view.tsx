@@ -2,18 +2,18 @@
 
 import type { Theme, SxProps } from '@mui/material/styles';
 
+import Container from '@mui/material/Container';
+
+import Typography from '@mui/material/Typography';
 import { m } from 'framer-motion';
 
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-
-import { paths } from 'src/routes/paths';
-
-import { DashboardContent } from 'src/layouts/dashboard';
 import { ForbiddenIllustration } from 'src/assets/illustrations';
 
 import { varBounce, MotionContainer } from 'src/components/animate';
 import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
+
+import { DashboardContent } from 'src/layouts/dashboard';
+import { paths } from 'src/routes/paths';
 
 // ----------------------------------------------------------------------
 export type PermissionDeniedProps = {

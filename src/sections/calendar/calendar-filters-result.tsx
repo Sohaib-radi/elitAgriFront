@@ -1,16 +1,16 @@
-import type { ICalendarFilters } from 'src/types/calendar';
 import type { UseSetStateReturn } from 'minimal-shared/hooks';
 import type { FiltersResultProps } from 'src/components/filters-result';
-
-import { useCallback } from 'react';
-import { varAlpha } from 'minimal-shared/utils';
+import type { ICalendarFilters } from 'src/types/calendar';
 
 import Box from '@mui/material/Box';
 import Chip from '@mui/material/Chip';
 
-import { fDateRangeShortLabel } from 'src/utils/format-time';
+import { varAlpha } from 'minimal-shared/utils';
+import { useCallback } from 'react';
 
 import { chipProps, FiltersBlock, FiltersResult } from 'src/components/filters-result';
+
+import { fDateRangeShortLabel } from 'src/utils/format-time';
 
 // ----------------------------------------------------------------------
 

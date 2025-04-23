@@ -1,14 +1,14 @@
-import { useState } from 'react';
-import { varAlpha } from 'minimal-shared/utils';
-
 import Box from '@mui/material/Box';
-import Step from '@mui/material/Step';
-import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
-import Stepper from '@mui/material/Stepper';
-import StepLabel from '@mui/material/StepLabel';
-import Typography from '@mui/material/Typography';
+
+import Paper from '@mui/material/Paper';
+import Step from '@mui/material/Step';
 import StepContent from '@mui/material/StepContent';
+import StepLabel from '@mui/material/StepLabel';
+import Stepper from '@mui/material/Stepper';
+import Typography from '@mui/material/Typography';
+import { varAlpha } from 'minimal-shared/utils';
+import { useState } from 'react';
 
 // ----------------------------------------------------------------------
 

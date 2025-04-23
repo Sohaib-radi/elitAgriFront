@@ -1,17 +1,17 @@
+import type { UseNavCollapseReturn } from './hooks/use-collapse-nav';
 import type { BoxProps } from '@mui/material/Box';
-import type { IChatParticipant, IChatConversation } from 'src/types/chat';
 
+import type { IChatParticipant, IChatConversation } from 'src/types/chat';
 import Box from '@mui/material/Box';
+
 import Drawer from '@mui/material/Drawer';
 
 import { Scrollbar } from 'src/components/scrollbar';
-
-import { ChatRoomGroup } from './chat-room-group';
-import { ChatRoomSkeleton } from './chat-skeleton';
-import { ChatRoomSingle } from './chat-room-single';
 import { ChatRoomAttachments } from './chat-room-attachments';
+import { ChatRoomGroup } from './chat-room-group';
+import { ChatRoomSingle } from './chat-room-single';
 
-import type { UseNavCollapseReturn } from './hooks/use-collapse-nav';
+import { ChatRoomSkeleton } from './chat-skeleton';
 
 // ----------------------------------------------------------------------
 

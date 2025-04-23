@@ -2,19 +2,19 @@
 
 import type { DashboardContentProps } from 'src/layouts/dashboard';
 
+import Tab from '@mui/material/Tab';
+
+import Tabs from '@mui/material/Tabs';
 import { removeLastSlash } from 'minimal-shared/utils';
 
-import Tab from '@mui/material/Tab';
-import Tabs from '@mui/material/Tabs';
-
-import { paths } from 'src/routes/paths';
-import { usePathname } from 'src/routes/hooks';
-import { RouterLink } from 'src/routes/components';
-
+import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
+import { Iconify } from 'src/components/iconify';
 import { DashboardContent } from 'src/layouts/dashboard';
 
-import { Iconify } from 'src/components/iconify';
-import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
+import { RouterLink } from 'src/routes/components';
+
+import { usePathname } from 'src/routes/hooks';
+import { paths } from 'src/routes/paths';
 
 // ----------------------------------------------------------------------
 

@@ -1,14 +1,14 @@
 import type { BoxProps } from '@mui/material/Box';
 
-import { m } from 'framer-motion';
-import { varAlpha } from 'minimal-shared/utils';
-
 import Box from '@mui/material/Box';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
-import { CONFIG } from 'src/global-config';
+import { m } from 'framer-motion';
+import { varAlpha } from 'minimal-shared/utils';
 
 import { MotionContainer } from 'src/components/animate';
+
+import { CONFIG } from 'src/global-config';
 
 import { Dots, Lines, Texts, Circles, PlusIcon } from './hero-svg';
 

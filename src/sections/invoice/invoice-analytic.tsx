@@ -1,14 +1,14 @@
 import type { IconifyName } from 'src/components/iconify';
 
+import Box from '@mui/material/Box';
+
+import CircularProgress from '@mui/material/CircularProgress';
+import Typography from '@mui/material/Typography';
 import { varAlpha } from 'minimal-shared/utils';
 
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import CircularProgress from '@mui/material/CircularProgress';
+import { Iconify } from 'src/components/iconify';
 
 import { fCurrency, fShortenNumber } from 'src/utils/format-number';
-
-import { Iconify } from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

@@ -1,9 +1,9 @@
 import type { Theme, SxProps } from '@mui/material/styles';
 
 import Box from '@mui/material/Box';
+import { inputBaseClasses } from '@mui/material/InputBase';
 import Switch from '@mui/material/Switch';
 import Typography from '@mui/material/Typography';
-import { inputBaseClasses } from '@mui/material/InputBase';
 
 import { NumberInput } from 'src/components/number-input';
 

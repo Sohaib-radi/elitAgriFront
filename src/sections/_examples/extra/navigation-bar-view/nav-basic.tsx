@@ -1,12 +1,12 @@
-import { useBoolean } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
+
 import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
+import Paper from '@mui/material/Paper';
+import { useBoolean } from 'minimal-shared/hooks';
 
-import { Logo } from 'src/components/logo';
 import { Iconify } from 'src/components/iconify';
+import { Logo } from 'src/components/logo';
 import { NavBasicMobile, NavBasicDesktop } from 'src/components/nav-basic';
 
 import { NAV_BASIC_ITEMS } from './data';

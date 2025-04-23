@@ -3,13 +3,13 @@
 import type { BoxProps } from '@mui/material/Box';
 import type { Theme, SxProps } from '@mui/material/styles';
 
-import { hexToRgbChannel } from 'minimal-shared/utils';
-import { useCopyToClipboard } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
+
 import { useTheme } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
+import { useCopyToClipboard } from 'minimal-shared/hooks';
+import { hexToRgbChannel } from 'minimal-shared/utils';
 
 import { toast } from 'src/components/snackbar';
 

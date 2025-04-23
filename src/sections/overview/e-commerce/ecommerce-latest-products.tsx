@@ -1,16 +1,16 @@
 import type { BoxProps } from '@mui/material/Box';
 import type { CardProps } from '@mui/material/Card';
 
-import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
-import Card from '@mui/material/Card';
 import Avatar from '@mui/material/Avatar';
+import Box from '@mui/material/Box';
+import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
+import Link from '@mui/material/Link';
 
-import { fCurrency } from 'src/utils/format-number';
+import { ColorPreview } from 'src/components/color-utils';
 
 import { Scrollbar } from 'src/components/scrollbar';
-import { ColorPreview } from 'src/components/color-utils';
+import { fCurrency } from 'src/utils/format-number';
 
 // ----------------------------------------------------------------------
 

@@ -1,9 +1,9 @@
-import { varAlpha } from 'minimal-shared/utils';
-
 import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
+
 import Divider from '@mui/material/Divider';
+import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
+import { varAlpha } from 'minimal-shared/utils';
 
 import { MegaMenuVertical } from 'src/components/mega-menu';
 

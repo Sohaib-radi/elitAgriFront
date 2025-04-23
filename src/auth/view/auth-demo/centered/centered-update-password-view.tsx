@@ -1,21 +1,21 @@
 'use client';
 
-import { z as zod } from 'zod';
-import { useForm } from 'react-hook-form';
-import { useBoolean } from 'minimal-shared/hooks';
 import { zodResolver } from '@hookform/resolvers/zod';
-
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
+
 import InputAdornment from '@mui/material/InputAdornment';
-
-import { paths } from 'src/routes/paths';
-
+import { useBoolean } from 'minimal-shared/hooks';
+import { useForm } from 'react-hook-form';
 import { SentIcon } from 'src/assets/icons';
 
-import { Iconify } from 'src/components/iconify';
 import { Form, Field } from 'src/components/hook-form';
+
+import { Iconify } from 'src/components/iconify';
+
+import { paths } from 'src/routes/paths';
+import { z as zod } from 'zod';
 
 import { FormHead } from '../../../components/form-head';
 import { FormResendCode } from '../../../components/form-resend-code';

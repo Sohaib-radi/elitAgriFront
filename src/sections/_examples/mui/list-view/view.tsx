@@ -2,22 +2,22 @@
 
 import type { Theme, SxProps } from '@mui/material/styles';
 
-import { useState, useCallback } from 'react';
+import Avatar from '@mui/material/Avatar';
 
 import Box from '@mui/material/Box';
-import List from '@mui/material/List';
-import Avatar from '@mui/material/Avatar';
-import Switch from '@mui/material/Switch';
-import Divider from '@mui/material/Divider';
-import ListItem from '@mui/material/ListItem';
-import Collapse from '@mui/material/Collapse';
 import Checkbox from '@mui/material/Checkbox';
+import Collapse from '@mui/material/Collapse';
+import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemAvatar from '@mui/material/ListItemAvatar';
+import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import ListSubheader from '@mui/material/ListSubheader';
-import ListItemAvatar from '@mui/material/ListItemAvatar';
-import ListItemButton from '@mui/material/ListItemButton';
+import Switch from '@mui/material/Switch';
+import { useState, useCallback } from 'react';
 
 import { Iconify } from 'src/components/iconify';
 

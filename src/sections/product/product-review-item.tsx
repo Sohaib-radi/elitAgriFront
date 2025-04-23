@@ -1,15 +1,15 @@
 import type { IProductReview } from 'src/types/product';
 
-import Box from '@mui/material/Box';
-import Rating from '@mui/material/Rating';
 import Avatar from '@mui/material/Avatar';
-import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
 import ButtonBase from '@mui/material/ButtonBase';
 import ListItemText from '@mui/material/ListItemText';
-
-import { fDate } from 'src/utils/format-time';
+import Rating from '@mui/material/Rating';
+import Typography from '@mui/material/Typography';
 
 import { Iconify } from 'src/components/iconify';
+
+import { fDate } from 'src/utils/format-time';
 
 // ----------------------------------------------------------------------
 

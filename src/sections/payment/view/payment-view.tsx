@@ -1,13 +1,13 @@
 'use client';
 
 import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 
-import { PaymentSummary } from '../payment-summary';
-import { PaymentMethods } from '../payment-methods';
 import { PaymentBillingAddress } from '../payment-billing-address';
+import { PaymentMethods } from '../payment-methods';
+import { PaymentSummary } from '../payment-summary';
 
 // ----------------------------------------------------------------------
 

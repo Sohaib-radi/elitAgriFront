@@ -1,16 +1,16 @@
 import type { BoxProps } from '@mui/material/Box';
 
-import { m } from 'framer-motion';
-import { varAlpha } from 'minimal-shared/utils';
-
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 
-import { RouterLink } from 'src/routes/components';
+import { m } from 'framer-motion';
+import { varAlpha } from 'minimal-shared/utils';
+
+import { varTap, varHover, transitionTap } from 'src/components/animate';
 
 import { CONFIG } from 'src/global-config';
 
-import { varTap, varHover, transitionTap } from 'src/components/animate';
+import { RouterLink } from 'src/routes/components';
 
 // ----------------------------------------------------------------------
 

@@ -1,8 +1,8 @@
 import type { Theme, SxProps } from '@mui/material/styles';
 
 import Box from '@mui/material/Box';
-import Portal from '@mui/material/Portal';
 import Checkbox from '@mui/material/Checkbox';
+import Portal from '@mui/material/Portal';
 import Typography from '@mui/material/Typography';
 
 import { Iconify } from 'src/components/iconify';

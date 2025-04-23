@@ -3,8 +3,8 @@
 import type { BoxProps } from '@mui/material/Box';
 import type { Theme, SxProps, CSSObject } from '@mui/material/styles';
 
-import { mergeClasses } from 'minimal-shared/utils';
-import { useRef, useState, useEffect } from 'react';
+import Box from '@mui/material/Box';
+import { useTheme } from '@mui/material/styles';
 import {
   m,
   useTransform,
@@ -13,8 +13,8 @@ import {
   useMotionTemplate,
 } from 'framer-motion';
 
-import Box from '@mui/material/Box';
-import { useTheme } from '@mui/material/styles';
+import { mergeClasses } from 'minimal-shared/utils';
+import { useRef, useState, useEffect } from 'react';
 
 import { createClasses } from 'src/theme/create-classes';
 

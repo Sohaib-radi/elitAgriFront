@@ -1,18 +1,18 @@
 import type { BoxProps } from '@mui/material/Box';
 
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+
+import InputAdornment from '@mui/material/InputAdornment';
+import { outlinedInputClasses } from '@mui/material/OutlinedInput';
+import TextField from '@mui/material/TextField';
 import { m } from 'framer-motion';
 import { varAlpha } from 'minimal-shared/utils';
 
-import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
-import TextField from '@mui/material/TextField';
-import InputAdornment from '@mui/material/InputAdornment';
-import { outlinedInputClasses } from '@mui/material/OutlinedInput';
-
-import { CONFIG } from 'src/global-config';
+import { varFade, AnimateText, MotionContainer, animateTextClasses } from 'src/components/animate';
 
 import { Iconify } from 'src/components/iconify';
-import { varFade, AnimateText, MotionContainer, animateTextClasses } from 'src/components/animate';
+import { CONFIG } from 'src/global-config';
 
 // ----------------------------------------------------------------------
 

@@ -1,15 +1,15 @@
 'use client';
 
-import { mergeClasses } from 'minimal-shared/utils';
-
-import Tooltip from '@mui/material/Tooltip';
-import { styled } from '@mui/material/styles';
-
-import { fileThumbnailClasses } from './classes';
-import { fileData, fileThumb, fileFormat } from './utils';
-import { RemoveButton, DownloadButton } from './action-buttons';
-
 import type { FileThumbnailProps } from './types';
+
+import { styled } from '@mui/material/styles';
+import Tooltip from '@mui/material/Tooltip';
+
+import { mergeClasses } from 'minimal-shared/utils';
+import { RemoveButton, DownloadButton } from './action-buttons';
+import { fileThumbnailClasses } from './classes';
+
+import { fileData, fileThumb, fileFormat } from './utils';
 
 // ----------------------------------------------------------------------
 

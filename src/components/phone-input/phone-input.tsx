@@ -1,22 +1,22 @@
+import type { PhoneInputProps } from './types';
 import type { TextFieldProps } from '@mui/material/TextField';
+
 import type { Value, Country } from 'react-phone-number-input/input';
-
-import { parsePhoneNumber } from 'react-phone-number-input';
-import PhoneNumberInput from 'react-phone-number-input/input';
-import { useState, useEffect, useCallback, startTransition } from 'react';
-
 import Box from '@mui/material/Box';
-import TextField from '@mui/material/TextField';
 import IconButton from '@mui/material/IconButton';
+
 import InputAdornment from '@mui/material/InputAdornment';
 import { inputBaseClasses } from '@mui/material/InputBase';
+import TextField from '@mui/material/TextField';
+import { useState, useEffect, useCallback, startTransition } from 'react';
+import { parsePhoneNumber } from 'react-phone-number-input';
+
+import PhoneNumberInput from 'react-phone-number-input/input';
 
 import { countries } from 'src/assets/data/countries';
-
 import { Iconify } from '../iconify';
-import { CountryListPopover } from './list-popover';
 
-import type { PhoneInputProps } from './types';
+import { CountryListPopover } from './list-popover';
 
 // ----------------------------------------------------------------------
 

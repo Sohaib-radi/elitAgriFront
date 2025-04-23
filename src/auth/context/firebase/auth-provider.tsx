@@ -1,16 +1,16 @@
 'use client';
 
-import { doc, getDoc } from 'firebase/firestore';
+import type { AuthState } from '../../types';
 import { onAuthStateChanged } from 'firebase/auth';
+import { doc, getDoc } from 'firebase/firestore';
 import { useSetState } from 'minimal-shared/hooks';
-import { useMemo, useEffect, useCallback } from 'react';
 
+import { useMemo, useEffect, useCallback } from 'react';
 import axios from 'src/lib/axios';
+
 import { AUTH, FIRESTORE } from 'src/lib/firebase';
 
 import { AuthContext } from '../auth-context';
-
-import type { AuthState } from '../../types';
 
 // ----------------------------------------------------------------------
 

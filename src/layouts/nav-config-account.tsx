@@ -1,10 +1,10 @@
-import { paths } from 'src/routes/paths';
-
-import { Iconify } from 'src/components/iconify';
+import type { AccountDrawerProps } from './components/account-drawer';
 
 import { useAuthContext } from 'src/auth/hooks';
 
-import type { AccountDrawerProps } from './components/account-drawer';
+import { Iconify } from 'src/components/iconify';
+
+import { paths } from 'src/routes/paths';
 
 export function useAccountLinks(): AccountDrawerProps['data'] {
   const { user } = useAuthContext();

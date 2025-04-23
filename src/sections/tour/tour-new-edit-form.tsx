@@ -1,35 +1,35 @@
 import type { ITourItem, ITourGuide } from 'src/types/tour';
 
-import { z as zod } from 'zod';
+import { zodResolver } from '@hookform/resolvers/zod';
+import Avatar from '@mui/material/Avatar';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Card from '@mui/material/Card';
+
+import CardHeader from '@mui/material/CardHeader';
+import Chip from '@mui/material/Chip';
+import Collapse from '@mui/material/Collapse';
+import Divider from '@mui/material/Divider';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import IconButton from '@mui/material/IconButton';
+import Stack from '@mui/material/Stack';
+import Switch from '@mui/material/Switch';
+import Typography from '@mui/material/Typography';
+import { useBoolean } from 'minimal-shared/hooks';
 import { useCallback } from 'react';
 import { useForm } from 'react-hook-form';
-import { useBoolean } from 'minimal-shared/hooks';
-import { zodResolver } from '@hookform/resolvers/zod';
-
-import Box from '@mui/material/Box';
-import Chip from '@mui/material/Chip';
-import Card from '@mui/material/Card';
-import Stack from '@mui/material/Stack';
-import Avatar from '@mui/material/Avatar';
-import Switch from '@mui/material/Switch';
-import Button from '@mui/material/Button';
-import Divider from '@mui/material/Divider';
-import Collapse from '@mui/material/Collapse';
-import IconButton from '@mui/material/IconButton';
-import CardHeader from '@mui/material/CardHeader';
-import Typography from '@mui/material/Typography';
-import FormControlLabel from '@mui/material/FormControlLabel';
-
-import { paths } from 'src/routes/paths';
-import { useRouter } from 'src/routes/hooks';
-
-import { fIsAfter } from 'src/utils/format-time';
-
 import { _tags, _tourGuides, TOUR_SERVICE_OPTIONS } from 'src/_mock';
 
-import { toast } from 'src/components/snackbar';
-import { Iconify } from 'src/components/iconify';
 import { Form, Field, schemaHelper } from 'src/components/hook-form';
+import { Iconify } from 'src/components/iconify';
+
+import { toast } from 'src/components/snackbar';
+
+import { useRouter } from 'src/routes/hooks';
+
+import { paths } from 'src/routes/paths';
+import { fIsAfter } from 'src/utils/format-time';
+import { z as zod } from 'zod';
 
 // ----------------------------------------------------------------------
 

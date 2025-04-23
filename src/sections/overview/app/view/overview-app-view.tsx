@@ -1,28 +1,28 @@
 'use client';
 
 import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
+import Grid from '@mui/material/Grid';
 import { useTheme } from '@mui/material/styles';
 
-import { DashboardContent } from 'src/layouts/dashboard';
-import { SeoIllustration } from 'src/assets/illustrations';
 import { _appAuthors, _appRelated, _appFeatured, _appInvoices, _appInstalled } from 'src/_mock';
+import { SeoIllustration } from 'src/assets/illustrations';
+import { useMockedUser } from 'src/auth/hooks';
 
 import { svgColorClasses } from 'src/components/svg-color';
 
-import { useMockedUser } from 'src/auth/hooks';
+import { DashboardContent } from 'src/layouts/dashboard';
 
-import { AppWidget } from '../app-widget';
-import { AppWelcome } from '../app-welcome';
+import { AppAreaInstalled } from '../app-area-installed';
+import { AppCurrentDownload } from '../app-current-download';
 import { AppFeatured } from '../app-featured';
 import { AppNewInvoice } from '../app-new-invoice';
 import { AppTopAuthors } from '../app-top-authors';
-import { AppTopRelated } from '../app-top-related';
-import { AppAreaInstalled } from '../app-area-installed';
-import { AppWidgetSummary } from '../app-widget-summary';
-import { AppCurrentDownload } from '../app-current-download';
 import { AppTopInstalledCountries } from '../app-top-installed-countries';
+import { AppTopRelated } from '../app-top-related';
+import { AppWelcome } from '../app-welcome';
+import { AppWidget } from '../app-widget';
+import { AppWidgetSummary } from '../app-widget-summary';
 
 // ----------------------------------------------------------------------
 

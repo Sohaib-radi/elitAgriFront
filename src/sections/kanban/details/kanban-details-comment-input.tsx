@@ -1,13 +1,13 @@
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
-import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar';
-import InputBase from '@mui/material/InputBase';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
-
-import { Iconify } from 'src/components/iconify';
+import InputBase from '@mui/material/InputBase';
+import Paper from '@mui/material/Paper';
 
 import { useMockedUser } from 'src/auth/hooks';
+
+import { Iconify } from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

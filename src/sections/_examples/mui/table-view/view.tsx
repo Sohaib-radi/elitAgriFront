@@ -2,12 +2,12 @@
 
 import type { Theme, SxProps } from '@mui/material/styles';
 
+import { ComponentBox, ComponentLayout } from '../../layout';
 import { BasicTable } from './basic';
 import { CollapsibleTable } from './collapsible';
+import { GroupingFixedHeaderTable } from './grouping-fixed-header';
 import { PaginationWithApi } from './pagination-with-api';
 import { SortingSelectingTable } from './sorting-selecting';
-import { ComponentBox, ComponentLayout } from '../../layout';
-import { GroupingFixedHeaderTable } from './grouping-fixed-header';
 import { TablePaginationWithApi } from './table-pagination-with-api';
 
 // ----------------------------------------------------------------------

@@ -1,19 +1,19 @@
+import type { EditorToolbarProps } from './types';
 import type { StackProps } from '@mui/material/Stack';
+
 import type { Theme, SxProps } from '@mui/material/styles';
 
-import { varAlpha } from 'minimal-shared/utils';
-
 import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
 import Divider from '@mui/material/Divider';
+import Stack from '@mui/material/Stack';
 
+import { varAlpha } from 'minimal-shared/utils';
 import { editorClasses } from './classes';
-import { LinkBlock } from './components/link-block';
-import { ImageBlock } from './components/image-block';
-import { ToolbarItem } from './components/toolbar-item';
 import { HeadingBlock } from './components/heading-block';
+import { ImageBlock } from './components/image-block';
+import { LinkBlock } from './components/link-block';
 
-import type { EditorToolbarProps } from './types';
+import { ToolbarItem } from './components/toolbar-item';
 
 // ----------------------------------------------------------------------
 

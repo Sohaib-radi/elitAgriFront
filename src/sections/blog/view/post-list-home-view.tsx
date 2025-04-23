@@ -2,22 +2,22 @@
 
 import type { IPostItem } from 'src/types/blog';
 
-import { useState } from 'react';
-import { orderBy } from 'es-toolkit';
-
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
 
-import { paths } from 'src/routes/paths';
+import Typography from '@mui/material/Typography';
+import { orderBy } from 'es-toolkit';
+import { useState } from 'react';
 
 import { POST_SORT_OPTIONS } from 'src/_mock';
 
 import { EmptyContent } from 'src/components/empty-content';
 
+import { paths } from 'src/routes/paths';
+
 import { PostList } from '../post-list';
-import { PostSort } from '../post-sort';
 import { PostSearch } from '../post-search';
+import { PostSort } from '../post-sort';
 
 // ----------------------------------------------------------------------
 

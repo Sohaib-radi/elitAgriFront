@@ -1,18 +1,18 @@
 import type { IAddressItem } from 'src/types/common';
 
-import { useBoolean } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
+
 import Button from '@mui/material/Button';
+import Grid from '@mui/material/Grid';
+import { useBoolean } from 'minimal-shared/hooks';
 
 import { _addressBooks } from 'src/_mock';
 
 import { Iconify } from 'src/components/iconify';
 
-import { useCheckoutContext } from './context';
-import { CheckoutSummary } from './checkout-summary';
 import { AddressItem, AddressNewForm } from '../address';
+import { CheckoutSummary } from './checkout-summary';
+import { useCheckoutContext } from './context';
 
 // ----------------------------------------------------------------------
 

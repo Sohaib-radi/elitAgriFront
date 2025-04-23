@@ -2,21 +2,21 @@
 
 import type { PopoverArrow } from 'src/components/custom-popover';
 
-import { useState, useCallback } from 'react';
-import { usePopover, usePopoverHover } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
-import Radio from '@mui/material/Radio';
 import Button from '@mui/material/Button';
-import FormLabel from '@mui/material/FormLabel';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
-import RadioGroup from '@mui/material/RadioGroup';
+
 import FormControl from '@mui/material/FormControl';
 import FormControlLabel from '@mui/material/FormControlLabel';
+import FormLabel from '@mui/material/FormLabel';
+import IconButton from '@mui/material/IconButton';
+import Radio from '@mui/material/Radio';
+import RadioGroup from '@mui/material/RadioGroup';
+import Typography from '@mui/material/Typography';
+import { usePopover, usePopoverHover } from 'minimal-shared/hooks';
+import { useState, useCallback } from 'react';
 
-import { Iconify } from 'src/components/iconify';
 import { CustomPopover } from 'src/components/custom-popover';
+import { Iconify } from 'src/components/iconify';
 
 import { ComponentBox, ComponentLayout } from '../../layout';
 

@@ -1,22 +1,22 @@
 import type { DialogProps } from '@mui/material/Dialog';
 import type { SelectChangeEvent } from '@mui/material/Select';
 
-import { useState, useCallback } from 'react';
-import { useBoolean } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Switch from '@mui/material/Switch';
+
 import Dialog from '@mui/material/Dialog';
-import Select from '@mui/material/Select';
-import MenuItem from '@mui/material/MenuItem';
-import InputLabel from '@mui/material/InputLabel';
-import Typography from '@mui/material/Typography';
-import FormControl from '@mui/material/FormControl';
-import DialogTitle from '@mui/material/DialogTitle';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
+import DialogTitle from '@mui/material/DialogTitle';
+import FormControl from '@mui/material/FormControl';
 import FormControlLabel from '@mui/material/FormControlLabel';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import Select from '@mui/material/Select';
+import Switch from '@mui/material/Switch';
+import Typography from '@mui/material/Typography';
+import { useBoolean } from 'minimal-shared/hooks';
+import { useState, useCallback } from 'react';
 
 // ----------------------------------------------------------------------
 

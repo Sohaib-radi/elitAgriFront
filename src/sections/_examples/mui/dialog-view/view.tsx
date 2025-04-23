@@ -1,13 +1,13 @@
 'use client';
 
-import { FormDialog } from './form-dialog';
+import { ComponentBox, ComponentLayout } from '../../layout';
 import { AlertDialog } from './alert-dialog';
+import { FormDialog } from './form-dialog';
+import { FullScreenDialog } from './full-screen-dialog';
+import { MaxWidthDialog } from './max-width-dialog';
 import { ScrollDialog } from './scroll-dialog';
 import { SimpleDialog } from './simple-dialog';
-import { MaxWidthDialog } from './max-width-dialog';
-import { FullScreenDialog } from './full-screen-dialog';
 import { TransitionsDialog } from './transitions-dialog';
-import { ComponentBox, ComponentLayout } from '../../layout';
 
 // ----------------------------------------------------------------------
 

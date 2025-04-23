@@ -1,11 +1,11 @@
 'use client';
 
-import { useState } from 'react';
-
 import Checkbox from '@mui/material/Checkbox';
-import FormGroup from '@mui/material/FormGroup';
+
 import FormControl from '@mui/material/FormControl';
 import FormControlLabel from '@mui/material/FormControlLabel';
+import FormGroup from '@mui/material/FormGroup';
+import { useState } from 'react';
 
 import { Iconify } from 'src/components/iconify';
 

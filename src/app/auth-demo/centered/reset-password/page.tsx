@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
-import { CONFIG } from 'src/global-config';
-
 import { CenteredResetPasswordView } from 'src/auth/view/auth-demo/centered';
+
+import { CONFIG } from 'src/global-config';
 
 // ----------------------------------------------------------------------
 

@@ -1,11 +1,11 @@
 'use client';
 
-import { useState } from 'react';
-
 import Accordion from '@mui/material/Accordion';
-import Typography from '@mui/material/Typography';
-import AccordionSummary from '@mui/material/AccordionSummary';
+
 import AccordionDetails from '@mui/material/AccordionDetails';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import Typography from '@mui/material/Typography';
+import { useState } from 'react';
 
 import { _mock } from 'src/_mock';
 

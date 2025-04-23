@@ -2,8 +2,8 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 
-import { Label } from 'src/components/label';
 import { Iconify } from 'src/components/iconify';
+import { Label } from 'src/components/label';
 import { MegaMenuHorizontal } from 'src/components/mega-menu';
 
 import { MEGA_MENU_ITEMS_WITH_RENDER } from './data';

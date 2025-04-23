@@ -2,10 +2,10 @@
 
 import type { Theme, SxProps, TypographyVariant } from '@mui/material/styles';
 
-import { useRef, useState, useEffect, useCallback } from 'react';
-
 import Box from '@mui/material/Box';
+
 import Typography from '@mui/material/Typography';
+import { useRef, useState, useEffect, useCallback } from 'react';
 
 import { ComponentBox, ComponentLayout } from '../../layout';
 

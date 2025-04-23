@@ -1,22 +1,22 @@
-import type { IFile } from 'src/types/file';
 import type { UseTableReturn } from 'src/components/table';
-
-import { useBoolean } from 'minimal-shared/hooks';
-import { useRef, useState, useCallback } from 'react';
+import type { IFile } from 'src/types/file';
 
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Divider from '@mui/material/Divider';
+
 import Collapse from '@mui/material/Collapse';
+import Divider from '@mui/material/Divider';
+import { useBoolean } from 'minimal-shared/hooks';
+import { useRef, useState, useCallback } from 'react';
 
 import { Iconify } from 'src/components/iconify';
 
-import { FileManagerPanel } from './file-manager-panel';
+import { FileManagerActionSelected } from './file-manager-action-selected';
 import { FileManagerFileItem } from './file-manager-file-item';
 import { FileManagerFolderItem } from './file-manager-folder-item';
-import { FileManagerShareDialog } from './file-manager-share-dialog';
-import { FileManagerActionSelected } from './file-manager-action-selected';
 import { FileManagerNewFolderDialog } from './file-manager-new-folder-dialog';
+import { FileManagerPanel } from './file-manager-panel';
+import { FileManagerShareDialog } from './file-manager-share-dialog';
 
 // ----------------------------------------------------------------------
 

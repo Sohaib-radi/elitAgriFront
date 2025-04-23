@@ -1,12 +1,12 @@
-import { useRef, useCallback } from 'react';
+import type { NavListProps } from '../types';
 import { useBoolean } from 'minimal-shared/hooks';
 import { isActiveLink, isExternalLink } from 'minimal-shared/utils';
+
+import { useRef, useCallback } from 'react';
 
 import { usePathname } from 'src/routes/hooks';
 
 import { NavLi, NavItem, NavDropdown, NavDropdownContent } from '../components';
-
-import type { NavListProps } from '../types';
 
 // ----------------------------------------------------------------------
 

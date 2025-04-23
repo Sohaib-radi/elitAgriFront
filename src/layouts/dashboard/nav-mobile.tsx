@@ -1,19 +1,19 @@
 import type { NavSectionProps } from 'src/components/nav-section';
 
-import { useEffect } from 'react';
-import { mergeClasses } from 'minimal-shared/utils';
-
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 
-import { usePathname } from 'src/routes/hooks';
+import { mergeClasses } from 'minimal-shared/utils';
+import { useEffect } from 'react';
 
 import { Logo } from 'src/components/logo';
-import { Scrollbar } from 'src/components/scrollbar';
-import { NavSectionVertical } from 'src/components/nav-section';
 
-import { layoutClasses } from '../core/classes';
+import { NavSectionVertical } from 'src/components/nav-section';
+import { Scrollbar } from 'src/components/scrollbar';
+import { usePathname } from 'src/routes/hooks';
+
 import { NavUpgrade } from '../components/nav-upgrade';
+import { layoutClasses } from '../core/classes';
 
 // ----------------------------------------------------------------------
 

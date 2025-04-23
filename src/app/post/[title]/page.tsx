@@ -3,9 +3,9 @@ import type { IPostItem } from 'src/types/blog';
 
 import { kebabCase } from 'es-toolkit';
 
+import { getPost, getLatestPosts } from 'src/actions/blog-ssr';
 import { CONFIG } from 'src/global-config';
 import axios, { endpoints } from 'src/lib/axios';
-import { getPost, getLatestPosts } from 'src/actions/blog-ssr';
 
 import { PostDetailsHomeView } from 'src/sections/blog/view';
 

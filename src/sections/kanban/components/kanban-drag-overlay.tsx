@@ -1,15 +1,15 @@
-import type { Theme, SxProps } from '@mui/material/styles';
 import type { DropAnimation, UniqueIdentifier } from '@dnd-kit/core';
+import type { Theme, SxProps } from '@mui/material/styles';
 import type { IKanban, IKanbanTask, IKanbanColumn } from 'src/types/kanban';
 
-import { useId } from 'react';
 import { DragOverlay as DndDragOverlay, defaultDropAnimationSideEffects } from '@dnd-kit/core';
-
 import Portal from '@mui/material/Portal';
 
-import ItemBase from '../item/item-base';
+import { useId } from 'react';
+
 import ColumnBase from '../column/column-base';
 import { KanbanColumnToolBar } from '../column/kanban-column-toolbar';
+import ItemBase from '../item/item-base';
 
 // ----------------------------------------------------------------------
 

@@ -1,11 +1,11 @@
-import { mergeClasses } from 'minimal-shared/utils';
+import type { CarouselOptions, CarouselSlideProps } from '../types';
 
 import { styled } from '@mui/material/styles';
 
-import { getSlideSize } from '../utils';
+import { mergeClasses } from 'minimal-shared/utils';
 import { carouselClasses } from '../classes';
 
-import type { CarouselOptions, CarouselSlideProps } from '../types';
+import { getSlideSize } from '../utils';
 
 // ----------------------------------------------------------------------
 

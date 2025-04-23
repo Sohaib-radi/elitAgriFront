@@ -1,10 +1,10 @@
 'use client';
 
 import { AboutHero } from '../about-hero';
-import { AboutWhat } from '../about-what';
 import { AboutTeam } from '../about-team';
-import { AboutVision } from '../about-vision';
 import { AboutTestimonials } from '../about-testimonials';
+import { AboutVision } from '../about-vision';
+import { AboutWhat } from '../about-what';
 
 // ----------------------------------------------------------------------
 

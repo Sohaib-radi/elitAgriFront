@@ -1,15 +1,15 @@
-import useSWR from 'swr';
-import { useMemo } from 'react';
-
 import Paper from '@mui/material/Paper';
 import Skeleton from '@mui/material/Skeleton';
 
-import { fetcher } from 'src/lib/axios';
-import { CONFIG } from 'src/global-config';
-
+import { useMemo } from 'react';
 import { Label } from 'src/components/label';
-import { SvgColor } from 'src/components/svg-color';
+
 import { NavSectionVertical } from 'src/components/nav-section';
+import { SvgColor } from 'src/components/svg-color';
+
+import { CONFIG } from 'src/global-config';
+import { fetcher } from 'src/lib/axios';
+import useSWR from 'swr';
 
 // ----------------------------------------------------------------------
 

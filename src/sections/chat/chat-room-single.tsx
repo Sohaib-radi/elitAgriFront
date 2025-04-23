@@ -1,12 +1,12 @@
 import type { IChatParticipant } from 'src/types/chat';
 
-import { useBoolean } from 'minimal-shared/hooks';
+import Avatar from '@mui/material/Avatar';
 
 import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
-import Avatar from '@mui/material/Avatar';
 import Collapse from '@mui/material/Collapse';
+import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
+import { useBoolean } from 'minimal-shared/hooks';
 
 import { Iconify } from 'src/components/iconify';
 

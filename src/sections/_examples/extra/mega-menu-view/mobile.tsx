@@ -2,8 +2,8 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
 
-import { Logo } from 'src/components/logo';
 import { Iconify } from 'src/components/iconify';
+import { Logo } from 'src/components/logo';
 import { MegaMenuMobile } from 'src/components/mega-menu';
 
 import { MEGA_MENU_ITEMS } from './data';

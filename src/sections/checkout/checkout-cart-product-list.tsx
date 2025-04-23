@@ -1,5 +1,5 @@
-import type { CheckoutContextValue } from 'src/types/checkout';
 import type { TableHeadCellProps } from 'src/components/table';
+import type { CheckoutContextValue } from 'src/types/checkout';
 
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';

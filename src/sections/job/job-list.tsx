@@ -1,9 +1,9 @@
 import type { IJobItem } from 'src/types/job';
 
-import { useCallback } from 'react';
-
 import Box from '@mui/material/Box';
+
 import Pagination, { paginationClasses } from '@mui/material/Pagination';
+import { useCallback } from 'react';
 
 import { paths } from 'src/routes/paths';
 

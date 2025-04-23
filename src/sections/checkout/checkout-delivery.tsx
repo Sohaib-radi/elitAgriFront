@@ -2,12 +2,12 @@ import type { BoxProps } from '@mui/material/Box';
 import type { CardProps } from '@mui/material/Card';
 import type { CheckoutContextValue, ICheckoutDeliveryOption } from 'src/types/checkout';
 
-import { varAlpha } from 'minimal-shared/utils';
-import { Controller, useFormContext } from 'react-hook-form';
-
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
+
 import CardHeader from '@mui/material/CardHeader';
+import { varAlpha } from 'minimal-shared/utils';
+import { Controller, useFormContext } from 'react-hook-form';
 
 import { Iconify } from 'src/components/iconify';
 

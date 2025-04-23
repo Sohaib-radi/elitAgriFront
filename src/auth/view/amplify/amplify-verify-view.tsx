@@ -1,24 +1,24 @@
 'use client';
 
-import { z as zod } from 'zod';
-import { useCallback } from 'react';
-import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { useCountdownSeconds } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
+import { useCountdownSeconds } from 'minimal-shared/hooks';
+import { useCallback } from 'react';
 
-import { paths } from 'src/routes/paths';
-import { useRouter, useSearchParams } from 'src/routes/hooks';
-
+import { useForm } from 'react-hook-form';
 import { EmailInboxIcon } from 'src/assets/icons';
 
 import { Form, Field } from 'src/components/hook-form';
+import { useRouter, useSearchParams } from 'src/routes/hooks';
+
+import { paths } from 'src/routes/paths';
+
+import { z as zod } from 'zod';
 
 import { FormHead } from '../../components/form-head';
-import { FormReturnLink } from '../../components/form-return-link';
 import { FormResendCode } from '../../components/form-resend-code';
+import { FormReturnLink } from '../../components/form-return-link';
 import { confirmSignUp, resendSignUpCode } from '../../context/amplify';
 
 // ----------------------------------------------------------------------

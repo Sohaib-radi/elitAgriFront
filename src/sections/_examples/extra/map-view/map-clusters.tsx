@@ -1,6 +1,6 @@
 import type { GeoJSONSource } from 'mapbox-gl';
-import type { MapProps } from 'src/components/map';
 import type { MapRef, LayerProps, LngLatLike, MapMouseEvent } from 'react-map-gl/mapbox';
+import type { MapProps } from 'src/components/map';
 
 import { useRef } from 'react';
 import { Layer, Source } from 'react-map-gl/mapbox';

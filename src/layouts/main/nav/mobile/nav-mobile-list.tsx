@@ -1,20 +1,20 @@
-import { useRef, useCallback } from 'react';
+import type { NavListProps } from '../types';
+import Collapse from '@mui/material/Collapse';
 import { useBoolean } from 'minimal-shared/hooks';
+
 import { varAlpha, isActiveLink, isExternalLink } from 'minimal-shared/utils';
 
-import Collapse from '@mui/material/Collapse';
-
-import { paths } from 'src/routes/paths';
-import { usePathname } from 'src/routes/hooks';
+import { useRef, useCallback } from 'react';
+import { navSectionClasses, NavSectionVertical } from 'src/components/nav-section';
 
 import { CONFIG } from 'src/global-config';
 
-import { navSectionClasses, NavSectionVertical } from 'src/components/nav-section';
+import { usePathname } from 'src/routes/hooks';
 
+import { paths } from 'src/routes/paths';
 import { NavLi } from '../components';
-import { NavItem } from './nav-mobile-item';
 
-import type { NavListProps } from '../types';
+import { NavItem } from './nav-mobile-item';
 
 // ----------------------------------------------------------------------
 

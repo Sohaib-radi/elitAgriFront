@@ -1,6 +1,6 @@
-import AutoScroll from 'embla-carousel-auto-scroll';
-
 import Box from '@mui/material/Box';
+
+import AutoScroll from 'embla-carousel-auto-scroll';
 
 import { Carousel, useCarousel, CarouselProgressBar } from 'src/components/carousel';
 

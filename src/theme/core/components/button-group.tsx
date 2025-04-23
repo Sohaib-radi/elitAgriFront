@@ -1,9 +1,9 @@
 import type { ButtonGroupProps } from '@mui/material/ButtonGroup';
 import type { Theme, CSSObject, Components, ComponentsVariants } from '@mui/material/styles';
 
-import { varAlpha } from 'minimal-shared/utils';
-
 import { buttonGroupClasses } from '@mui/material/ButtonGroup';
+
+import { varAlpha } from 'minimal-shared/utils';
 
 // ----------------------------------------------------------------------
 

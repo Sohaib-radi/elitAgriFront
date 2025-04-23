@@ -3,20 +3,20 @@
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 
-import { CONFIG } from 'src/global-config';
-import { DashboardContent } from 'src/layouts/dashboard';
 import { _bankingContacts, _bankingCreditCard, _bankingRecentTransitions } from 'src/_mock';
-
 import { Iconify } from 'src/components/iconify/iconify';
+import { CONFIG } from 'src/global-config';
 
+import { DashboardContent } from 'src/layouts/dashboard';
+
+import { BankingBalanceStatistics } from '../banking-balance-statistics';
 import { BankingContacts } from '../banking-contacts';
+import { BankingCurrentBalance } from '../banking-current-balance';
+import { BankingExpensesCategories } from '../banking-expenses-categories';
+import { BankingInviteFriends } from '../banking-invite-friends';
 import { BankingOverview } from '../banking-overview';
 import { BankingQuickTransfer } from '../banking-quick-transfer';
-import { BankingInviteFriends } from '../banking-invite-friends';
-import { BankingCurrentBalance } from '../banking-current-balance';
-import { BankingBalanceStatistics } from '../banking-balance-statistics';
 import { BankingRecentTransitions } from '../banking-recent-transitions';
-import { BankingExpensesCategories } from '../banking-expenses-categories';
 
 // ----------------------------------------------------------------------
 

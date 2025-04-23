@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import type { IInvoice } from 'src/types/invoice';
 
-import { CONFIG } from 'src/global-config';
 import { _invoices } from 'src/_mock/_invoice';
+import { CONFIG } from 'src/global-config';
 
 import { InvoiceDetailsView } from 'src/sections/invoice/view';
 

@@ -1,12 +1,12 @@
 import type { NavSectionProps } from 'src/components/nav-section';
 
-import { paths } from 'src/routes/paths';
-
-import { CONFIG } from 'src/global-config';
+import { Iconify } from 'src/components/iconify';
 
 import { Label } from 'src/components/label';
-import { Iconify } from 'src/components/iconify';
+
 import { SvgColor } from 'src/components/svg-color';
+import { CONFIG } from 'src/global-config';
+import { paths } from 'src/routes/paths';
 
 // ----------------------------------------------------------------------
 

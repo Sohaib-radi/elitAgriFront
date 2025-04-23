@@ -1,10 +1,10 @@
 import type { NavBasicProps } from 'src/components/nav-basic';
 import type { NavSectionProps } from 'src/components/nav-section';
 
-import { CONFIG } from 'src/global-config';
-
 import { Label } from 'src/components/label';
+
 import { SvgColor } from 'src/components/svg-color';
+import { CONFIG } from 'src/global-config';
 
 // ----------------------------------------------------------------------
 

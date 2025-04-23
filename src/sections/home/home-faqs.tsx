@@ -1,21 +1,21 @@
 import type { BoxProps } from '@mui/material/Box';
 
-import { useState } from 'react';
-import { m } from 'framer-motion';
-import { varAlpha } from 'minimal-shared/utils';
-
-import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
 import Accordion, { accordionClasses } from '@mui/material/Accordion';
 import AccordionDetails, { accordionDetailsClasses } from '@mui/material/AccordionDetails';
 import AccordionSummary, { accordionSummaryClasses } from '@mui/material/AccordionSummary';
 
-import { Iconify } from 'src/components/iconify';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Container from '@mui/material/Container';
+import Link from '@mui/material/Link';
+import Stack from '@mui/material/Stack';
+import Typography from '@mui/material/Typography';
+import { m } from 'framer-motion';
+import { varAlpha } from 'minimal-shared/utils';
+import { useState } from 'react';
+
 import { varFade, MotionViewport } from 'src/components/animate';
+import { Iconify } from 'src/components/iconify';
 
 import { SectionTitle } from './components/section-title';
 import { FloatLine, FloatPlusIcon, FloatTriangleDownIcon } from './components/svg-elements';

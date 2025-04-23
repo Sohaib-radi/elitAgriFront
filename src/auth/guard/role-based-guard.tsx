@@ -2,10 +2,10 @@
 
 import type { Theme, SxProps } from '@mui/material/styles';
 
-import { m } from 'framer-motion';
-
 import Container from '@mui/material/Container';
+
 import Typography from '@mui/material/Typography';
+import { m } from 'framer-motion';
 
 import { ForbiddenIllustration } from 'src/assets/illustrations';
 

@@ -1,20 +1,20 @@
 import type { BoxProps } from '@mui/material/Box';
 
-import { m } from 'framer-motion';
-
 import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
+
 import Button from '@mui/material/Button';
+import Card from '@mui/material/Card';
 import Container from '@mui/material/Container';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
+import { m } from 'framer-motion';
 
 import { _socials, _carouselsMembers } from 'src/_mock';
 
-import { Image } from 'src/components/image';
-import { Iconify } from 'src/components/iconify';
 import { varFade, MotionViewport } from 'src/components/animate';
 import { Carousel, useCarousel, CarouselArrowFloatButtons } from 'src/components/carousel';
+import { Iconify } from 'src/components/iconify';
+import { Image } from 'src/components/image';
 
 // ----------------------------------------------------------------------
 

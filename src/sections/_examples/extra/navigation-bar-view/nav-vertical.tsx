@@ -1,28 +1,28 @@
+import Badge from '@mui/material/Badge';
+import Box from '@mui/material/Box';
+
+import Divider from '@mui/material/Divider';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import IconButton from '@mui/material/IconButton';
+import Paper from '@mui/material/Paper';
+import Stack from '@mui/material/Stack';
+import Switch from '@mui/material/Switch';
+import TextField from '@mui/material/TextField';
+import ToggleButton from '@mui/material/ToggleButton';
+import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
+import Typography from '@mui/material/Typography';
 import { isEqual } from 'es-toolkit';
 import { useState, useCallback } from 'react';
 
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
-import Badge from '@mui/material/Badge';
-import Stack from '@mui/material/Stack';
-import Switch from '@mui/material/Switch';
-import Divider from '@mui/material/Divider';
-import TextField from '@mui/material/TextField';
-import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
-import ToggleButton from '@mui/material/ToggleButton';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
-
-import { CONFIG } from 'src/global-config';
-
 import { Iconify } from 'src/components/iconify';
-import { SvgColor } from 'src/components/svg-color';
+
 import {
   navSectionCssVars,
   NavSectionVertical,
   NavSectionVerticalItem,
 } from 'src/components/nav-section';
+import { SvgColor } from 'src/components/svg-color';
+import { CONFIG } from 'src/global-config';
 
 import { NAV_SECTION_ITEMS } from './data';
 

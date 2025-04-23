@@ -1,12 +1,12 @@
 'use client';
 
-import { mergeClasses } from 'minimal-shared/utils';
+import type { SvgColorProps } from './types';
 
 import { styled } from '@mui/material/styles';
 
-import { svgColorClasses } from './classes';
+import { mergeClasses } from 'minimal-shared/utils';
 
-import type { SvgColorProps } from './types';
+import { svgColorClasses } from './classes';
 
 // ----------------------------------------------------------------------
 

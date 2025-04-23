@@ -1,11 +1,11 @@
-import type { SWRConfiguration } from 'swr';
 import type { UniqueIdentifier } from '@dnd-kit/core';
 import type { IKanban, IKanbanTask, IKanbanColumn } from 'src/types/kanban';
+import type { SWRConfiguration } from 'swr';
+
+import { useMemo, startTransition } from 'react';
+import axios, { fetcher, endpoints } from 'src/lib/axios';
 
 import useSWR, { mutate } from 'swr';
-import { useMemo, startTransition } from 'react';
-
-import axios, { fetcher, endpoints } from 'src/lib/axios';
 
 // ----------------------------------------------------------------------
 

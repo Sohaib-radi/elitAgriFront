@@ -2,11 +2,11 @@
 
 import type { Theme, SxProps } from '@mui/material/styles';
 
-import { CustomizedSteppers } from './customized-steppers';
 import { ComponentBox, ComponentLayout } from '../../layout';
-import { VerticalLinearStepper } from './vertical-linear-stepper';
+import { CustomizedSteppers } from './customized-steppers';
 import { HorizontalLinearStepper } from './horizontal-linear-stepper';
 import { LinearAlternativeLabel } from './linear-alternative-label-stepper';
+import { VerticalLinearStepper } from './vertical-linear-stepper';
 
 // ----------------------------------------------------------------------
 

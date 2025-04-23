@@ -1,7 +1,7 @@
 'use client';
 
-import { FormWizard } from './form-wizard';
 import { ComponentLayout } from '../../layout';
+import { FormWizard } from './form-wizard';
 
 // ----------------------------------------------------------------------
 

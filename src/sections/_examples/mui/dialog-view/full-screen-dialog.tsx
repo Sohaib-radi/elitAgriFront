@@ -1,18 +1,18 @@
 import type { TransitionProps } from '@mui/material/transitions';
 
-import { useBoolean } from 'minimal-shared/hooks';
+import AppBar from '@mui/material/AppBar';
 
 import Box from '@mui/material/Box';
-import Slide from '@mui/material/Slide';
 import Button from '@mui/material/Button';
-import AppBar from '@mui/material/AppBar';
 import Dialog from '@mui/material/Dialog';
 import Divider from '@mui/material/Divider';
-import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
-import ListItemText from '@mui/material/ListItemText';
 import ListItemButton from '@mui/material/ListItemButton';
+import ListItemText from '@mui/material/ListItemText';
+import Slide from '@mui/material/Slide';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import { useBoolean } from 'minimal-shared/hooks';
 
 import { Iconify } from 'src/components/iconify';
 

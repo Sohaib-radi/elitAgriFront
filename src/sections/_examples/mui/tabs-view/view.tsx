@@ -1,14 +1,14 @@
 'use client';
 
-import { Fragment } from 'react';
-import { useTabs } from 'minimal-shared/hooks';
-
-import Tab from '@mui/material/Tab';
-import Tabs from '@mui/material/Tabs';
 import Paper from '@mui/material/Paper';
+import Tab from '@mui/material/Tab';
 
-import { Iconify } from 'src/components/iconify';
+import Tabs from '@mui/material/Tabs';
+import { useTabs } from 'minimal-shared/hooks';
+import { Fragment } from 'react';
+
 import { CustomTabs } from 'src/components/custom-tabs';
+import { Iconify } from 'src/components/iconify';
 
 import { ComponentBox, ComponentLayout } from '../../layout';
 

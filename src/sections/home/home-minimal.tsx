@@ -1,18 +1,18 @@
 import type { BoxProps } from '@mui/material/Box';
 
-import { m } from 'framer-motion';
-import { varAlpha } from 'minimal-shared/utils';
-
 import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+
 import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 import SvgIcon from '@mui/material/SvgIcon';
-import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
-
-import { CONFIG } from 'src/global-config';
+import { m } from 'framer-motion';
+import { varAlpha } from 'minimal-shared/utils';
 
 import { varFade, MotionViewport } from 'src/components/animate';
+
+import { CONFIG } from 'src/global-config';
 
 import { SectionTitle } from './components/section-title';
 import { CircleSvg, FloatLine, FloatPlusIcon } from './components/svg-elements';

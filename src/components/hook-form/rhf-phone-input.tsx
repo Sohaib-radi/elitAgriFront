@@ -1,8 +1,8 @@
+import type { PhoneInputProps } from '../phone-input';
+
 import { Controller, useFormContext } from 'react-hook-form';
 
 import { PhoneInput } from '../phone-input';
-
-import type { PhoneInputProps } from '../phone-input';
 
 // ----------------------------------------------------------------------
 

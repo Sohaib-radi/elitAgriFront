@@ -1,9 +1,9 @@
 import type { CSSObject, MixinsOptions } from '@mui/material/styles';
 
-import { borderGradient } from './border';
-import { maxLine, textGradient } from './text';
 import { bgBlur, bgGradient } from './background';
+import { borderGradient } from './border';
 import { paperStyles, menuItemStyles } from './global-styles-components';
+import { maxLine, textGradient } from './text';
 
 // ----------------------------------------------------------------------
 

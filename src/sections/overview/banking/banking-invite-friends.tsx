@@ -1,10 +1,10 @@
 import type { BoxProps } from '@mui/material/Box';
 
-import { varAlpha } from 'minimal-shared/utils';
-
 import Box from '@mui/material/Box';
+
 import Button from '@mui/material/Button';
 import InputBase from '@mui/material/InputBase';
+import { varAlpha } from 'minimal-shared/utils';
 
 // ----------------------------------------------------------------------
 

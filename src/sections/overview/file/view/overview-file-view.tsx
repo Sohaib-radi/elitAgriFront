@@ -1,30 +1,30 @@
 'use client';
 
-import { useState, useCallback } from 'react';
-import { useBoolean } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
+
 import Typography from '@mui/material/Typography';
+import { useBoolean } from 'minimal-shared/hooks';
+import { useState, useCallback } from 'react';
 
-import { paths } from 'src/routes/paths';
-
-import { CONFIG } from 'src/global-config';
 import { _files, _folders } from 'src/_mock';
-import { DashboardContent } from 'src/layouts/dashboard';
 
 import { Iconify } from 'src/components/iconify';
-import { UploadBox } from 'src/components/upload';
 import { Scrollbar } from 'src/components/scrollbar';
+import { UploadBox } from 'src/components/upload';
 
-import { FileWidget } from '../../../file-manager/file-widget';
-import { FileUpgrade } from '../../../file-manager/file-upgrade';
-import { FileRecentItem } from '../../../file-manager/file-recent-item';
+import { CONFIG } from 'src/global-config';
+import { DashboardContent } from 'src/layouts/dashboard';
+import { paths } from 'src/routes/paths';
+
 import { FileDataActivity } from '../../../file-manager/file-data-activity';
-import { FileManagerPanel } from '../../../file-manager/file-manager-panel';
-import { FileStorageOverview } from '../../../file-manager/file-storage-overview';
 import { FileManagerFolderItem } from '../../../file-manager/file-manager-folder-item';
 import { FileManagerNewFolderDialog } from '../../../file-manager/file-manager-new-folder-dialog';
+import { FileManagerPanel } from '../../../file-manager/file-manager-panel';
+import { FileRecentItem } from '../../../file-manager/file-recent-item';
+import { FileStorageOverview } from '../../../file-manager/file-storage-overview';
+import { FileUpgrade } from '../../../file-manager/file-upgrade';
+import { FileWidget } from '../../../file-manager/file-widget';
 
 // ----------------------------------------------------------------------
 

@@ -1,14 +1,14 @@
+import type { SingleFilePreviewProps } from '../types';
+
 import type { IconButtonProps } from '@mui/material/IconButton';
 
-import { varAlpha, mergeClasses } from 'minimal-shared/utils';
-
-import { styled } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
+import { styled } from '@mui/material/styles';
 
+import { varAlpha, mergeClasses } from 'minimal-shared/utils';
 import { Iconify } from '../../iconify';
-import { uploadClasses } from '../classes';
 
-import type { SingleFilePreviewProps } from '../types';
+import { uploadClasses } from '../classes';
 
 // ----------------------------------------------------------------------
 

@@ -1,18 +1,18 @@
-import type { SvgIconProps } from '@mui/material/SvgIcon';
 import type { Theme, Components } from '@mui/material/styles';
+import type { SvgIconProps } from '@mui/material/SvgIcon';
 
-import { varAlpha } from 'minimal-shared/utils';
+import { circularProgressClasses } from '@mui/material/CircularProgress';
 
-import { listClasses } from '@mui/material/List';
-import { paperClasses } from '@mui/material/Paper';
-import { textFieldClasses } from '@mui/material/TextField';
+import { formControlLabelClasses } from '@mui/material/FormControlLabel';
+import { iconButtonClasses } from '@mui/material/IconButton';
 import { inputBaseClasses } from '@mui/material/InputBase';
 import { inputLabelClasses } from '@mui/material/InputLabel';
-import { iconButtonClasses } from '@mui/material/IconButton';
-import SvgIcon, { svgIconClasses } from '@mui/material/SvgIcon';
+import { listClasses } from '@mui/material/List';
 import { listItemIconClasses } from '@mui/material/ListItemIcon';
-import { circularProgressClasses } from '@mui/material/CircularProgress';
-import { formControlLabelClasses } from '@mui/material/FormControlLabel';
+import { paperClasses } from '@mui/material/Paper';
+import SvgIcon, { svgIconClasses } from '@mui/material/SvgIcon';
+import { textFieldClasses } from '@mui/material/TextField';
+import { varAlpha } from 'minimal-shared/utils';
 
 // ----------------------------------------------------------------------
 

@@ -1,10 +1,10 @@
 import type { BoxProps } from '@mui/material/Box';
 
-import Box from '@mui/material/Box';
 import Accordion from '@mui/material/Accordion';
-import Typography from '@mui/material/Typography';
-import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
 
 import { _faqs } from 'src/_mock';
 

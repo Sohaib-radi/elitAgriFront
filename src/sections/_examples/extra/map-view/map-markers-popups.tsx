@@ -1,11 +1,11 @@
 import type { MapProps } from 'src/components/map';
 
-import { useState } from 'react';
-
 import Box from '@mui/material/Box';
 
-import { Image } from 'src/components/image';
+import { useState } from 'react';
+
 import { FlagIcon } from 'src/components/flag-icon';
+import { Image } from 'src/components/image';
 import { Map, MapPopup, MapMarker, MapControls } from 'src/components/map';
 
 // ----------------------------------------------------------------------

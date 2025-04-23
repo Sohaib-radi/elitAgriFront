@@ -1,17 +1,17 @@
-import { useForm } from 'react-hook-form';
+import type { OtherSchemaType } from './schema';
 import { zodResolver } from '@hookform/resolvers/zod';
 
 import Backdrop from '@mui/material/Backdrop';
 import CircularProgress from '@mui/material/CircularProgress';
 
+import { useForm } from 'react-hook-form';
+
 import { Form, Field } from 'src/components/hook-form';
+import { ComponentBox } from '../../layout';
+import { FormGrid, FormActions, componentBoxStyles } from './components';
+import { ValuesPreview } from './components/values-preview';
 
 import { OtherSchema } from './schema';
-import { ComponentBox } from '../../layout';
-import { ValuesPreview } from './components/values-preview';
-import { FormGrid, FormActions, componentBoxStyles } from './components';
-
-import type { OtherSchemaType } from './schema';
 
 // ----------------------------------------------------------------------
 

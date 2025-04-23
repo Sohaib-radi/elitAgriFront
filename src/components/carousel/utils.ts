@@ -1,6 +1,6 @@
-import type { Breakpoint } from '@mui/material/styles';
-
 import type { CarouselOptions } from './types';
+
+import type { Breakpoint } from '@mui/material/styles';
 
 // ----------------------------------------------------------------------
 

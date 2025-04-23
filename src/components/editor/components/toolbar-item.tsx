@@ -1,8 +1,8 @@
-import SvgIcon from '@mui/material/SvgIcon';
-import { styled } from '@mui/material/styles';
-import ButtonBase from '@mui/material/ButtonBase';
-
 import type { EditorToolbarItemProps } from '../types';
+import ButtonBase from '@mui/material/ButtonBase';
+import { styled } from '@mui/material/styles';
+
+import SvgIcon from '@mui/material/SvgIcon';
 
 // ----------------------------------------------------------------------
 

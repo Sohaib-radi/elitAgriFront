@@ -1,25 +1,25 @@
 'use client';
 
-import { z as zod } from 'zod';
-import { useForm } from 'react-hook-form';
-import { useBoolean } from 'minimal-shared/hooks';
 import { zodResolver } from '@hookform/resolvers/zod';
-
 import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
+
 import InputAdornment from '@mui/material/InputAdornment';
-
-import { paths } from 'src/routes/paths';
-import { RouterLink } from 'src/routes/components';
-
-import { Iconify } from 'src/components/iconify';
+import Link from '@mui/material/Link';
+import { useBoolean } from 'minimal-shared/hooks';
+import { useForm } from 'react-hook-form';
 import { Form, Field } from 'src/components/hook-form';
 
+import { Iconify } from 'src/components/iconify';
+import { RouterLink } from 'src/routes/components';
+
+import { paths } from 'src/routes/paths';
+import { z as zod } from 'zod';
+
+import { FormDivider } from '../../../components/form-divider';
 import { FormHead } from '../../../components/form-head';
 import { FormSocials } from '../../../components/form-socials';
-import { FormDivider } from '../../../components/form-divider';
 
 // ----------------------------------------------------------------------
 

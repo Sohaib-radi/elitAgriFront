@@ -1,7 +1,7 @@
-import type { DropzoneOptions } from 'react-dropzone';
+import type { FileThumbnailProps } from '../file-thumbnail';
 import type { Theme, SxProps } from '@mui/material/styles';
 
-import type { FileThumbnailProps } from '../file-thumbnail';
+import type { DropzoneOptions } from 'react-dropzone';
 
 // ----------------------------------------------------------------------
 

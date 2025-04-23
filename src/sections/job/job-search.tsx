@@ -1,25 +1,25 @@
-import type { IJobItem } from 'src/types/job';
 import type { Theme, SxProps } from '@mui/material/styles';
+import type { IJobItem } from 'src/types/job';
 
-import parse from 'autosuggest-highlight/parse';
-import match from 'autosuggest-highlight/match';
-import { useDebounce } from 'minimal-shared/hooks';
-import { useState, useEffect, useCallback } from 'react';
+import Autocomplete, { autocompleteClasses } from '@mui/material/Autocomplete';
+import CircularProgress from '@mui/material/CircularProgress';
+import InputAdornment from '@mui/material/InputAdornment';
+import Link, { linkClasses } from '@mui/material/Link';
 
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
-import Link, { linkClasses } from '@mui/material/Link';
-import InputAdornment from '@mui/material/InputAdornment';
-import CircularProgress from '@mui/material/CircularProgress';
-import Autocomplete, { autocompleteClasses } from '@mui/material/Autocomplete';
-
-import { useRouter } from 'src/routes/hooks';
-import { RouterLink } from 'src/routes/components';
+import match from 'autosuggest-highlight/match';
+import parse from 'autosuggest-highlight/parse';
+import { useDebounce } from 'minimal-shared/hooks';
+import { useState, useEffect, useCallback } from 'react';
 
 import { _jobs } from 'src/_mock';
-
 import { Iconify } from 'src/components/iconify';
+
 import { SearchNotFound } from 'src/components/search-not-found';
+
+import { RouterLink } from 'src/routes/components';
+import { useRouter } from 'src/routes/hooks';
 
 // ----------------------------------------------------------------------
 

@@ -2,27 +2,27 @@
 
 import type { IconButtonProps } from '@mui/material/IconButton';
 
-import { useBoolean } from 'minimal-shared/hooks';
+import Avatar from '@mui/material/Avatar';
 
 import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
-import Avatar from '@mui/material/Avatar';
 import Drawer from '@mui/material/Drawer';
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
-import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
-
-import { paths } from 'src/routes/paths';
-import { usePathname } from 'src/routes/hooks';
-import { RouterLink } from 'src/routes/components';
-
-import { Label } from 'src/components/label';
-import { Iconify } from 'src/components/iconify';
-import { Scrollbar } from 'src/components/scrollbar';
-import { AnimateBorder } from 'src/components/animate';
+import Link from '@mui/material/Link';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
+import Typography from '@mui/material/Typography';
+import { useBoolean } from 'minimal-shared/hooks';
 
 import { useAuthContext } from 'src/auth/hooks';
+import { AnimateBorder } from 'src/components/animate';
+import { Iconify } from 'src/components/iconify';
+
+import { Label } from 'src/components/label';
+import { Scrollbar } from 'src/components/scrollbar';
+import { RouterLink } from 'src/routes/components';
+import { usePathname } from 'src/routes/hooks';
+
+import { paths } from 'src/routes/paths';
 
 import { AccountButton } from './account-button';
 import { SignOutButton } from './sign-out-button';

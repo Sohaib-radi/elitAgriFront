@@ -1,15 +1,15 @@
 import Box from '@mui/material/Box';
+import CardContent from '@mui/material/CardContent';
 import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
-import CardContent from '@mui/material/CardContent';
 
-import { Iconify } from 'src/components/iconify';
 import {
   Carousel,
   useCarousel,
   CarouselDotButtons,
   CarouselArrowFloatButtons,
 } from 'src/components/carousel';
+import { Iconify } from 'src/components/iconify';
 
 import { IndexLabel } from './elements';
 

@@ -1,10 +1,10 @@
 import type { TreeViewBaseItem } from '@mui/x-tree-view/models';
 
-import { varAlpha } from 'minimal-shared/utils';
-
 import { styled } from '@mui/material/styles';
+
 import { RichTreeView } from '@mui/x-tree-view/RichTreeView';
 import { treeItemClasses, TreeItem as MuiTreeItem } from '@mui/x-tree-view/TreeItem';
+import { varAlpha } from 'minimal-shared/utils';
 
 // ----------------------------------------------------------------------
 

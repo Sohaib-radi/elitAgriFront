@@ -2,30 +2,30 @@
 
 import type { IPostItem } from 'src/types/blog';
 
+import Avatar from '@mui/material/Avatar';
+import AvatarGroup from '@mui/material/AvatarGroup';
 import Box from '@mui/material/Box';
+import Checkbox from '@mui/material/Checkbox';
 import Chip from '@mui/material/Chip';
+import Container from '@mui/material/Container';
+import Divider from '@mui/material/Divider';
+import FormControlLabel from '@mui/material/FormControlLabel';
 import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
-import Avatar from '@mui/material/Avatar';
-import Divider from '@mui/material/Divider';
-import Checkbox from '@mui/material/Checkbox';
-import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
-import AvatarGroup from '@mui/material/AvatarGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
 
-import { paths } from 'src/routes/paths';
-
-import { fShortenNumber } from 'src/utils/format-number';
-
-import { Iconify } from 'src/components/iconify';
-import { Markdown } from 'src/components/markdown';
 import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
 
-import { PostItem } from '../post-item';
-import { PostCommentList } from '../post-comment-list';
+import { Iconify } from 'src/components/iconify';
+
+import { Markdown } from 'src/components/markdown';
+import { paths } from 'src/routes/paths';
+import { fShortenNumber } from 'src/utils/format-number';
+
 import { PostCommentForm } from '../post-comment-form';
+import { PostCommentList } from '../post-comment-list';
 import { PostDetailsHero } from '../post-details-hero';
+import { PostItem } from '../post-item';
 
 // ----------------------------------------------------------------------
 

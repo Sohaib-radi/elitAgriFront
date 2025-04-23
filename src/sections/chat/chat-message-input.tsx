@@ -1,21 +1,21 @@
 import type { IChatParticipant } from 'src/types/chat';
 
+import Box from '@mui/material/Box';
+
+import IconButton from '@mui/material/IconButton';
+import InputBase from '@mui/material/InputBase';
 import { useRef, useMemo, useState, useCallback } from 'react';
 
-import Box from '@mui/material/Box';
-import InputBase from '@mui/material/InputBase';
-import IconButton from '@mui/material/IconButton';
-
-import { paths } from 'src/routes/paths';
-import { useRouter } from 'src/routes/hooks';
-
-import { today } from 'src/utils/format-time';
-
 import { sendMessage, createConversation } from 'src/actions/chat';
+import { useMockedUser } from 'src/auth/hooks';
 
 import { Iconify } from 'src/components/iconify';
 
-import { useMockedUser } from 'src/auth/hooks';
+import { useRouter } from 'src/routes/hooks';
+
+import { paths } from 'src/routes/paths';
+
+import { today } from 'src/utils/format-time';
 
 import { initialConversation } from './utils/initial-conversation';
 

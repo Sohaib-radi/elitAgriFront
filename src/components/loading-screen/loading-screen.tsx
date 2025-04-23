@@ -2,11 +2,11 @@
 
 import type { Theme, SxProps } from '@mui/material/styles';
 
-import { Fragment } from 'react';
+import LinearProgress from '@mui/material/LinearProgress';
 
 import Portal from '@mui/material/Portal';
 import { styled } from '@mui/material/styles';
-import LinearProgress from '@mui/material/LinearProgress';
+import { Fragment } from 'react';
 
 // ----------------------------------------------------------------------
 

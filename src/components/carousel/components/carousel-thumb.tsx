@@ -1,11 +1,11 @@
+import type { CarouselThumbProps } from '../types';
+
+import ButtonBase from '@mui/material/ButtonBase';
+import { styled } from '@mui/material/styles';
+
 import { mergeClasses } from 'minimal-shared/utils';
 
-import { styled } from '@mui/material/styles';
-import ButtonBase from '@mui/material/ButtonBase';
-
 import { carouselClasses } from '../classes';
-
-import type { CarouselThumbProps } from '../types';
 
 // ----------------------------------------------------------------------
 

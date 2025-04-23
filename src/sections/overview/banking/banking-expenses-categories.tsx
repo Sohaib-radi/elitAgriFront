@@ -3,13 +3,13 @@ import type { ChartOptions } from 'src/components/chart';
 
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
+import CardHeader from '@mui/material/CardHeader';
 import Divider from '@mui/material/Divider';
 import { useTheme } from '@mui/material/styles';
-import CardHeader from '@mui/material/CardHeader';
-
-import { fCurrency } from 'src/utils/format-number';
 
 import { Chart, useChart, ChartLegends } from 'src/components/chart';
+
+import { fCurrency } from 'src/utils/format-number';
 
 // ----------------------------------------------------------------------
 

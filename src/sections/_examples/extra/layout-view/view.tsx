@@ -1,22 +1,22 @@
 'use client';
 
+import Alert from '@mui/material/Alert';
+
+import Card from '@mui/material/Card';
+import Container from '@mui/material/Container';
+import Divider from '@mui/material/Divider';
+import Paper from '@mui/material/Paper';
+import Tab from '@mui/material/Tab';
+import Tabs from '@mui/material/Tabs';
+import Typography from '@mui/material/Typography';
 import { useTabs } from 'minimal-shared/hooks';
 
-import Tab from '@mui/material/Tab';
-import Card from '@mui/material/Card';
-import Tabs from '@mui/material/Tabs';
-import Paper from '@mui/material/Paper';
-import Alert from '@mui/material/Alert';
-import Divider from '@mui/material/Divider';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-
-import { MainLayout } from 'src/layouts/main';
-import { layoutClasses } from 'src/layouts/core';
-import { SimpleLayout } from 'src/layouts/simple';
-import { DashboardLayout } from 'src/layouts/dashboard';
-import { AuthSplitLayout } from 'src/layouts/auth-split';
 import { AuthCenteredLayout } from 'src/layouts/auth-centered';
+import { AuthSplitLayout } from 'src/layouts/auth-split';
+import { layoutClasses } from 'src/layouts/core';
+import { DashboardLayout } from 'src/layouts/dashboard';
+import { MainLayout } from 'src/layouts/main';
+import { SimpleLayout } from 'src/layouts/simple';
 
 import { ComponentLayout } from '../../layout';
 

@@ -1,8 +1,8 @@
 'use client';
 
-import { SimpleTransferList } from './simple-transfer-list';
 import { ComponentBox, ComponentLayout } from '../../layout';
 import { EnhancedTransferList } from './enhanced-transfer-list';
+import { SimpleTransferList } from './simple-transfer-list';
 
 // ----------------------------------------------------------------------
 

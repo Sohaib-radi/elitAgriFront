@@ -1,20 +1,14 @@
-import type {} from '@mui/lab/themeAugmentation';
-import type {} from '@mui/x-tree-view/themeAugmentation';
-import type {} from '@mui/x-data-grid/themeAugmentation';
-import type {} from '@mui/x-date-pickers/themeAugmentation';
-import type {} from '@mui/material/themeCssVarsAugmentation';
-
-import type { MixinsExtend } from './core/mixins';
-import type { FontStyleExtend } from './core/typography';
-import type { CustomShadows } from './core/custom-shadows';
-import type { ChipExtendVariant } from './core/components/chip';
+import type { AvatarGroupExtendVariant } from './core/components/avatar';
 import type { BadgeExtendVariant } from './core/components/badge';
-import type { SliderExtendColor } from './core/components/slider';
 import type { ButtonExtendVariant } from './core/components/button';
 import type { FabExtendVariant } from './core/components/button-fab';
-import type { AvatarGroupExtendVariant } from './core/components/avatar';
 import type { ButtonGroupExtendVariant } from './core/components/button-group';
+
+import type { ChipExtendVariant } from './core/components/chip';
 import type { PaginationExtendColor, PaginationExtendVariant } from './core/components/pagination';
+import type { SliderExtendColor } from './core/components/slider';
+import type { CustomShadows } from './core/custom-shadows';
+import type { MixinsExtend } from './core/mixins';
 import type {
   GreyExtend,
   TypeTextExtend,
@@ -22,6 +16,12 @@ import type {
   PaletteColorExtend,
   TypeBackgroundExtend,
 } from './core/palette';
+import type { FontStyleExtend } from './core/typography';
+import type {} from '@mui/lab/themeAugmentation';
+import type {} from '@mui/material/themeCssVarsAugmentation';
+import type {} from '@mui/x-data-grid/themeAugmentation';
+import type {} from '@mui/x-date-pickers/themeAugmentation';
+import type {} from '@mui/x-tree-view/themeAugmentation';
 
 // ----------------------------------------------------------------------
 

@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
-import { CONFIG } from 'src/global-config';
-
 import { FirebaseSignUpView } from 'src/auth/view/firebase';
+
+import { CONFIG } from 'src/global-config';
 
 // ----------------------------------------------------------------------
 

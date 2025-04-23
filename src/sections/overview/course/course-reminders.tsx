@@ -1,19 +1,19 @@
 import type { BoxProps } from '@mui/material/Box';
-import type { IDateValue } from 'src/types/common';
 import type { CardProps } from '@mui/material/Card';
-
-import { varAlpha } from 'minimal-shared/utils';
+import type { IDateValue } from 'src/types/common';
 
 import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
-import Card from '@mui/material/Card';
-import Typography from '@mui/material/Typography';
-import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress';
 
-import { fDateTime } from 'src/utils/format-time';
-import { fPercent } from 'src/utils/format-number';
+import Card from '@mui/material/Card';
+import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress';
+import Link from '@mui/material/Link';
+import Typography from '@mui/material/Typography';
+import { varAlpha } from 'minimal-shared/utils';
 
 import { Iconify } from 'src/components/iconify';
+import { fPercent } from 'src/utils/format-number';
+
+import { fDateTime } from 'src/utils/format-time';
 
 // ----------------------------------------------------------------------
 

@@ -1,27 +1,27 @@
 import type { BadgeProps } from '@mui/material/Badge';
 import type { SelectChangeEvent } from '@mui/material/Select';
 
-import { useState, useCallback } from 'react';
-import { usePopover } from 'minimal-shared/hooks';
+import Avatar from '@mui/material/Avatar';
+import Badge, { badgeClasses } from '@mui/material/Badge';
 
 import Box from '@mui/material/Box';
-import Avatar from '@mui/material/Avatar';
-import Select from '@mui/material/Select';
 import Divider from '@mui/material/Divider';
-import Tooltip from '@mui/material/Tooltip';
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
-import IconButton from '@mui/material/IconButton';
 import FormControl from '@mui/material/FormControl';
-import ListItemText from '@mui/material/ListItemText';
-import { svgIconClasses } from '@mui/material/SvgIcon';
-import Badge, { badgeClasses } from '@mui/material/Badge';
+import IconButton from '@mui/material/IconButton';
 import InputBase, { inputBaseClasses } from '@mui/material/InputBase';
-
-import { Iconify } from 'src/components/iconify';
-import { CustomPopover } from 'src/components/custom-popover';
+import ListItemText from '@mui/material/ListItemText';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
+import Select from '@mui/material/Select';
+import { svgIconClasses } from '@mui/material/SvgIcon';
+import Tooltip from '@mui/material/Tooltip';
+import { usePopover } from 'minimal-shared/hooks';
+import { useState, useCallback } from 'react';
 
 import { useMockedUser } from 'src/auth/hooks';
+import { CustomPopover } from 'src/components/custom-popover';
+
+import { Iconify } from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

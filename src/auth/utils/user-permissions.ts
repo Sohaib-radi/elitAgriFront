@@ -1,6 +1,6 @@
-import type { IUserItem } from 'src/types/user';
-
 import type { UserType } from '../types';
+
+import type { IUserItem } from 'src/types/user';
 
 export function canEditUserField(
   field: string,

@@ -3,8 +3,8 @@
 import Portal from '@mui/material/Portal';
 
 import { Iconify } from '../iconify';
-import { SnackbarRoot } from './styles';
 import { snackbarClasses } from './classes';
+import { SnackbarRoot } from './styles';
 
 // ----------------------------------------------------------------------
 

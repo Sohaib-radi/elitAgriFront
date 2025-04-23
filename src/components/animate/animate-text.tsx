@@ -2,12 +2,12 @@ import type { Theme, SxProps } from '@mui/material/styles';
 import type { TypographyProps } from '@mui/material/Typography';
 import type { Variants, UseInViewOptions } from 'framer-motion';
 
-import { useRef, useMemo, useEffect } from 'react';
-import { mergeClasses } from 'minimal-shared/utils';
-import { m, useInView, useAnimation } from 'framer-motion';
-
 import { styled } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
+import { m, useInView, useAnimation } from 'framer-motion';
+
+import { mergeClasses } from 'minimal-shared/utils';
+import { useRef, useMemo, useEffect } from 'react';
 
 import { createClasses } from 'src/theme/create-classes';
 

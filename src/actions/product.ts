@@ -1,10 +1,10 @@
-import type { SWRConfiguration } from 'swr';
 import type { IProductItem } from 'src/types/product';
+import type { SWRConfiguration } from 'swr';
+
+import { useMemo } from 'react';
+import { fetcher, endpoints } from 'src/lib/axios';
 
 import useSWR from 'swr';
-import { useMemo } from 'react';
-
-import { fetcher, endpoints } from 'src/lib/axios';
 
 // ----------------------------------------------------------------------
 

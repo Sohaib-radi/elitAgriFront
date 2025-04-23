@@ -1,16 +1,16 @@
 'use client';
 
-import type { UseInViewOptions } from 'framer-motion';
+import type { EffectsType } from './styles';
 import type { Breakpoint } from '@mui/material/styles';
 
+import type { UseInViewOptions } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { mergeRefs, mergeClasses } from 'minimal-shared/utils';
+
 import { useRef, useState, useCallback, startTransition } from 'react';
-
 import { imageClasses } from './classes';
-import { ImageImg, ImageRoot, ImageOverlay, ImagePlaceholder } from './styles';
 
-import type { EffectsType } from './styles';
+import { ImageImg, ImageRoot, ImageOverlay, ImagePlaceholder } from './styles';
 
 // ----------------------------------------------------------------------
 

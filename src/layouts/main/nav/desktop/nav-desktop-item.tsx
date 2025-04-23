@@ -1,14 +1,14 @@
+import type { NavItemProps } from '../types';
+
 import type { CSSObject } from '@mui/material/styles';
 
-import { varAlpha, mergeClasses } from 'minimal-shared/utils';
-
-import { styled } from '@mui/material/styles';
 import ButtonBase from '@mui/material/ButtonBase';
+import { styled } from '@mui/material/styles';
 
+import { varAlpha, mergeClasses } from 'minimal-shared/utils';
 import { Iconify } from 'src/components/iconify';
-import { createNavItem, navItemStyles, navSectionClasses } from 'src/components/nav-section';
 
-import type { NavItemProps } from '../types';
+import { createNavItem, navItemStyles, navSectionClasses } from 'src/components/nav-section';
 
 // ----------------------------------------------------------------------
 

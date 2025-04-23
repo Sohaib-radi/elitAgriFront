@@ -1,9 +1,9 @@
-import type { LinkProps } from '@mui/material/Link';
+import type { CarouselOptions } from '../carousel';
 import type { MasonryProps } from '@mui/lab/Masonry';
 import type { ButtonBaseProps } from '@mui/material/ButtonBase';
-import type { Theme, SxProps, CSSObject } from '@mui/material/styles';
+import type { LinkProps } from '@mui/material/Link';
 
-import type { CarouselOptions } from '../carousel';
+import type { Theme, SxProps, CSSObject } from '@mui/material/styles';
 
 // ----------------------------------------------------------------------
 

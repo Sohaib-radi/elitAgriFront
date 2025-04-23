@@ -1,11 +1,11 @@
 import type { Theme } from '@mui/material/styles';
-import type { MapProps } from 'src/components/map';
 import type { LayerProps } from 'react-map-gl/mapbox';
-
-import { useState, useEffect } from 'react';
-import { Layer, Source } from 'react-map-gl/mapbox';
+import type { MapProps } from 'src/components/map';
 
 import { useTheme } from '@mui/material/styles';
+import { useState, useEffect } from 'react';
+
+import { Layer, Source } from 'react-map-gl/mapbox';
 
 import { Map, MapControls } from 'src/components/map';
 

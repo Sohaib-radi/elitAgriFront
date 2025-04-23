@@ -1,30 +1,30 @@
-import type { IFile } from 'src/types/file';
 import type { DrawerProps } from '@mui/material/Drawer';
+import type { IFile } from 'src/types/file';
 
-import { useState, useCallback } from 'react';
-import { useBoolean } from 'minimal-shared/hooks';
-
-import Box from '@mui/material/Box';
-import Chip from '@mui/material/Chip';
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
-import Drawer from '@mui/material/Drawer';
-import Divider from '@mui/material/Divider';
-import Checkbox from '@mui/material/Checkbox';
-import TextField from '@mui/material/TextField';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import Autocomplete from '@mui/material/Autocomplete';
+import Box from '@mui/material/Box';
 
+import Button from '@mui/material/Button';
+import Checkbox from '@mui/material/Checkbox';
+import Chip from '@mui/material/Chip';
+import Divider from '@mui/material/Divider';
+import Drawer from '@mui/material/Drawer';
+import IconButton from '@mui/material/IconButton';
+import Stack from '@mui/material/Stack';
+import TextField from '@mui/material/TextField';
+import Typography from '@mui/material/Typography';
+import { useBoolean } from 'minimal-shared/hooks';
+import { useState, useCallback } from 'react';
+
+import { fileFormat, FileThumbnail } from 'src/components/file-thumbnail';
+import { Iconify } from 'src/components/iconify';
+
+import { Scrollbar } from 'src/components/scrollbar';
 import { fData } from 'src/utils/format-number';
 import { fDateTime } from 'src/utils/format-time';
 
-import { Iconify } from 'src/components/iconify';
-import { Scrollbar } from 'src/components/scrollbar';
-import { fileFormat, FileThumbnail } from 'src/components/file-thumbnail';
-
-import { FileManagerShareDialog } from './file-manager-share-dialog';
 import { FileManagerInvitedItem } from './file-manager-invited-item';
+import { FileManagerShareDialog } from './file-manager-share-dialog';
 
 // ----------------------------------------------------------------------
 

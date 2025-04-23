@@ -1,14 +1,14 @@
-import { useState } from 'react';
-import { varAlpha } from 'minimal-shared/utils';
-
-import Menu from '@mui/material/Menu';
-import { listClasses } from '@mui/material/List';
+import type { EditorToolbarProps } from '../types';
 import ButtonBase, { buttonBaseClasses } from '@mui/material/ButtonBase';
 
-import { Iconify } from '../../iconify';
-import { ToolbarItem } from './toolbar-item';
+import { listClasses } from '@mui/material/List';
+import Menu from '@mui/material/Menu';
+import { varAlpha } from 'minimal-shared/utils';
 
-import type { EditorToolbarProps } from '../types';
+import { useState } from 'react';
+import { Iconify } from '../../iconify';
+
+import { ToolbarItem } from './toolbar-item';
 
 // ----------------------------------------------------------------------
 

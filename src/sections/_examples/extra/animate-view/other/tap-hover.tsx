@@ -1,16 +1,16 @@
 import type { Theme, SxProps } from '@mui/material/styles';
 
-import { m } from 'framer-motion';
-
 import Box from '@mui/material/Box';
-import Fab from '@mui/material/Fab';
+
 import Button from '@mui/material/Button';
+import Fab from '@mui/material/Fab';
 import IconButton from '@mui/material/IconButton';
+import { m } from 'framer-motion';
 
 import { _mock } from 'src/_mock';
 
-import { Iconify } from 'src/components/iconify';
 import { varTap, varHover, transitionTap, transitionHover } from 'src/components/animate';
+import { Iconify } from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

@@ -1,6 +1,6 @@
-import { fSub } from 'src/utils/format-time';
-
 import { CONFIG } from 'src/global-config';
+
+import { fSub } from 'src/utils/format-time';
 
 import {
   _id,

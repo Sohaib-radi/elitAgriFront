@@ -8,13 +8,6 @@ import type {
   CollisionDetection,
 } from '@dnd-kit/core';
 
-import { useRef, useState, useEffect, useCallback } from 'react';
-import {
-  arrayMove,
-  SortableContext,
-  verticalListSortingStrategy,
-  horizontalListSortingStrategy,
-} from '@dnd-kit/sortable';
 import {
   useSensor,
   DndContext,
@@ -28,25 +21,32 @@ import {
   getFirstCollision,
   MeasuringStrategy,
 } from '@dnd-kit/core';
-
+import {
+  arrayMove,
+  SortableContext,
+  verticalListSortingStrategy,
+  horizontalListSortingStrategy,
+} from '@dnd-kit/sortable';
 import Box from '@mui/material/Box';
+
+import FormControlLabel from '@mui/material/FormControlLabel';
 import Stack from '@mui/material/Stack';
 import Switch from '@mui/material/Switch';
 import Typography from '@mui/material/Typography';
-import FormControlLabel from '@mui/material/FormControlLabel';
+import { useRef, useState, useEffect, useCallback } from 'react';
 
-import { DashboardContent } from 'src/layouts/dashboard';
 import { moveTask, moveColumn, useGetBoard } from 'src/actions/kanban';
-
 import { EmptyContent } from 'src/components/empty-content';
 
+import { DashboardContent } from 'src/layouts/dashboard';
+
 import { kanbanClasses } from '../classes';
-import { coordinateGetter } from '../utils';
 import { KanbanColumn } from '../column/kanban-column';
-import { KanbanTaskItem } from '../item/kanban-task-item';
 import { KanbanColumnAdd } from '../column/kanban-column-add';
-import { KanbanColumnSkeleton } from '../components/kanban-skeleton';
 import { KanbanDragOverlay } from '../components/kanban-drag-overlay';
+import { KanbanColumnSkeleton } from '../components/kanban-skeleton';
+import { KanbanTaskItem } from '../item/kanban-task-item';
+import { coordinateGetter } from '../utils';
 
 // ----------------------------------------------------------------------
 

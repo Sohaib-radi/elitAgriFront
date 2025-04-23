@@ -4,9 +4,9 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-import { RouterLink } from 'src/routes/components';
-
 import { MaintenanceIllustration } from 'src/assets/illustrations';
+
+import { RouterLink } from 'src/routes/components';
 
 // ----------------------------------------------------------------------
 

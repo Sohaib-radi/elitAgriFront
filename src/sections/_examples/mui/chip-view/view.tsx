@@ -1,7 +1,7 @@
 'use client';
 
-import { Chips } from './chip';
 import { ComponentLayout } from '../../layout';
+import { Chips } from './chip';
 
 // ----------------------------------------------------------------------
 

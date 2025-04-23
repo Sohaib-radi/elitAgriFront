@@ -2,15 +2,15 @@ import type { FileUploadType } from 'src/components/upload';
 
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Dialog from '@mui/material/Dialog';
-import Divider from '@mui/material/Divider';
 import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
+import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
+import Divider from '@mui/material/Divider';
+import Typography from '@mui/material/Typography';
 
+import { EmptyContent } from 'src/components/empty-content';
 import { Markdown } from 'src/components/markdown';
 import { Scrollbar } from 'src/components/scrollbar';
-import { EmptyContent } from 'src/components/empty-content';
 
 import { PostDetailsHero } from './post-details-hero';
 

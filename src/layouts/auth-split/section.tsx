@@ -1,16 +1,16 @@
 import type { BoxProps } from '@mui/material/Box';
 import type { Breakpoint } from '@mui/material/styles';
 
-import { varAlpha } from 'minimal-shared/utils';
-
 import Box from '@mui/material/Box';
+
 import Link from '@mui/material/Link';
 import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
-
-import { RouterLink } from 'src/routes/components';
+import { varAlpha } from 'minimal-shared/utils';
 
 import { CONFIG } from 'src/global-config';
+
+import { RouterLink } from 'src/routes/components';
 
 // ----------------------------------------------------------------------
 

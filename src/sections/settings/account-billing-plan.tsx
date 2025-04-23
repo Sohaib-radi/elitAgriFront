@@ -1,21 +1,21 @@
 import type { IPaymentCard, IAddressItem } from 'src/types/common';
 
-import { useState, useCallback } from 'react';
-import { useBoolean } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+
 import Card from '@mui/material/Card';
+import CardHeader from '@mui/material/CardHeader';
+import Divider from '@mui/material/Divider';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
-import Divider from '@mui/material/Divider';
-import CardHeader from '@mui/material/CardHeader';
+import { useBoolean } from 'minimal-shared/hooks';
+import { useState, useCallback } from 'react';
 
 import { PlanFreeIcon, PlanStarterIcon, PlanPremiumIcon } from 'src/assets/icons';
 
-import { Label } from 'src/components/label';
 import { Iconify } from 'src/components/iconify';
+import { Label } from 'src/components/label';
 
 import { AddressListDialog } from '../address';
 import { PaymentCardListDialog } from '../payment/payment-card-list-dialog';

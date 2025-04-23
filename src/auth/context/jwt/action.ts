@@ -2,8 +2,8 @@
 
 import axios, { endpoints } from 'src/lib/axios';
 
-import { setSession } from './utils';
 import { JWT_STORAGE_KEY } from './constant';
+import { setSession } from './utils';
 
 // ----------------------------------------------------------------------
 

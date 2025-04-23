@@ -1,17 +1,17 @@
 'use client';
 
-import { varAlpha } from 'minimal-shared/utils';
-import { useCountdownDate } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
+
 import Container from '@mui/material/Container';
-import TextField from '@mui/material/TextField';
 import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import InputAdornment from '@mui/material/InputAdornment';
 import { outlinedInputClasses } from '@mui/material/OutlinedInput';
+import Stack from '@mui/material/Stack';
+import TextField from '@mui/material/TextField';
+import Typography from '@mui/material/Typography';
+import { useCountdownDate } from 'minimal-shared/hooks';
+import { varAlpha } from 'minimal-shared/utils';
 
 import { _socials } from 'src/_mock';
 import { ComingSoonIllustration } from 'src/assets/illustrations';

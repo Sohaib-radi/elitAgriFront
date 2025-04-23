@@ -1,11 +1,14 @@
-import type { Theme, SxProps } from '@mui/material/styles';
+import type { BreadcrumbsLinkProps } from './breadcrumb-link';
+import type { MoreLinksProps } from './more-links';
+
 import type { BreadcrumbsProps } from '@mui/material/Breadcrumbs';
 
+import type { Theme, SxProps } from '@mui/material/styles';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
-
 import { BackLink } from './back-link';
-import { MoreLinks } from './more-links';
 import { BreadcrumbsLink } from './breadcrumb-link';
+
+import { MoreLinks } from './more-links';
 import {
   BreadcrumbsRoot,
   BreadcrumbsHeading,
@@ -13,9 +16,6 @@ import {
   BreadcrumbsContainer,
   BreadcrumbsSeparator,
 } from './styles';
-
-import type { MoreLinksProps } from './more-links';
-import type { BreadcrumbsLinkProps } from './breadcrumb-link';
 
 // ----------------------------------------------------------------------
 

@@ -1,10 +1,10 @@
 import type { Theme, SxProps } from '@mui/material/styles';
 
-import { varAlpha } from 'minimal-shared/utils';
-
 import Button from '@mui/material/Button';
+
 import ButtonBase from '@mui/material/ButtonBase';
 import { alpha as hexAlpha } from '@mui/material/styles';
+import { varAlpha } from 'minimal-shared/utils';
 
 import { AnimateBorder } from 'src/components/animate';
 

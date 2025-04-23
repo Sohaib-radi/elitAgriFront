@@ -1,12 +1,12 @@
 import type { ListSubheaderProps } from '@mui/material/ListSubheader';
 
-import { mergeClasses } from 'minimal-shared/utils';
-
-import { styled } from '@mui/material/styles';
 import ListSubheader from '@mui/material/ListSubheader';
 
-import { navSectionClasses } from '../styles';
+import { styled } from '@mui/material/styles';
+import { mergeClasses } from 'minimal-shared/utils';
+
 import { Iconify, iconifyClasses } from '../../iconify';
+import { navSectionClasses } from '../styles';
 
 // ----------------------------------------------------------------------
 

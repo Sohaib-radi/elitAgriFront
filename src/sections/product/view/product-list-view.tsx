@@ -1,8 +1,6 @@
 'use client';
 
 import type { Theme, SxProps } from '@mui/material/styles';
-import type { UseSetStateReturn } from 'minimal-shared/hooks';
-import type { IProductItem, IProductTableFilters } from 'src/types/product';
 import type {
   GridColDef,
   GridSlotProps,
@@ -10,16 +8,16 @@ import type {
   GridActionsCellItemProps,
   GridColumnVisibilityModel,
 } from '@mui/x-data-grid';
-
-import { useState, useEffect, useCallback } from 'react';
-import { useBoolean, useSetState } from 'minimal-shared/hooks';
+import type { UseSetStateReturn } from 'minimal-shared/hooks';
+import type { IProductItem, IProductTableFilters } from 'src/types/product';
 
 import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
-import Card from '@mui/material/Card';
 import Button from '@mui/material/Button';
-import MenuItem from '@mui/material/MenuItem';
+
+import Card from '@mui/material/Card';
+import Link from '@mui/material/Link';
 import ListItemIcon from '@mui/material/ListItemIcon';
+import MenuItem from '@mui/material/MenuItem';
 import {
   DataGrid,
   gridClasses,
@@ -30,21 +28,22 @@ import {
   GridToolbarFilterButton,
   GridToolbarColumnsButton,
 } from '@mui/x-data-grid';
-
-import { paths } from 'src/routes/paths';
-import { RouterLink } from 'src/routes/components';
+import { useBoolean, useSetState } from 'minimal-shared/hooks';
+import { useState, useEffect, useCallback } from 'react';
 
 import { PRODUCT_STOCK_OPTIONS } from 'src/_mock';
 import { useGetProducts } from 'src/actions/product';
-import { DashboardContent } from 'src/layouts/dashboard';
 
-import { toast } from 'src/components/snackbar';
-import { Iconify } from 'src/components/iconify';
-import { EmptyContent } from 'src/components/empty-content';
-import { ConfirmDialog } from 'src/components/custom-dialog';
 import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
+import { ConfirmDialog } from 'src/components/custom-dialog';
+import { EmptyContent } from 'src/components/empty-content';
 
-import { ProductTableToolbar } from '../product-table-toolbar';
+import { Iconify } from 'src/components/iconify';
+import { toast } from 'src/components/snackbar';
+import { DashboardContent } from 'src/layouts/dashboard';
+import { RouterLink } from 'src/routes/components';
+import { paths } from 'src/routes/paths';
+
 import { ProductTableFiltersResult } from '../product-table-filters-result';
 import {
   RenderCellStock,
@@ -53,6 +52,7 @@ import {
   RenderCellProduct,
   RenderCellCreatedAt,
 } from '../product-table-row';
+import { ProductTableToolbar } from '../product-table-toolbar';
 
 // ----------------------------------------------------------------------
 

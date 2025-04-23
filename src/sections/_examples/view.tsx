@@ -1,12 +1,12 @@
 'use client';
 
-import { m } from 'framer-motion';
-
 import Box from '@mui/material/Box';
+
+import Divider from '@mui/material/Divider';
 import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
-import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
+import { m } from 'framer-motion';
 
 import { varFade, MotionContainer } from 'src/components/animate';
 

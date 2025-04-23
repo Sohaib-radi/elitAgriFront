@@ -1,19 +1,19 @@
 import type { BoxProps } from '@mui/material/Box';
 
-import { useState, useCallback } from 'react';
-import { useBoolean, usePopover } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
-import IconButton from '@mui/material/IconButton';
-import useMediaQuery from '@mui/material/useMediaQuery';
 
-import { Iconify } from 'src/components/iconify';
+import IconButton from '@mui/material/IconButton';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
+import Tooltip from '@mui/material/Tooltip';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useBoolean, usePopover } from 'minimal-shared/hooks';
+import { useState, useCallback } from 'react';
+
 import { ConfirmDialog } from 'src/components/custom-dialog';
 import { CustomPopover } from 'src/components/custom-popover';
+import { Iconify } from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

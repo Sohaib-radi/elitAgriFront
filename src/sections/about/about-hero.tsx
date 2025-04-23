@@ -1,14 +1,14 @@
 import type { BoxProps } from '@mui/material/Box';
 
-import { m } from 'framer-motion';
-
 import Box from '@mui/material/Box';
+
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
-
-import { CONFIG } from 'src/global-config';
+import { m } from 'framer-motion';
 
 import { varFade, AnimateText, MotionContainer, animateTextClasses } from 'src/components/animate';
+
+import { CONFIG } from 'src/global-config';
 
 // ----------------------------------------------------------------------
 

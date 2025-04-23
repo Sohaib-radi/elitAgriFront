@@ -2,11 +2,11 @@
 
 import type { ITourItem } from 'src/types/tour';
 
-import { paths } from 'src/routes/paths';
+import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
 
 import { DashboardContent } from 'src/layouts/dashboard';
 
-import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
+import { paths } from 'src/routes/paths';
 
 import { TourNewEditForm } from '../tour-new-edit-form';
 

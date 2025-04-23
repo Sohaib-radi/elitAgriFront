@@ -3,19 +3,19 @@
 import type { BoxProps } from '@mui/material/Box';
 import type { IconifyName } from 'src/components/iconify';
 
-import { useCallback } from 'react';
-import { useCopyToClipboard } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
-import Tooltip from '@mui/material/Tooltip';
 import Container from '@mui/material/Container';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 
-import { toast } from 'src/components/snackbar';
-import { Iconify, iconSets } from 'src/components/iconify';
+import Grid from '@mui/material/Grid';
+import IconButton from '@mui/material/IconButton';
+import Tooltip from '@mui/material/Tooltip';
+import Typography from '@mui/material/Typography';
+import { useCopyToClipboard } from 'minimal-shared/hooks';
+import { useCallback } from 'react';
+
 import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
+import { Iconify, iconSets } from 'src/components/iconify';
+import { toast } from 'src/components/snackbar';
 
 // ----------------------------------------------------------------------
 

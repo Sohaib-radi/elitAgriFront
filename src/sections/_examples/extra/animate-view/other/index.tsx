@@ -1,16 +1,16 @@
+import Box from '@mui/material/Box';
+
+import IconButton from '@mui/material/IconButton';
 import { useState } from 'react';
 
-import Box from '@mui/material/Box';
-import IconButton from '@mui/material/IconButton';
-
-import { Iconify } from 'src/components/iconify';
 import { AnimateCountUp, AnimateLogoZoom, AnimateLogoRotate } from 'src/components/animate';
+import { Iconify } from 'src/components/iconify';
 
-import { SvgPath } from './svg-path';
-import { BorderEffects } from './border';
-import { AnimateAvatars } from './avatar';
-import { AnimateTapHover } from './tap-hover';
 import { ComponentBox } from '../../../layout';
+import { AnimateAvatars } from './avatar';
+import { BorderEffects } from './border';
+import { SvgPath } from './svg-path';
+import { AnimateTapHover } from './tap-hover';
 
 // ----------------------------------------------------------------------
 

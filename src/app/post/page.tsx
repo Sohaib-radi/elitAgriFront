@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
-import { CONFIG } from 'src/global-config';
 import { getPosts } from 'src/actions/blog-ssr';
+import { CONFIG } from 'src/global-config';
 
 import { PostListHomeView } from 'src/sections/blog/view';
 

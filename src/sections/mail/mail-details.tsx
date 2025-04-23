@@ -1,32 +1,32 @@
 import type { IMail, IMailLabel } from 'src/types/mail';
 
-import { useBoolean } from 'minimal-shared/hooks';
+import Avatar from '@mui/material/Avatar';
 
 import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import ButtonBase from '@mui/material/ButtonBase';
+import Checkbox from '@mui/material/Checkbox';
+import Collapse from '@mui/material/Collapse';
+import IconButton from '@mui/material/IconButton';
 import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
-import Avatar from '@mui/material/Avatar';
-import Tooltip from '@mui/material/Tooltip';
-import Collapse from '@mui/material/Collapse';
-import Checkbox from '@mui/material/Checkbox';
-import ButtonBase from '@mui/material/ButtonBase';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import { darken, lighten, alpha as hexAlpha } from '@mui/material/styles';
+import Tooltip from '@mui/material/Tooltip';
+import Typography from '@mui/material/Typography';
+import { useBoolean } from 'minimal-shared/hooks';
 
-import { fDateTime } from 'src/utils/format-time';
-
-import { CONFIG } from 'src/global-config';
-
-import { Label } from 'src/components/label';
 import { Editor } from 'src/components/editor';
+
+import { EmptyContent } from 'src/components/empty-content';
+
+import { FileThumbnail } from 'src/components/file-thumbnail';
 import { Iconify } from 'src/components/iconify';
+import { Label } from 'src/components/label';
+import { LoadingScreen } from 'src/components/loading-screen';
 import { Markdown } from 'src/components/markdown';
 import { Scrollbar } from 'src/components/scrollbar';
-import { EmptyContent } from 'src/components/empty-content';
-import { FileThumbnail } from 'src/components/file-thumbnail';
-import { LoadingScreen } from 'src/components/loading-screen';
+import { CONFIG } from 'src/global-config';
+import { fDateTime } from 'src/utils/format-time';
 
 // ----------------------------------------------------------------------
 

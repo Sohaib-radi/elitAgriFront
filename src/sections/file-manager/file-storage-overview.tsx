@@ -6,9 +6,9 @@ import Card from '@mui/material/Card';
 import Stack from '@mui/material/Stack';
 import { useTheme } from '@mui/material/styles';
 
-import { fData } from 'src/utils/format-number';
-
 import { Chart, useChart } from 'src/components/chart';
+
+import { fData } from 'src/utils/format-number';
 
 // ----------------------------------------------------------------------
 

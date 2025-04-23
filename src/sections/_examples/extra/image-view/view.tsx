@@ -2,11 +2,11 @@
 
 import type { Theme, SxProps } from '@mui/material/styles';
 
-import { varAlpha } from 'minimal-shared/utils';
-
 import Box from '@mui/material/Box';
+
 import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
+import { varAlpha } from 'minimal-shared/utils';
 
 import { _mock } from 'src/_mock';
 

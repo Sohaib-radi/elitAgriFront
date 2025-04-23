@@ -1,8 +1,8 @@
+import type { UseCarouselProgressReturn } from '../types';
+
 import type { EmblaCarouselType } from 'embla-carousel';
 
 import { useState, useEffect, useCallback } from 'react';
-
-import type { UseCarouselProgressReturn } from '../types';
 
 // ----------------------------------------------------------------------
 

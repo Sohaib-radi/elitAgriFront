@@ -1,22 +1,22 @@
 'use client';
 
-import { z as zod } from 'zod';
-import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
-
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 
-import { paths } from 'src/routes/paths';
-import { useRouter } from 'src/routes/hooks';
-
+import { useForm } from 'react-hook-form';
 import { PasswordIcon } from 'src/assets/icons';
 
 import { Form, Field } from 'src/components/hook-form';
+import { useRouter } from 'src/routes/hooks';
+
+import { paths } from 'src/routes/paths';
+
+import { z as zod } from 'zod';
 
 import { FormHead } from '../../components/form-head';
-import { resetPassword } from '../../context/supabase';
 import { FormReturnLink } from '../../components/form-return-link';
+import { resetPassword } from '../../context/supabase';
 
 // ----------------------------------------------------------------------
 

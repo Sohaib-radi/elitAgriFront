@@ -2,16 +2,14 @@
 
 import type { IProductItem, IProductFilters } from 'src/types/product';
 
-import { useState } from 'react';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+import Stack from '@mui/material/Stack';
+
+import Typography from '@mui/material/Typography';
 import { orderBy } from 'es-toolkit';
 import { useBoolean, useSetState } from 'minimal-shared/hooks';
-
-import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-
-import { paths } from 'src/routes/paths';
+import { useState } from 'react';
 
 import {
   PRODUCT_SORT_OPTIONS,
@@ -23,13 +21,15 @@ import {
 
 import { EmptyContent } from 'src/components/empty-content';
 
-import { CartIcon } from '../cart-icon';
-import { ProductList } from '../product-list';
-import { ProductSort } from '../product-sort';
-import { ProductSearch } from '../product-search';
+import { paths } from 'src/routes/paths';
+
 import { useCheckoutContext } from '../../checkout/context';
+import { CartIcon } from '../cart-icon';
 import { ProductFiltersDrawer } from '../product-filters-drawer';
 import { ProductFiltersResult } from '../product-filters-result';
+import { ProductList } from '../product-list';
+import { ProductSearch } from '../product-search';
+import { ProductSort } from '../product-sort';
 
 // ----------------------------------------------------------------------
 

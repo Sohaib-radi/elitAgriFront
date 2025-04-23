@@ -1,12 +1,12 @@
 import Box from '@mui/material/Box';
-import Step from '@mui/material/Step';
 import Button from '@mui/material/Button';
-import MuiStepper from '@mui/material/Stepper';
+import Step from '@mui/material/Step';
 import StepLabel from '@mui/material/StepLabel';
+import MuiStepper from '@mui/material/Stepper';
 import Typography from '@mui/material/Typography';
 
-import { Iconify } from 'src/components/iconify';
 import { Field } from 'src/components/hook-form';
+import { Iconify } from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

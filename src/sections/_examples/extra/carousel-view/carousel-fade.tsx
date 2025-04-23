@@ -1,6 +1,6 @@
-import Fade from 'embla-carousel-fade';
-
 import Box from '@mui/material/Box';
+
+import Fade from 'embla-carousel-fade';
 
 import {
   Carousel,

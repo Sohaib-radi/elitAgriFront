@@ -1,11 +1,11 @@
-import type { SWRConfiguration } from 'swr';
 import type { IChatMessage, IChatParticipant, IChatConversation } from 'src/types/chat';
+import type { SWRConfiguration } from 'swr';
 
-import { useMemo } from 'react';
 import { keyBy } from 'es-toolkit';
-import useSWR, { mutate } from 'swr';
-
+import { useMemo } from 'react';
 import axios, { fetcher, endpoints } from 'src/lib/axios';
+
+import useSWR, { mutate } from 'swr';
 
 // ----------------------------------------------------------------------
 

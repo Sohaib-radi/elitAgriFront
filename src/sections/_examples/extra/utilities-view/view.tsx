@@ -4,14 +4,14 @@ import type { Theme, SxProps } from '@mui/material/styles';
 
 import Box from '@mui/material/Box';
 
-import { Styled } from './styled';
-import { Countdown } from './countdown';
-import { Gradients } from './gradients';
-import { TextMaxLine } from './text-max-line';
 import { ComponentLayout } from '../../layout';
 import { ColorPickers } from './color-pickers';
-import { NumberInputs } from './number-inputs';
 import { CopyToClipboard } from './copy-to-clipboard';
+import { Countdown } from './countdown';
+import { Gradients } from './gradients';
+import { NumberInputs } from './number-inputs';
+import { Styled } from './styled';
+import { TextMaxLine } from './text-max-line';
 
 // ----------------------------------------------------------------------
 

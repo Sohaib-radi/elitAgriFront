@@ -1,14 +1,14 @@
 import type { BoxProps } from '@mui/material/Box';
 
-import { useState, useCallback } from 'react';
-import { uuidv4 } from 'minimal-shared/utils';
-import { useBoolean } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import TextField from '@mui/material/TextField';
-import { inputBaseClasses } from '@mui/material/InputBase';
 import ClickAwayListener from '@mui/material/ClickAwayListener';
+
+import { inputBaseClasses } from '@mui/material/InputBase';
+import TextField from '@mui/material/TextField';
+import { useBoolean } from 'minimal-shared/hooks';
+import { uuidv4 } from 'minimal-shared/utils';
+import { useState, useCallback } from 'react';
 
 import { createColumn } from 'src/actions/kanban';
 

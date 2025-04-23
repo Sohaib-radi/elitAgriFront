@@ -2,18 +2,14 @@
 
 import type { IJobItem, IJobFilters } from 'src/types/job';
 
-import { orderBy } from 'es-toolkit';
-import { useState, useCallback } from 'react';
-import { useBoolean, useSetState } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
+import Stack from '@mui/material/Stack';
 
-import { paths } from 'src/routes/paths';
-import { RouterLink } from 'src/routes/components';
+import { orderBy } from 'es-toolkit';
+import { useBoolean, useSetState } from 'minimal-shared/hooks';
+import { useState, useCallback } from 'react';
 
-import { DashboardContent } from 'src/layouts/dashboard';
 import {
   _jobs,
   _roles,
@@ -22,16 +18,20 @@ import {
   JOB_EXPERIENCE_OPTIONS,
   JOB_EMPLOYMENT_TYPE_OPTIONS,
 } from 'src/_mock';
-
-import { Iconify } from 'src/components/iconify';
-import { EmptyContent } from 'src/components/empty-content';
 import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
 
-import { JobList } from '../job-list';
-import { JobSort } from '../job-sort';
-import { JobSearch } from '../job-search';
+import { EmptyContent } from 'src/components/empty-content';
+import { Iconify } from 'src/components/iconify';
+
+import { DashboardContent } from 'src/layouts/dashboard';
+import { RouterLink } from 'src/routes/components';
+import { paths } from 'src/routes/paths';
+
 import { JobFilters } from '../job-filters';
 import { JobFiltersResult } from '../job-filters-result';
+import { JobList } from '../job-list';
+import { JobSearch } from '../job-search';
+import { JobSort } from '../job-sort';
 
 // ----------------------------------------------------------------------
 

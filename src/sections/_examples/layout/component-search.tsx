@@ -1,24 +1,24 @@
+import type { NavItemData } from '../layout/nav-config-components';
+
 import type { Theme, SxProps } from '@mui/material/styles';
-
-import { useState, useCallback } from 'react';
-import parse from 'autosuggest-highlight/parse';
-import match from 'autosuggest-highlight/match';
-import { isEqualPath } from 'minimal-shared/utils';
-
-import TextField from '@mui/material/TextField';
-import Typography from '@mui/material/Typography';
-import Link, { linkClasses } from '@mui/material/Link';
+import Autocomplete, { autocompleteClasses } from '@mui/material/Autocomplete';
 import InputAdornment from '@mui/material/InputAdornment';
 import { inputBaseClasses } from '@mui/material/InputBase';
-import Autocomplete, { autocompleteClasses } from '@mui/material/Autocomplete';
 
-import { RouterLink } from 'src/routes/components';
-import { useRouter, usePathname } from 'src/routes/hooks';
+import Link, { linkClasses } from '@mui/material/Link';
+import TextField from '@mui/material/TextField';
+import Typography from '@mui/material/Typography';
+import match from 'autosuggest-highlight/match';
+import parse from 'autosuggest-highlight/parse';
+import { isEqualPath } from 'minimal-shared/utils';
 
+import { useState, useCallback } from 'react';
 import { Iconify } from 'src/components/iconify';
-import { SearchNotFound } from 'src/components/search-not-found';
 
-import type { NavItemData } from '../layout/nav-config-components';
+import { SearchNotFound } from 'src/components/search-not-found';
+import { RouterLink } from 'src/routes/components';
+
+import { useRouter, usePathname } from 'src/routes/hooks';
 
 // ----------------------------------------------------------------------
 

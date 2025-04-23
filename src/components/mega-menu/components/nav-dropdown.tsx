@@ -1,6 +1,6 @@
-import { mergeClasses } from 'minimal-shared/utils';
-
 import { styled } from '@mui/material/styles';
+
+import { mergeClasses } from 'minimal-shared/utils';
 
 import { megaMenuClasses } from '../styles';
 

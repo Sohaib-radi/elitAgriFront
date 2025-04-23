@@ -1,24 +1,24 @@
 import type { BoxProps } from '@mui/material/Box';
 import type { CardProps } from '@mui/material/Card';
 
-import { useTabs } from 'minimal-shared/hooks';
+import Avatar from '@mui/material/Avatar';
 
 import Box from '@mui/material/Box';
-import Tab from '@mui/material/Tab';
 import Card from '@mui/material/Card';
-import Stack from '@mui/material/Stack';
-import Rating from '@mui/material/Rating';
-import Avatar from '@mui/material/Avatar';
 import CardHeader from '@mui/material/CardHeader';
-import Typography from '@mui/material/Typography';
+import Rating from '@mui/material/Rating';
+import Stack from '@mui/material/Stack';
 import { svgIconClasses } from '@mui/material/SvgIcon';
+import Tab from '@mui/material/Tab';
+import Typography from '@mui/material/Typography';
+import { useTabs } from 'minimal-shared/hooks';
 
-import { fData, fCurrency, fShortenNumber } from 'src/utils/format-number';
-
-import { Label } from 'src/components/label';
-import { Iconify } from 'src/components/iconify';
-import { Scrollbar } from 'src/components/scrollbar';
 import { CustomTabs } from 'src/components/custom-tabs';
+
+import { Iconify } from 'src/components/iconify';
+import { Label } from 'src/components/label';
+import { Scrollbar } from 'src/components/scrollbar';
+import { fData, fCurrency, fShortenNumber } from 'src/utils/format-number';
 
 // ----------------------------------------------------------------------
 

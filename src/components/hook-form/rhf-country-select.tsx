@@ -1,8 +1,8 @@
+import type { CountrySelectProps } from '../country-select';
+
 import { Controller, useFormContext } from 'react-hook-form';
 
 import { CountrySelect } from '../country-select';
-
-import type { CountrySelectProps } from '../country-select';
 
 // ----------------------------------------------------------------------
 

@@ -1,13 +1,13 @@
 import type { FileRejection } from 'react-dropzone';
 
-import { varAlpha, mergeClasses } from 'minimal-shared/utils';
-
 import { styled } from '@mui/material/styles';
+
+import { varAlpha, mergeClasses } from 'minimal-shared/utils';
 
 import { fData } from 'src/utils/format-number';
 
-import { uploadClasses } from '../classes';
 import { fileData } from '../../file-thumbnail';
+import { uploadClasses } from '../classes';
 
 // ----------------------------------------------------------------------
 

@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
-import { CONFIG } from 'src/global-config';
-
 import { SupabaseUpdatePasswordView } from 'src/auth/view/supabase';
+
+import { CONFIG } from 'src/global-config';
 
 // ----------------------------------------------------------------------
 

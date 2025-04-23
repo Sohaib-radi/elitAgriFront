@@ -1,19 +1,19 @@
 import type { CardProps } from '@mui/material/Card';
 
+import Box from '@mui/material/Box';
+
+import Button from '@mui/material/Button';
+import Card from '@mui/material/Card';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Grid from '@mui/material/Grid';
+import ListItemText from '@mui/material/ListItemText';
+import Switch from '@mui/material/Switch';
 import { useForm, Controller } from 'react-hook-form';
 
-import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
-import Grid from '@mui/material/Grid';
-import Switch from '@mui/material/Switch';
-import Button from '@mui/material/Button';
-import ListItemText from '@mui/material/ListItemText';
-import FormControlLabel from '@mui/material/FormControlLabel';
-
-import axios, { endpoints } from 'src/lib/axios';
+import { Form } from 'src/components/hook-form';
 
 import { toast } from 'src/components/snackbar';
-import { Form } from 'src/components/hook-form';
+import axios, { endpoints } from 'src/lib/axios';
 
 // ----------------------------------------------------------------------
 

@@ -1,19 +1,19 @@
-import type { IDateValue } from 'src/types/common';
 import type { ICalendarView } from 'src/types/calendar';
+import type { IDateValue } from 'src/types/common';
 
-import { usePopover } from 'minimal-shared/hooks';
+import Badge from '@mui/material/Badge';
 
 import Box from '@mui/material/Box';
-import Badge from '@mui/material/Badge';
 import Button from '@mui/material/Button';
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
 import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import LinearProgress from '@mui/material/LinearProgress';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
+import Typography from '@mui/material/Typography';
+import { usePopover } from 'minimal-shared/hooks';
 
-import { Iconify } from 'src/components/iconify';
 import { CustomPopover } from 'src/components/custom-popover';
+import { Iconify } from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

@@ -1,17 +1,17 @@
-import { usePopover } from 'minimal-shared/hooks';
+import type { NodeProps } from './data';
 
-import Card from '@mui/material/Card';
 import Avatar from '@mui/material/Avatar';
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
+import Card from '@mui/material/Card';
 import IconButton from '@mui/material/IconButton';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
 import Typography from '@mui/material/Typography';
 
-import { toast } from 'src/components/snackbar';
-import { Iconify } from 'src/components/iconify';
+import { usePopover } from 'minimal-shared/hooks';
 import { CustomPopover } from 'src/components/custom-popover';
+import { Iconify } from 'src/components/iconify';
 
-import type { NodeProps } from './data';
+import { toast } from 'src/components/snackbar';
 
 // ----------------------------------------------------------------------
 

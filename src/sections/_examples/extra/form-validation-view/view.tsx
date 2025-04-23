@@ -1,22 +1,22 @@
 'use client';
 
-import { useState } from 'react';
-
 import Box from '@mui/material/Box';
-import Switch from '@mui/material/Switch';
+
 import Divider from '@mui/material/Divider';
-import Typography from '@mui/material/Typography';
-import ToggleButton from '@mui/material/ToggleButton';
 import FormControlLabel from '@mui/material/FormControlLabel';
+import Switch from '@mui/material/Switch';
+import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
+import Typography from '@mui/material/Typography';
+import { useState } from 'react';
 
 import { RouterLink } from 'src/routes/components';
 import { usePathname, useSearchParams } from 'src/routes/hooks';
 
-import { OtherDemo } from './other-demo';
-import { FieldsDemo } from './fields-demo';
-import { ControlsDemo } from './controls-demo';
 import { ComponentLayout } from '../../layout';
+import { ControlsDemo } from './controls-demo';
+import { FieldsDemo } from './fields-demo';
+import { OtherDemo } from './other-demo';
 
 // ----------------------------------------------------------------------
 

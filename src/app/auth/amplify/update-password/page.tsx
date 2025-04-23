@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
-import { CONFIG } from 'src/global-config';
-
 import { AmplifyUpdatePasswordView } from 'src/auth/view/amplify';
+
+import { CONFIG } from 'src/global-config';
 
 // ----------------------------------------------------------------------
 

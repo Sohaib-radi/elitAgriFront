@@ -1,29 +1,27 @@
 'use client';
 
-import { z as zod } from 'zod';
-import { useState } from 'react';
-import { useForm } from 'react-hook-form';
-import { useBoolean } from 'minimal-shared/hooks';
 import { zodResolver } from '@hookform/resolvers/zod';
-
-import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
 import Alert from '@mui/material/Alert';
+import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
+
 import InputAdornment from '@mui/material/InputAdornment';
-
-import { paths } from 'src/routes/paths';
-import { useRouter } from 'src/routes/hooks';
-import { RouterLink } from 'src/routes/components';
-
-import { Iconify } from 'src/components/iconify';
+import Link from '@mui/material/Link';
+import { useBoolean } from 'minimal-shared/hooks';
+import { useState } from 'react';
+import { useForm } from 'react-hook-form';
 import { Form, Field } from 'src/components/hook-form';
 
-import { useAuthContext } from '../../hooks';
-import { getErrorMessage } from '../../utils';
-import { FormHead } from '../../components/form-head';
+import { Iconify } from 'src/components/iconify';
+import { RouterLink } from 'src/routes/components';
+import { useRouter } from 'src/routes/hooks';
+
+import { paths } from 'src/routes/paths';
+import { z as zod } from 'zod';
+
 import { FormDivider } from '../../components/form-divider';
+import { FormHead } from '../../components/form-head';
 import { FormSocials } from '../../components/form-socials';
 import {
   signInWithGoogle,
@@ -31,6 +29,8 @@ import {
   signInWithTwitter,
   signInWithPassword,
 } from '../../context/firebase';
+import { useAuthContext } from '../../hooks';
+import { getErrorMessage } from '../../utils';
 
 // ----------------------------------------------------------------------
 

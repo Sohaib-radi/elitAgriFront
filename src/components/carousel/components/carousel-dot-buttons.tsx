@@ -1,14 +1,14 @@
+import type { CarouselDotButtonsProps } from '../types';
+
 import type { CSSObject } from '@mui/material/styles';
+
+import Box from '@mui/material/Box';
+import ButtonBase from '@mui/material/ButtonBase';
+import { styled } from '@mui/material/styles';
 
 import { varAlpha, mergeClasses } from 'minimal-shared/utils';
 
-import Box from '@mui/material/Box';
-import { styled } from '@mui/material/styles';
-import ButtonBase from '@mui/material/ButtonBase';
-
 import { carouselClasses } from '../classes';
-
-import type { CarouselDotButtonsProps } from '../types';
 
 // ----------------------------------------------------------------------
 

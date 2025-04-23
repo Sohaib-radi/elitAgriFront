@@ -1,28 +1,28 @@
-import type { Theme, CSSObject } from '@mui/material/styles';
 import type { ContainerProps } from '@mui/material/Container';
+import type { Theme, CSSObject } from '@mui/material/styles';
 import type { CustomBreadcrumbsProps } from 'src/components/custom-breadcrumbs';
 
-import { useCallback } from 'react';
-import { kebabCase } from 'es-toolkit';
-import { varAlpha } from 'minimal-shared/utils';
-
 import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardHeader from '@mui/material/CardHeader';
+
+import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
 import { styled } from '@mui/material/styles';
-import Container from '@mui/material/Container';
-import CardHeader from '@mui/material/CardHeader';
-import CardContent from '@mui/material/CardContent';
-
-import { paths } from 'src/routes/paths';
-
-import { CONFIG } from 'src/global-config';
+import { kebabCase } from 'es-toolkit';
+import { varAlpha } from 'minimal-shared/utils';
+import { useCallback } from 'react';
 
 import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
 
+import { CONFIG } from 'src/global-config';
+
+import { paths } from 'src/routes/paths';
+
 import { componentLayoutClasses } from './classes';
+import { PrimaryNav, SecondaryNav } from './component-nav';
 import { useScroll, useHashScroll } from './hooks';
 import { allComponents } from './nav-config-components';
-import { PrimaryNav, SecondaryNav } from './component-nav';
 
 // ----------------------------------------------------------------------
 

@@ -1,18 +1,18 @@
-import { mergeClasses } from 'minimal-shared/utils';
+import type { NavCarouselProps } from '../types';
 
 import Link from '@mui/material/Link';
 import { styled } from '@mui/material/styles';
 
-import { Image } from '../../image';
-import { megaMenuClasses } from '../styles';
+import { mergeClasses } from 'minimal-shared/utils';
 import {
   Carousel,
   useCarousel,
   CarouselDotButtons,
   CarouselArrowBasicButtons,
 } from '../../carousel';
+import { Image } from '../../image';
 
-import type { NavCarouselProps } from '../types';
+import { megaMenuClasses } from '../styles';
 
 // ----------------------------------------------------------------------
 

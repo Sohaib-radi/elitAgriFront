@@ -2,27 +2,27 @@ import type { BoxProps } from '@mui/material/Box';
 import type { Breakpoint } from '@mui/material/styles';
 import type { MotionProps, MotionValue, SpringOptions } from 'framer-motion';
 
-import { useRef, useState } from 'react';
-import { m, useScroll, useSpring, useTransform, useMotionValueEvent } from 'framer-motion';
+import Avatar, { avatarClasses } from '@mui/material/Avatar';
+import AvatarGroup from '@mui/material/AvatarGroup';
 
 import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
-import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
+import Link from '@mui/material/Link';
+import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
-import AvatarGroup from '@mui/material/AvatarGroup';
 import useMediaQuery from '@mui/material/useMediaQuery';
-import Avatar, { avatarClasses } from '@mui/material/Avatar';
-
-import { paths } from 'src/routes/paths';
-import { RouterLink } from 'src/routes/components';
+import { m, useScroll, useSpring, useTransform, useMotionValueEvent } from 'framer-motion';
+import { useRef, useState } from 'react';
 
 import { _mock } from 'src/_mock';
-import { CONFIG } from 'src/global-config';
+import { varFade, MotionContainer } from 'src/components/animate';
 
 import { Iconify } from 'src/components/iconify';
-import { varFade, MotionContainer } from 'src/components/animate';
+import { CONFIG } from 'src/global-config';
+
+import { RouterLink } from 'src/routes/components';
+import { paths } from 'src/routes/paths';
 
 import { HeroBackground } from './components/hero-background';
 

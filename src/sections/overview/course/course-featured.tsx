@@ -2,17 +2,17 @@ import type { BoxProps } from '@mui/material/Box';
 import type { CardProps } from '@mui/material/Card';
 
 import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
-import Card from '@mui/material/Card';
 import Button from '@mui/material/Button';
+import Card from '@mui/material/Card';
+import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 
-import { fCurrency, fShortenNumber } from 'src/utils/format-number';
-
-import { Image } from 'src/components/image';
-import { Iconify } from 'src/components/iconify';
-import { Label, labelClasses } from 'src/components/label';
 import { Carousel, useCarousel, CarouselArrowBasicButtons } from 'src/components/carousel';
+
+import { Iconify } from 'src/components/iconify';
+import { Image } from 'src/components/image';
+import { Label, labelClasses } from 'src/components/label';
+import { fCurrency, fShortenNumber } from 'src/utils/format-number';
 
 // ----------------------------------------------------------------------
 

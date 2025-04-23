@@ -1,9 +1,9 @@
 import type { BoxProps } from '@mui/material/Box';
 
 import Box from '@mui/material/Box';
-import Switch from '@mui/material/Switch';
-import IconButton from '@mui/material/IconButton';
 import FormControlLabel from '@mui/material/FormControlLabel';
+import IconButton from '@mui/material/IconButton';
+import Switch from '@mui/material/Switch';
 
 import { Iconify } from 'src/components/iconify';
 

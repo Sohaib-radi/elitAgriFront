@@ -1,35 +1,35 @@
+import type { UseNavCollapseReturn } from './hooks/use-collapse-nav';
+
 import type { IChatParticipant, IChatConversations } from 'src/types/chat';
 
-import { useMemo, useState, useEffect, useCallback } from 'react';
-
 import Box from '@mui/material/Box';
-import Drawer from '@mui/material/Drawer';
-import TextField from '@mui/material/TextField';
-import IconButton from '@mui/material/IconButton';
-import useMediaQuery from '@mui/material/useMediaQuery';
-import InputAdornment from '@mui/material/InputAdornment';
 import ClickAwayListener from '@mui/material/ClickAwayListener';
+import Drawer from '@mui/material/Drawer';
+import IconButton from '@mui/material/IconButton';
+import InputAdornment from '@mui/material/InputAdornment';
+import TextField from '@mui/material/TextField';
+import useMediaQuery from '@mui/material/useMediaQuery';
 
-import { paths } from 'src/routes/paths';
-import { useRouter } from 'src/routes/hooks';
-
-import { today } from 'src/utils/format-time';
-
+import { useMemo, useState, useEffect, useCallback } from 'react';
 import { createConversation } from 'src/actions/chat';
-
-import { Iconify } from 'src/components/iconify';
-import { Scrollbar } from 'src/components/scrollbar';
 
 import { useMockedUser } from 'src/auth/hooks';
 
-import { ToggleButton } from './styles';
-import { ChatNavItem } from './chat-nav-item';
-import { ChatNavAccount } from './chat-nav-account';
-import { ChatNavItemSkeleton } from './chat-skeleton';
-import { ChatNavSearchResults } from './chat-nav-search-results';
-import { initialConversation } from './utils/initial-conversation';
+import { Iconify } from 'src/components/iconify';
 
-import type { UseNavCollapseReturn } from './hooks/use-collapse-nav';
+import { Scrollbar } from 'src/components/scrollbar';
+import { useRouter } from 'src/routes/hooks';
+
+import { paths } from 'src/routes/paths';
+
+import { today } from 'src/utils/format-time';
+import { ChatNavAccount } from './chat-nav-account';
+import { ChatNavItem } from './chat-nav-item';
+import { ChatNavSearchResults } from './chat-nav-search-results';
+import { ChatNavItemSkeleton } from './chat-skeleton';
+import { ToggleButton } from './styles';
+
+import { initialConversation } from './utils/initial-conversation';
 
 // ----------------------------------------------------------------------
 

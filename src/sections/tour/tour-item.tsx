@@ -1,24 +1,24 @@
-import type { ITourItem } from 'src/types/tour';
 import type { CardProps } from '@mui/material/Card';
-
-import { usePopover } from 'minimal-shared/hooks';
+import type { ITourItem } from 'src/types/tour';
 
 import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
+
 import Card from '@mui/material/Card';
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
 import IconButton from '@mui/material/IconButton';
+import Link from '@mui/material/Link';
 import ListItemText from '@mui/material/ListItemText';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
+import { usePopover } from 'minimal-shared/hooks';
+
+import { CustomPopover } from 'src/components/custom-popover';
+
+import { Iconify } from 'src/components/iconify';
+import { Image } from 'src/components/image';
 
 import { RouterLink } from 'src/routes/components';
-
 import { fCurrency } from 'src/utils/format-number';
 import { fDateTime, fDateRangeShortLabel } from 'src/utils/format-time';
-
-import { Image } from 'src/components/image';
-import { Iconify } from 'src/components/iconify';
-import { CustomPopover } from 'src/components/custom-popover';
 
 // ----------------------------------------------------------------------
 

@@ -1,14 +1,14 @@
 import type { IChatParticipant } from 'src/types/chat';
 
-import { useState, useCallback } from 'react';
-import { varAlpha } from 'minimal-shared/utils';
+import Autocomplete from '@mui/material/Autocomplete';
+import Avatar from '@mui/material/Avatar';
 
 import Box from '@mui/material/Box';
 import Chip from '@mui/material/Chip';
-import Avatar from '@mui/material/Avatar';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
-import Autocomplete from '@mui/material/Autocomplete';
+import { varAlpha } from 'minimal-shared/utils';
+import { useState, useCallback } from 'react';
 
 import { Iconify } from 'src/components/iconify';
 import { SearchNotFound } from 'src/components/search-not-found';

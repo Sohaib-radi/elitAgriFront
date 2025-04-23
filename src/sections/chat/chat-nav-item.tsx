@@ -1,24 +1,24 @@
 import type { IChatConversation } from 'src/types/chat';
 
+import Avatar from '@mui/material/Avatar';
+
+import AvatarGroup from '@mui/material/AvatarGroup';
+import Badge from '@mui/material/Badge';
+import Box from '@mui/material/Box';
+import ListItemButton from '@mui/material/ListItemButton';
+import ListItemText from '@mui/material/ListItemText';
+import Typography from '@mui/material/Typography';
+import useMediaQuery from '@mui/material/useMediaQuery';
 import { useCallback, startTransition } from 'react';
 
-import Box from '@mui/material/Box';
-import Badge from '@mui/material/Badge';
-import Avatar from '@mui/material/Avatar';
-import Typography from '@mui/material/Typography';
-import AvatarGroup from '@mui/material/AvatarGroup';
-import ListItemText from '@mui/material/ListItemText';
-import useMediaQuery from '@mui/material/useMediaQuery';
-import ListItemButton from '@mui/material/ListItemButton';
+import { clickConversation } from 'src/actions/chat';
+import { useMockedUser } from 'src/auth/hooks';
 
-import { paths } from 'src/routes/paths';
 import { useRouter } from 'src/routes/hooks';
 
+import { paths } from 'src/routes/paths';
+
 import { fToNow } from 'src/utils/format-time';
-
-import { clickConversation } from 'src/actions/chat';
-
-import { useMockedUser } from 'src/auth/hooks';
 
 import { getNavItem } from './utils/get-nav-item';
 

@@ -1,22 +1,22 @@
 'use client';
 
-import type { MapProps } from 'src/components/map';
 import type { Theme, SxProps } from '@mui/material/styles';
+import type { MapProps } from 'src/components/map';
 
 import { cities as CITIES } from 'src/_mock/_map/cities';
 import { countries as COUNTRIES } from 'src/_mock/_map/countries';
 
-import { MapHeatmap } from './heatmap';
-import { MapClusters } from './map-clusters';
-import { MapInteraction } from './interaction';
-import { MapSideBySide } from './side-by-side';
 import { ComponentLayout } from '../../layout';
 import { MapChangeTheme } from './change-theme';
-import { MapMarkersPopups } from './map-markers-popups';
 import { MapDraggableMarkers } from './draggable-markers';
-import { MapViewportAnimation } from './viewport-animation';
+import { MapHeatmap } from './heatmap';
+import { MapInteraction } from './interaction';
+import { MapClusters } from './map-clusters';
 import { MapGeoJSONAnimation } from './map-geo-json-animation';
 import { MapHighlightByFilter } from './map-highlight-by-filter';
+import { MapMarkersPopups } from './map-markers-popups';
+import { MapSideBySide } from './side-by-side';
+import { MapViewportAnimation } from './viewport-animation';
 
 // ----------------------------------------------------------------------
 

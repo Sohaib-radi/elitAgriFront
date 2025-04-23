@@ -1,9 +1,9 @@
 import type { ButtonProps } from '@mui/material/Button';
 import type { Theme, CSSObject, Components, ComponentsVariants } from '@mui/material/styles';
 
-import { varAlpha } from 'minimal-shared/utils';
-
 import { buttonClasses } from '@mui/material/Button';
+
+import { varAlpha } from 'minimal-shared/utils';
 
 // ----------------------------------------------------------------------
 

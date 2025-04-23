@@ -1,12 +1,12 @@
 import type { MapProps } from 'src/components/map';
 
-import { Layer, Source } from 'react-map-gl/mapbox';
 import { useMemo, useState, useEffect } from 'react';
+import { Layer, Source } from 'react-map-gl/mapbox';
 
 import { Map } from 'src/components/map';
 
-import { heatmapLayer } from './map-style';
 import { MapControlPanel } from './control-panel';
+import { heatmapLayer } from './map-style';
 
 // ----------------------------------------------------------------------
 

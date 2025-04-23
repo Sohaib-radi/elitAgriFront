@@ -1,26 +1,26 @@
 import type { BoxProps } from '@mui/material/Box';
 import type { IDateValue } from 'src/types/common';
 
+import Masonry from '@mui/lab/Masonry';
+import Avatar from '@mui/material/Avatar';
+
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
+import ListItemText from '@mui/material/ListItemText';
+import Rating from '@mui/material/Rating';
+import Typography from '@mui/material/Typography';
 import { m } from 'framer-motion';
 import { varAlpha } from 'minimal-shared/utils';
 
-import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
-import Masonry from '@mui/lab/Masonry';
-import Rating from '@mui/material/Rating';
-import Button from '@mui/material/Button';
-import Avatar from '@mui/material/Avatar';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-import ListItemText from '@mui/material/ListItemText';
-
-import { fDate } from 'src/utils/format-time';
-
 import { _testimonials } from 'src/_mock';
-import { CONFIG } from 'src/global-config';
 
-import { Iconify } from 'src/components/iconify';
 import { varFade, MotionViewport } from 'src/components/animate';
+import { Iconify } from 'src/components/iconify';
+
+import { CONFIG } from 'src/global-config';
+import { fDate } from 'src/utils/format-time';
 
 // ----------------------------------------------------------------------
 

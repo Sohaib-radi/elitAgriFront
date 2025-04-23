@@ -1,12 +1,12 @@
 import type { BoxProps } from '@mui/material/Box';
 import type { TextFieldProps } from '@mui/material/TextField';
 
-import { useBoolean } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
-import TextField from '@mui/material/TextField';
+
 import IconButton from '@mui/material/IconButton';
 import InputAdornment from '@mui/material/InputAdornment';
+import TextField from '@mui/material/TextField';
+import { useBoolean } from 'minimal-shared/hooks';
 
 import { Field } from 'src/components/hook-form';
 import { Iconify } from 'src/components/iconify';

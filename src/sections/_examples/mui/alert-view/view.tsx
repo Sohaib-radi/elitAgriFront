@@ -2,11 +2,11 @@
 
 import type { Theme, SxProps } from '@mui/material/styles';
 
-import { varAlpha } from 'minimal-shared/utils';
-
 import Alert from '@mui/material/Alert';
-import Button from '@mui/material/Button';
+
 import AlertTitle from '@mui/material/AlertTitle';
+import Button from '@mui/material/Button';
+import { varAlpha } from 'minimal-shared/utils';
 
 import { ComponentBox, ComponentLayout } from '../../layout';
 

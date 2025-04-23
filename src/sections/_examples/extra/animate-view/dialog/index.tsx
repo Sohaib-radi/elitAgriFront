@@ -1,13 +1,13 @@
-import { useState, useCallback } from 'react';
+import type { ControlPanelProps } from '../control-panel';
+import Box from '@mui/material/Box';
+
+import Card from '@mui/material/Card';
 import { useBoolean } from 'minimal-shared/hooks';
 
-import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
-
-import { ContainerView } from './container';
+import { useState, useCallback } from 'react';
 import { ControlPanel } from '../control-panel';
 
-import type { ControlPanelProps } from '../control-panel';
+import { ContainerView } from './container';
 
 // ----------------------------------------------------------------------
 

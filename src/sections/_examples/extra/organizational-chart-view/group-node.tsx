@@ -1,23 +1,23 @@
+import type { NodeProps } from './data';
 import type { Theme } from '@mui/material/styles';
-import type { PaletteColorKey } from 'src/theme/core';
 
-import { varAlpha } from 'minimal-shared/utils';
-import { usePopover } from 'minimal-shared/hooks';
+import type { PaletteColorKey } from 'src/theme/core';
+import Avatar from '@mui/material/Avatar';
 
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
-import Avatar from '@mui/material/Avatar';
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
-import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
+import Typography from '@mui/material/Typography';
+import { usePopover } from 'minimal-shared/hooks';
 
-import { Label } from 'src/components/label';
-import { toast } from 'src/components/snackbar';
-import { Iconify } from 'src/components/iconify';
+import { varAlpha } from 'minimal-shared/utils';
 import { CustomPopover } from 'src/components/custom-popover';
+import { Iconify } from 'src/components/iconify';
+import { Label } from 'src/components/label';
 
-import type { NodeProps } from './data';
+import { toast } from 'src/components/snackbar';
 
 // ----------------------------------------------------------------------
 

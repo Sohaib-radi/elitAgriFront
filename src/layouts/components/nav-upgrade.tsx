@@ -1,20 +1,20 @@
 import type { BoxProps } from '@mui/material/Box';
 
+import Avatar from '@mui/material/Avatar';
+import Box from '@mui/material/Box';
+
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
 import { m } from 'framer-motion';
 import { varAlpha } from 'minimal-shared/utils';
 
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Avatar from '@mui/material/Avatar';
-import Typography from '@mui/material/Typography';
-
-import { paths } from 'src/routes/paths';
-
-import { CONFIG } from 'src/global-config';
+import { useMockedUser } from 'src/auth/hooks';
 
 import { Label } from 'src/components/label';
 
-import { useMockedUser } from 'src/auth/hooks';
+import { CONFIG } from 'src/global-config';
+
+import { paths } from 'src/routes/paths';
 
 // ----------------------------------------------------------------------
 

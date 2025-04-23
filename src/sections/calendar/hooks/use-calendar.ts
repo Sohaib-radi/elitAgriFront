@@ -1,11 +1,11 @@
-import type FullCalendar from '@fullcalendar/react';
-import type { EventResizeDoneArg } from '@fullcalendar/interaction';
 import type { EventDropArg, DateSelectArg, EventClickArg } from '@fullcalendar/core';
+import type { EventResizeDoneArg } from '@fullcalendar/interaction';
+import type FullCalendar from '@fullcalendar/react';
 import type { ICalendarView, ICalendarRange, ICalendarEvent } from 'src/types/calendar';
 
-import { useRef, useState, useCallback } from 'react';
-
 import useMediaQuery from '@mui/material/useMediaQuery';
+
+import { useRef, useState, useCallback } from 'react';
 
 // ----------------------------------------------------------------------
 

@@ -1,9 +1,9 @@
-import { m } from 'framer-motion';
-
 import IconButton from '@mui/material/IconButton';
 
-import { Iconify } from 'src/components/iconify';
+import { m } from 'framer-motion';
+
 import { varTap, varHover, transitionTap } from 'src/components/animate';
+import { Iconify } from 'src/components/iconify';
 
 import { ComponentBox } from '../../layout';
 

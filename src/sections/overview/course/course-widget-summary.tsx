@@ -5,9 +5,9 @@ import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import Typography from '@mui/material/Typography';
 
-import { fNumber } from 'src/utils/format-number';
-
 import { SvgColor } from 'src/components/svg-color';
+
+import { fNumber } from 'src/utils/format-number';
 
 // ----------------------------------------------------------------------
 

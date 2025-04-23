@@ -1,12 +1,12 @@
 import type { BoxProps } from '@mui/material/Box';
 
-import Box from '@mui/material/Box';
 import Badge from '@mui/material/Badge';
-
-import { paths } from 'src/routes/paths';
-import { RouterLink } from 'src/routes/components';
+import Box from '@mui/material/Box';
 
 import { Iconify } from 'src/components/iconify';
+import { RouterLink } from 'src/routes/components';
+
+import { paths } from 'src/routes/paths';
 
 // ----------------------------------------------------------------------
 

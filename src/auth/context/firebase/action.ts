@@ -1,6 +1,5 @@
 'use client';
 
-import { doc, setDoc, collection } from 'firebase/firestore';
 import {
   signOut as _signOut,
   signInWithPopup as _signInWithPopup,
@@ -12,6 +11,7 @@ import {
   signInWithEmailAndPassword as _signInWithEmailAndPassword,
   createUserWithEmailAndPassword as _createUserWithEmailAndPassword,
 } from 'firebase/auth';
+import { doc, setDoc, collection } from 'firebase/firestore';
 
 import { AUTH, FIRESTORE } from 'src/lib/firebase';
 

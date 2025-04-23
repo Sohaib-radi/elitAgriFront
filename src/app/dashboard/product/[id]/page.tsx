@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 import type { IProductItem } from 'src/types/product';
 
+import { getProduct } from 'src/actions/product-ssr';
 import { CONFIG } from 'src/global-config';
 import axios, { endpoints } from 'src/lib/axios';
-import { getProduct } from 'src/actions/product-ssr';
 
 import { ProductDetailsView } from 'src/sections/product/view';
 

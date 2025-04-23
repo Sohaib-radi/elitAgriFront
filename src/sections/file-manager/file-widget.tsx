@@ -3,12 +3,12 @@ import type { CardProps } from '@mui/material/Card';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import LinearProgress from '@mui/material/LinearProgress';
-
-import { fData } from 'src/utils/format-number';
+import Typography from '@mui/material/Typography';
 
 import { Iconify } from 'src/components/iconify';
+
+import { fData } from 'src/utils/format-number';
 
 // ----------------------------------------------------------------------
 

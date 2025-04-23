@@ -3,10 +3,10 @@ import type { CheckoutContextValue } from 'src/types/checkout';
 
 import Box from '@mui/material/Box';
 import Step from '@mui/material/Step';
+import MuiStepConnector, { stepConnectorClasses } from '@mui/material/StepConnector';
+import StepLabel, { stepLabelClasses } from '@mui/material/StepLabel';
 import Stepper from '@mui/material/Stepper';
 import { styled } from '@mui/material/styles';
-import StepLabel, { stepLabelClasses } from '@mui/material/StepLabel';
-import MuiStepConnector, { stepConnectorClasses } from '@mui/material/StepConnector';
 
 import { Iconify } from 'src/components/iconify';
 

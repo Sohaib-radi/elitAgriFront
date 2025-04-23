@@ -1,12 +1,12 @@
+import type { ThemeOptions, ThemeColorScheme } from '../types';
 import type { ColorSystem } from '@mui/material/styles';
+
 import type { SettingsState } from 'src/components/settings';
 
 import { setFont, hexToRgbChannel, createPaletteChannel } from 'minimal-shared/utils';
-
-import { primaryColorPresets } from './color-presets';
 import { createShadowColor } from '../core/custom-shadows';
 
-import type { ThemeOptions, ThemeColorScheme } from '../types';
+import { primaryColorPresets } from './color-presets';
 
 // ----------------------------------------------------------------------
 

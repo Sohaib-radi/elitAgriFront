@@ -1,18 +1,18 @@
 'use client';
 
-import { useState, useCallback } from 'react';
-import { useBoolean } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
+import FormControlLabel from '@mui/material/FormControlLabel';
+
 import Stack from '@mui/material/Stack';
 import Switch from '@mui/material/Switch';
 import Typography from '@mui/material/Typography';
-import FormControlLabel from '@mui/material/FormControlLabel';
-
-import { fData } from 'src/utils/format-number';
+import { useBoolean } from 'minimal-shared/hooks';
+import { useState, useCallback } from 'react';
 
 import { Iconify } from 'src/components/iconify';
+
 import { Upload, UploadBox, UploadAvatar } from 'src/components/upload';
+import { fData } from 'src/utils/format-number';
 
 import { ComponentLayout } from '../../layout';
 

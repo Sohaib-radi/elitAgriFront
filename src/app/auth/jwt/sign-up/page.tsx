@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
-import { CONFIG } from 'src/global-config';
-
 import { JwtSignUpView } from 'src/auth/view/jwt';
+
+import { CONFIG } from 'src/global-config';
 
 // ----------------------------------------------------------------------
 

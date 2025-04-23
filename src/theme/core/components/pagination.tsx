@@ -1,8 +1,8 @@
 import type { Theme, Components, ComponentsVariants } from '@mui/material/styles';
 
-import { varAlpha } from 'minimal-shared/utils';
-
 import { paginationItemClasses } from '@mui/material/PaginationItem';
+
+import { varAlpha } from 'minimal-shared/utils';
 
 // ----------------------------------------------------------------------
 

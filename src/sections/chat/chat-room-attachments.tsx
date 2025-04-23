@@ -1,15 +1,15 @@
 import type { IChatAttachment } from 'src/types/chat';
 
-import { useBoolean } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
+
 import Collapse from '@mui/material/Collapse';
 import ListItemText from '@mui/material/ListItemText';
-
-import { fDateTime } from 'src/utils/format-time';
+import Stack from '@mui/material/Stack';
+import { useBoolean } from 'minimal-shared/hooks';
 
 import { FileThumbnail } from 'src/components/file-thumbnail';
+
+import { fDateTime } from 'src/utils/format-time';
 
 import { CollapseButton } from './styles';
 

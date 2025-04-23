@@ -1,33 +1,33 @@
 import type { CardProps } from '@mui/material/Card';
 import type { IFolderManager } from 'src/types/file';
 
-import { useState, useCallback } from 'react';
-import { useBoolean, usePopover, useCopyToClipboard } from 'minimal-shared/hooks';
-
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
-import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar';
-import Divider from '@mui/material/Divider';
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
-import Checkbox from '@mui/material/Checkbox';
-import IconButton from '@mui/material/IconButton';
-import ListItemText from '@mui/material/ListItemText';
 import AvatarGroup, { avatarGroupClasses } from '@mui/material/AvatarGroup';
 
-import { fData } from 'src/utils/format-number';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Checkbox from '@mui/material/Checkbox';
+import Divider from '@mui/material/Divider';
+import IconButton from '@mui/material/IconButton';
+import ListItemText from '@mui/material/ListItemText';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
+import Paper from '@mui/material/Paper';
+import { useBoolean, usePopover, useCopyToClipboard } from 'minimal-shared/hooks';
+import { useState, useCallback } from 'react';
 
-import { CONFIG } from 'src/global-config';
-
-import { toast } from 'src/components/snackbar';
-import { Iconify } from 'src/components/iconify';
 import { ConfirmDialog } from 'src/components/custom-dialog';
+
 import { CustomPopover } from 'src/components/custom-popover';
 
-import { FileManagerShareDialog } from './file-manager-share-dialog';
+import { Iconify } from 'src/components/iconify';
+import { toast } from 'src/components/snackbar';
+import { CONFIG } from 'src/global-config';
+import { fData } from 'src/utils/format-number';
+
 import { FileManagerFileDetails } from './file-manager-file-details';
 import { FileManagerNewFolderDialog } from './file-manager-new-folder-dialog';
+import { FileManagerShareDialog } from './file-manager-share-dialog';
 
 // ----------------------------------------------------------------------
 

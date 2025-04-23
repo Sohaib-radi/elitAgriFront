@@ -2,14 +2,14 @@
 
 import type { Theme, SxProps } from '@mui/material/styles';
 
-import { varAlpha } from 'minimal-shared/utils';
-
 import Box from '@mui/material/Box';
+
 import Paper from '@mui/material/Paper';
 import Stack from '@mui/material/Stack';
+import { varAlpha } from 'minimal-shared/utils';
 
-import { Scrollbar } from 'src/components/scrollbar';
 import { ScrollProgress, useScrollProgress } from 'src/components/animate/scroll-progress';
+import { Scrollbar } from 'src/components/scrollbar';
 
 import { ComponentBox, ComponentLayout } from '../../layout';
 

@@ -1,12 +1,12 @@
 import type { Theme } from '@mui/material/styles';
-import type { MapProps } from 'src/components/map';
 import type { MapMouseEvent, FillLayerSpecification } from 'react-map-gl/mapbox';
-
-import { Layer, Source } from 'react-map-gl/mapbox';
-import { useMemo, useState, useCallback } from 'react';
+import type { MapProps } from 'src/components/map';
 
 import { useTheme } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
+
+import { useMemo, useState, useCallback } from 'react';
+import { Layer, Source } from 'react-map-gl/mapbox';
 
 import { Map, MapPopup, MapControls } from 'src/components/map';
 

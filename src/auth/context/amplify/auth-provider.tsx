@@ -1,16 +1,16 @@
 'use client';
 
+import type { AuthState } from '../../types';
 import { Amplify } from 'aws-amplify';
-import { useSetState } from 'minimal-shared/hooks';
-import { useMemo, useEffect, useCallback } from 'react';
 import { fetchAuthSession, fetchUserAttributes } from 'aws-amplify/auth';
+import { useSetState } from 'minimal-shared/hooks';
 
-import axios from 'src/lib/axios';
+import { useMemo, useEffect, useCallback } from 'react';
 import { CONFIG } from 'src/global-config';
 
-import { AuthContext } from '../auth-context';
+import axios from 'src/lib/axios';
 
-import type { AuthState } from '../../types';
+import { AuthContext } from '../auth-context';
 
 // ----------------------------------------------------------------------
 
@@ -41,7 +41,11 @@ type Props = {
 };
 
 export function AuthProvider({ children }: Props) {
-  const { state, setState } = useSetState<AuthState>({ user: null, loading: true });
+  const { state, setState } = useSetState<AuthState>({
+    user: null,
+    loading: true,
+    permissions: [],
+  });
 
   const checkUserSession = useCallback(async () => {
     try {
@@ -89,13 +93,15 @@ export function AuthProvider({ children }: Props) {
             role: state.user?.role ?? 'admin',
           }
         : null,
+      permissions: state.permissions, // ✅ ADD THIS LINE
       checkUserSession,
       loading: status === 'loading',
       authenticated: status === 'authenticated',
       unauthenticated: status === 'unauthenticated',
     }),
-    [checkUserSession, state.user, status]
+    [checkUserSession, state.user, state.permissions, status] // ✅ also include state.permissions in deps
   );
+  
 
   return <AuthContext value={memoizedValue}>{children}</AuthContext>;
 }

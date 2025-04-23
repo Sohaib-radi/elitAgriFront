@@ -1,18 +1,18 @@
-import type { BoxProps } from '@mui/material/Box';
+import type { NavItemData } from '../layout/nav-config-components';
 
+import type { BoxProps } from '@mui/material/Box';
+import Box from '@mui/material/Box';
+
+import Typography from '@mui/material/Typography';
 import { m } from 'framer-motion';
+
 import { varAlpha } from 'minimal-shared/utils';
 
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
+import { varTap, varHover, transitionTap } from 'src/components/animate';
+import { Image } from 'src/components/image';
+import { Label } from 'src/components/label';
 
 import { RouterLink } from 'src/routes/components';
-
-import { Label } from 'src/components/label';
-import { Image } from 'src/components/image';
-import { varTap, varHover, transitionTap } from 'src/components/animate';
-
-import type { NavItemData } from '../layout/nav-config-components';
 
 // ----------------------------------------------------------------------
 

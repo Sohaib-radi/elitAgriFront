@@ -2,28 +2,28 @@
 
 import type { IProductItem } from 'src/types/product';
 
+import Box from '@mui/material/Box';
+import Card from '@mui/material/Card';
+
+import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
+import Tab from '@mui/material/Tab';
+import Tabs from '@mui/material/Tabs';
+import Typography from '@mui/material/Typography';
 import { useTabs } from 'minimal-shared/hooks';
 import { varAlpha } from 'minimal-shared/utils';
 
-import Tab from '@mui/material/Tab';
-import Box from '@mui/material/Box';
-import Tabs from '@mui/material/Tabs';
-import Card from '@mui/material/Card';
-import Grid from '@mui/material/Grid';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-
-import { paths } from 'src/routes/paths';
-
-import { Iconify } from 'src/components/iconify';
 import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
 
-import { CartIcon } from '../cart-icon';
+import { Iconify } from 'src/components/iconify';
+import { paths } from 'src/routes/paths';
+
 import { useCheckoutContext } from '../../checkout/context';
-import { ProductDetailsReview } from '../product-details-review';
-import { ProductDetailsSummary } from '../product-details-summary';
+import { CartIcon } from '../cart-icon';
 import { ProductDetailsCarousel } from '../product-details-carousel';
 import { ProductDetailsDescription } from '../product-details-description';
+import { ProductDetailsReview } from '../product-details-review';
+import { ProductDetailsSummary } from '../product-details-summary';
 
 // ----------------------------------------------------------------------
 

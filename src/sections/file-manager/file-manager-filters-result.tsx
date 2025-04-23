@@ -1,14 +1,14 @@
-import type { IFileFilters } from 'src/types/file';
 import type { UseSetStateReturn } from 'minimal-shared/hooks';
 import type { FiltersResultProps } from 'src/components/filters-result';
-
-import { useCallback } from 'react';
+import type { IFileFilters } from 'src/types/file';
 
 import Chip from '@mui/material/Chip';
 
-import { fDateRangeShortLabel } from 'src/utils/format-time';
+import { useCallback } from 'react';
 
 import { chipProps, FiltersBlock, FiltersResult } from 'src/components/filters-result';
+
+import { fDateRangeShortLabel } from 'src/utils/format-time';
 
 // ----------------------------------------------------------------------
 

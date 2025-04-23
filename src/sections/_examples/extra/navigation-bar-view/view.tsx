@@ -1,11 +1,11 @@
 'use client';
 
-import { NavAPI } from './nav-api';
-import { NavMini } from './nav-mini';
-import { NavBasic } from './nav-basic';
-import { NavVertical } from './nav-vertical';
 import { ComponentLayout } from '../../layout';
+import { NavAPI } from './nav-api';
+import { NavBasic } from './nav-basic';
 import { NavHorizontal } from './nav-horizontal';
+import { NavMini } from './nav-mini';
+import { NavVertical } from './nav-vertical';
 
 // ----------------------------------------------------------------------
 

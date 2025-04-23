@@ -1,21 +1,21 @@
 'use client';
 
-import type { LanguageValue } from 'src/locales';
 import type { IconButtonProps } from '@mui/material/IconButton';
+import type { LanguageValue } from 'src/locales';
+
+import IconButton from '@mui/material/IconButton';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
 
 import { m } from 'framer-motion';
-import { useCallback } from 'react';
 import { usePopover } from 'minimal-shared/hooks';
+import { useCallback } from 'react';
 
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
-import IconButton from '@mui/material/IconButton';
-
-import { useTranslate } from 'src/locales';
-
-import { FlagIcon } from 'src/components/flag-icon';
-import { CustomPopover } from 'src/components/custom-popover';
 import { varTap, varHover, transitionTap } from 'src/components/animate';
+
+import { CustomPopover } from 'src/components/custom-popover';
+import { FlagIcon } from 'src/components/flag-icon';
+import { useTranslate } from 'src/locales';
 
 // ----------------------------------------------------------------------
 

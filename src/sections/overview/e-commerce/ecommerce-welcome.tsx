@@ -1,9 +1,9 @@
 import type { BoxProps } from '@mui/material/Box';
 
-import { varAlpha } from 'minimal-shared/utils';
-
 import Box from '@mui/material/Box';
+
 import Typography from '@mui/material/Typography';
+import { varAlpha } from 'minimal-shared/utils';
 
 import { CONFIG } from 'src/global-config';
 

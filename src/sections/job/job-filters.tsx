@@ -1,27 +1,27 @@
-import type { IJobFilters } from 'src/types/job';
 import type { UseSetStateReturn } from 'minimal-shared/hooks';
+import type { IJobFilters } from 'src/types/job';
 
-import { useCallback } from 'react';
+import Autocomplete from '@mui/material/Autocomplete';
 
+import Badge from '@mui/material/Badge';
 import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Checkbox from '@mui/material/Checkbox';
 import Chip from '@mui/material/Chip';
+import Divider from '@mui/material/Divider';
+import Drawer from '@mui/material/Drawer';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import IconButton from '@mui/material/IconButton';
 import Radio from '@mui/material/Radio';
 import Stack from '@mui/material/Stack';
-import Badge from '@mui/material/Badge';
-import Drawer from '@mui/material/Drawer';
-import Button from '@mui/material/Button';
-import Divider from '@mui/material/Divider';
-import Tooltip from '@mui/material/Tooltip';
-import Checkbox from '@mui/material/Checkbox';
 import TextField from '@mui/material/TextField';
-import IconButton from '@mui/material/IconButton';
+import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
-import Autocomplete from '@mui/material/Autocomplete';
-import FormControlLabel from '@mui/material/FormControlLabel';
+import { useCallback } from 'react';
 
+import { CountrySelect } from 'src/components/country-select';
 import { Iconify } from 'src/components/iconify';
 import { Scrollbar } from 'src/components/scrollbar';
-import { CountrySelect } from 'src/components/country-select';
 
 // ----------------------------------------------------------------------
 

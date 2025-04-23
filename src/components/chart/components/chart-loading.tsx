@@ -1,13 +1,13 @@
-import type { BoxProps } from '@mui/material/Box';
+import type { ChartProps } from '../types';
 
-import { mergeClasses } from 'minimal-shared/utils';
+import type { BoxProps } from '@mui/material/Box';
 
 import Box from '@mui/material/Box';
 import Skeleton from '@mui/material/Skeleton';
 
-import { chartClasses } from '../classes';
+import { mergeClasses } from 'minimal-shared/utils';
 
-import type { ChartProps } from '../types';
+import { chartClasses } from '../classes';
 
 // ----------------------------------------------------------------------
 

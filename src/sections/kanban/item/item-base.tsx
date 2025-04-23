@@ -1,14 +1,14 @@
-import type { IKanbanTask } from 'src/types/kanban';
-import type { Transform } from '@dnd-kit/utilities';
 import type { DraggableSyntheticListeners } from '@dnd-kit/core';
+import type { Transform } from '@dnd-kit/utilities';
+import type { IKanbanTask } from 'src/types/kanban';
 
-import { memo, useEffect } from 'react';
-import { varAlpha, mergeClasses } from 'minimal-shared/utils';
+import Avatar from '@mui/material/Avatar';
+import AvatarGroup, { avatarGroupClasses } from '@mui/material/AvatarGroup';
 
 import Box from '@mui/material/Box';
-import Avatar from '@mui/material/Avatar';
 import { styled } from '@mui/material/styles';
-import AvatarGroup, { avatarGroupClasses } from '@mui/material/AvatarGroup';
+import { varAlpha, mergeClasses } from 'minimal-shared/utils';
+import { memo, useEffect } from 'react';
 
 import { Iconify } from 'src/components/iconify';
 import { imageClasses } from 'src/components/image';

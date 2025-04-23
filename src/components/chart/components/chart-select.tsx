@@ -1,16 +1,16 @@
+import type { CustomPopoverProps } from '../../custom-popover';
+
 import type { ButtonBaseProps } from '@mui/material/ButtonBase';
-
-import { varAlpha } from 'minimal-shared/utils';
-import { usePopover } from 'minimal-shared/hooks';
-
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
 import ButtonBase from '@mui/material/ButtonBase';
 
-import { Iconify } from '../../iconify';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
+import { usePopover } from 'minimal-shared/hooks';
+
+import { varAlpha } from 'minimal-shared/utils';
 import { CustomPopover } from '../../custom-popover';
 
-import type { CustomPopoverProps } from '../../custom-popover';
+import { Iconify } from '../../iconify';
 
 // ----------------------------------------------------------------------
 

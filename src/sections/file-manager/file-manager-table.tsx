@@ -1,15 +1,15 @@
-import type { IFile } from 'src/types/file';
 import type { BoxProps } from '@mui/material/Box';
 import type { UseTableReturn, TableHeadCellProps } from 'src/components/table';
+import type { IFile } from 'src/types/file';
 
 import Box from '@mui/material/Box';
-import Table from '@mui/material/Table';
-import Tooltip from '@mui/material/Tooltip';
-import TableBody from '@mui/material/TableBody';
 import IconButton from '@mui/material/IconButton';
-import TableContainer from '@mui/material/TableContainer';
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
 import { tableCellClasses } from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
 import { tablePaginationClasses } from '@mui/material/TablePagination';
+import Tooltip from '@mui/material/Tooltip';
 
 import { Iconify } from 'src/components/iconify';
 import {

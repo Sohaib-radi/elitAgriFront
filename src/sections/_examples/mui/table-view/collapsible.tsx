@@ -1,14 +1,14 @@
-import { useBoolean } from 'minimal-shared/hooks';
-
-import Table from '@mui/material/Table';
-import Paper from '@mui/material/Paper';
-import TableRow from '@mui/material/TableRow';
 import Collapse from '@mui/material/Collapse';
-import TableHead from '@mui/material/TableHead';
-import TableCell from '@mui/material/TableCell';
-import TableBody from '@mui/material/TableBody';
+
 import IconButton from '@mui/material/IconButton';
+import Paper from '@mui/material/Paper';
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
 import Typography from '@mui/material/Typography';
+import { useBoolean } from 'minimal-shared/hooks';
 
 import { Iconify } from 'src/components/iconify';
 import { Scrollbar } from 'src/components/scrollbar';

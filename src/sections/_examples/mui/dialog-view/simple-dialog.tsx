@@ -1,14 +1,14 @@
-import { useState, useCallback } from 'react';
-import { useBoolean } from 'minimal-shared/hooks';
-
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar';
+import Box from '@mui/material/Box';
+
+import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
-import Typography from '@mui/material/Typography';
 import DialogTitle from '@mui/material/DialogTitle';
-import ListItemText from '@mui/material/ListItemText';
 import ListItemButton from '@mui/material/ListItemButton';
+import ListItemText from '@mui/material/ListItemText';
+import Typography from '@mui/material/Typography';
+import { useBoolean } from 'minimal-shared/hooks';
+import { useState, useCallback } from 'react';
 
 import { Iconify } from 'src/components/iconify';
 

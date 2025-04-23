@@ -2,22 +2,22 @@
 
 import type { IJobItem } from 'src/types/job';
 
-import { useState, useCallback } from 'react';
-import { useTabs } from 'minimal-shared/hooks';
-
 import Tab from '@mui/material/Tab';
 import Tabs from '@mui/material/Tabs';
 
-import { paths } from 'src/routes/paths';
+import { useTabs } from 'minimal-shared/hooks';
+import { useState, useCallback } from 'react';
 
-import { DashboardContent } from 'src/layouts/dashboard';
 import { JOB_DETAILS_TABS, JOB_PUBLISH_OPTIONS } from 'src/_mock';
 
 import { Label } from 'src/components/label';
+import { DashboardContent } from 'src/layouts/dashboard';
 
-import { JobDetailsToolbar } from '../job-details-toolbar';
-import { JobDetailsContent } from '../job-details-content';
+import { paths } from 'src/routes/paths';
+
 import { JobDetailsCandidates } from '../job-details-candidates';
+import { JobDetailsContent } from '../job-details-content';
+import { JobDetailsToolbar } from '../job-details-toolbar';
 
 // ----------------------------------------------------------------------
 

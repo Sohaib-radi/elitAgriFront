@@ -1,4 +1,3 @@
-import type { IDateValue } from 'src/types/common';
 import type { RatingProps } from '@mui/material/Rating';
 import type {
   GridColDef,
@@ -9,15 +8,15 @@ import type {
   GridColumnVisibilityModel,
   GridFilterInputValueProps,
 } from '@mui/x-data-grid';
+import type { IDateValue } from 'src/types/common';
 
-import { useRef, useMemo, useState, useImperativeHandle } from 'react';
+import Avatar from '@mui/material/Avatar';
 
 import Box from '@mui/material/Box';
+import LinearProgress from '@mui/material/LinearProgress';
 import Link from '@mui/material/Link';
-import Avatar from '@mui/material/Avatar';
 import Rating from '@mui/material/Rating';
 import Typography from '@mui/material/Typography';
-import LinearProgress from '@mui/material/LinearProgress';
 import {
   DataGrid,
   gridClasses,
@@ -29,13 +28,14 @@ import {
   GridToolbarColumnsButton,
   GridToolbarDensitySelector,
 } from '@mui/x-data-grid';
+import { useRef, useMemo, useState, useImperativeHandle } from 'react';
 
-import { fPercent } from 'src/utils/format-number';
-import { fDate, fTime } from 'src/utils/format-time';
+import { EmptyContent } from 'src/components/empty-content';
+import { Iconify } from 'src/components/iconify';
 
 import { Label } from 'src/components/label';
-import { Iconify } from 'src/components/iconify';
-import { EmptyContent } from 'src/components/empty-content';
+import { fPercent } from 'src/utils/format-number';
+import { fDate, fTime } from 'src/utils/format-time';
 
 // ----------------------------------------------------------------------
 

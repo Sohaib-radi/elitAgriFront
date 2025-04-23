@@ -2,14 +2,14 @@
 
 import type { Slide, SlideImage, SlideVideo } from 'yet-another-react-lightbox';
 
-import { useState } from 'react';
-
 import Box from '@mui/material/Box';
+
 import Card from '@mui/material/Card';
-import Switch from '@mui/material/Switch';
-import FormLabel from '@mui/material/FormLabel';
 import FormControl from '@mui/material/FormControl';
 import FormControlLabel from '@mui/material/FormControlLabel';
+import FormLabel from '@mui/material/FormLabel';
+import Switch from '@mui/material/Switch';
+import { useState } from 'react';
 
 import { _mock } from 'src/_mock';
 

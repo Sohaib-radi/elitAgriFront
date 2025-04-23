@@ -1,11 +1,11 @@
 import type { BoxProps } from '@mui/material/Box';
-import type { SliderProps } from '@mui/material/Slider';
 import type { FormHelperTextProps } from '@mui/material/FormHelperText';
-
-import { Controller, useFormContext } from 'react-hook-form';
+import type { SliderProps } from '@mui/material/Slider';
 
 import Box from '@mui/material/Box';
+
 import Slider from '@mui/material/Slider';
+import { Controller, useFormContext } from 'react-hook-form';
 
 import { HelperText } from './help-text';
 

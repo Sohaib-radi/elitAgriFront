@@ -2,11 +2,11 @@
 
 import { useState, useEffect } from 'react';
 
-import { useRouter, useSearchParams } from 'src/routes/hooks';
+import { SplashScreen } from 'src/components/loading-screen';
 
 import { CONFIG } from 'src/global-config';
 
-import { SplashScreen } from 'src/components/loading-screen';
+import { useRouter, useSearchParams } from 'src/routes/hooks';
 
 import { useAuthContext } from '../hooks';
 

@@ -1,12 +1,12 @@
-import type { IUserAccountBillingHistory } from 'src/types/user';
 import type { IPaymentCard, IAddressItem } from 'src/types/common';
+import type { IUserAccountBillingHistory } from 'src/types/user';
 
 import Grid from '@mui/material/Grid';
 
-import { AccountBillingPlan } from './account-billing-plan';
-import { AccountBillingPayment } from './account-billing-payment';
-import { AccountBillingHistory } from './account-billing-history';
 import { AccountBillingAddress } from './account-billing-address';
+import { AccountBillingHistory } from './account-billing-history';
+import { AccountBillingPayment } from './account-billing-payment';
+import { AccountBillingPlan } from './account-billing-plan';
 
 // ----------------------------------------------------------------------
 

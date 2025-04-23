@@ -1,26 +1,26 @@
-import type { IPostItem } from 'src/types/blog';
 import type { Theme, SxProps } from '@mui/material/styles';
+import type { IPostItem } from 'src/types/blog';
 
-import { useState, useCallback } from 'react';
-import parse from 'autosuggest-highlight/parse';
-import match from 'autosuggest-highlight/match';
-import { useDebounce } from 'minimal-shared/hooks';
-
+import Autocomplete, { autocompleteClasses, createFilterOptions } from '@mui/material/Autocomplete';
 import Avatar from '@mui/material/Avatar';
+import CircularProgress from '@mui/material/CircularProgress';
+import InputAdornment from '@mui/material/InputAdornment';
+
+import Link, { linkClasses } from '@mui/material/Link';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
-import Link, { linkClasses } from '@mui/material/Link';
-import InputAdornment from '@mui/material/InputAdornment';
-import CircularProgress from '@mui/material/CircularProgress';
-import Autocomplete, { autocompleteClasses, createFilterOptions } from '@mui/material/Autocomplete';
-
-import { useRouter } from 'src/routes/hooks';
-import { RouterLink } from 'src/routes/components';
+import match from 'autosuggest-highlight/match';
+import parse from 'autosuggest-highlight/parse';
+import { useDebounce } from 'minimal-shared/hooks';
+import { useState, useCallback } from 'react';
 
 import { useSearchPosts } from 'src/actions/blog';
-
 import { Iconify } from 'src/components/iconify';
+
 import { SearchNotFound } from 'src/components/search-not-found';
+
+import { RouterLink } from 'src/routes/components';
+import { useRouter } from 'src/routes/hooks';
 
 // ----------------------------------------------------------------------
 

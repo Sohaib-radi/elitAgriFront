@@ -1,14 +1,14 @@
+import type { NavListProps, NavSubListProps } from '../types';
 import { useBoolean } from 'minimal-shared/hooks';
-import { useRef, useEffect, useCallback } from 'react';
 import { isEqualPath, isActiveLink, isExternalLink } from 'minimal-shared/utils';
 
+import { useRef, useEffect, useCallback } from 'react';
+
 import { usePathname } from 'src/routes/hooks';
-
-import { NavItem } from './nav-desktop-item';
 import { Nav, NavLi, NavUl, NavDropdown } from '../components';
-import { NavItemDashboard } from './nav-desktop-item-dashboard';
+import { NavItem } from './nav-desktop-item';
 
-import type { NavListProps, NavSubListProps } from '../types';
+import { NavItemDashboard } from './nav-desktop-item-dashboard';
 
 // ----------------------------------------------------------------------
 

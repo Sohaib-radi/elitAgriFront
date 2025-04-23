@@ -1,32 +1,32 @@
 'use client';
 
+import type { HeaderSectionProps } from '../core/header-section';
+
+import type { LayoutSectionProps } from '../core/layout-section';
+
+import type { MainSectionProps } from '../core/main-section';
+import type { AuthSplitContentProps } from './content';
+import type { AuthSplitSectionProps } from './section';
+
 import type { Breakpoint } from '@mui/material/styles';
-
-import { merge } from 'es-toolkit';
-
-import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
 import Alert from '@mui/material/Alert';
 
-import { paths } from 'src/routes/paths';
-import { RouterLink } from 'src/routes/components';
+import Box from '@mui/material/Box';
 
-import { CONFIG } from 'src/global-config';
+import Link from '@mui/material/Link';
 
+import { merge } from 'es-toolkit';
 import { Logo } from 'src/components/logo';
-
-import { AuthSplitSection } from './section';
-import { AuthSplitContent } from './content';
-import { MainSection } from '../core/main-section';
-import { LayoutSection } from '../core/layout-section';
-import { HeaderSection } from '../core/header-section';
+import { CONFIG } from 'src/global-config';
+import { RouterLink } from 'src/routes/components';
+import { paths } from 'src/routes/paths';
 import { SettingsButton } from '../components/settings-button';
 
-import type { AuthSplitSectionProps } from './section';
-import type { AuthSplitContentProps } from './content';
-import type { MainSectionProps } from '../core/main-section';
-import type { HeaderSectionProps } from '../core/header-section';
-import type { LayoutSectionProps } from '../core/layout-section';
+import { HeaderSection } from '../core/header-section';
+import { LayoutSection } from '../core/layout-section';
+import { MainSection } from '../core/main-section';
+import { AuthSplitContent } from './content';
+import { AuthSplitSection } from './section';
 
 // ----------------------------------------------------------------------
 

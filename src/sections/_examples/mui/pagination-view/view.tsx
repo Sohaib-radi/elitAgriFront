@@ -2,13 +2,13 @@
 
 import type { Theme, SxProps } from '@mui/material/styles';
 
+import Pagination from '@mui/material/Pagination';
+
+import TablePagination from '@mui/material/TablePagination';
 import { useState, useCallback } from 'react';
 
-import Pagination from '@mui/material/Pagination';
-import TablePagination from '@mui/material/TablePagination';
-
-import { PaginationItems } from './pagination-items';
 import { ComponentBox, ComponentLayout } from '../../layout';
+import { PaginationItems } from './pagination-items';
 
 // ----------------------------------------------------------------------
 

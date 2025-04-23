@@ -2,10 +2,10 @@
 
 import type { IconContainerProps } from '@mui/material/Rating';
 
-import { useState } from 'react';
-
 import Box from '@mui/material/Box';
+
 import Rating from '@mui/material/Rating';
+import { useState } from 'react';
 
 import { Iconify } from 'src/components/iconify';
 

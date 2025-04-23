@@ -1,9 +1,9 @@
 import type { BoxProps } from '@mui/material/Box';
 
-import { varAlpha } from 'minimal-shared/utils';
-
 import Box from '@mui/material/Box';
+
 import ButtonBase from '@mui/material/ButtonBase';
+import { varAlpha } from 'minimal-shared/utils';
 
 import { Iconify } from 'src/components/iconify';
 

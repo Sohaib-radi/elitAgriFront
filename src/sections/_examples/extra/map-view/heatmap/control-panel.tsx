@@ -1,7 +1,7 @@
+import FormControlLabel from '@mui/material/FormControlLabel';
 import Slider from '@mui/material/Slider';
 import Switch from '@mui/material/Switch';
 import Typography from '@mui/material/Typography';
-import FormControlLabel from '@mui/material/FormControlLabel';
 
 import { fDate } from 'src/utils/format-time';
 

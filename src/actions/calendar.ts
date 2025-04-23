@@ -1,10 +1,10 @@
-import type { SWRConfiguration } from 'swr';
 import type { ICalendarEvent } from 'src/types/calendar';
+import type { SWRConfiguration } from 'swr';
 
 import { useMemo } from 'react';
-import useSWR, { mutate } from 'swr';
-
 import axios, { fetcher, endpoints } from 'src/lib/axios';
+
+import useSWR, { mutate } from 'swr';
 
 // ----------------------------------------------------------------------
 

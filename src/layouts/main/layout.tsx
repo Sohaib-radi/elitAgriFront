@@ -1,34 +1,34 @@
 'use client';
 
-import type { Breakpoint } from '@mui/material/styles';
+import type { HeaderSectionProps } from '../core/header-section';
 
-import { useBoolean } from 'minimal-shared/hooks';
+import type { LayoutSectionProps } from '../core/layout-section';
 
-import Box from '@mui/material/Box';
-import Alert from '@mui/material/Alert';
-import Button from '@mui/material/Button';
-
-import { paths } from 'src/routes/paths';
-import { usePathname } from 'src/routes/hooks';
-
-import { Logo } from 'src/components/logo';
-
-import { NavMobile } from './nav/mobile';
-import { NavDesktop } from './nav/desktop';
-import { Footer, HomeFooter } from './footer';
-import { MainSection } from '../core/main-section';
-import { MenuButton } from '../components/menu-button';
-import { LayoutSection } from '../core/layout-section';
-import { HeaderSection } from '../core/header-section';
-import { navData as mainNavData } from '../nav-config-main';
-import { SignInButton } from '../components/sign-in-button';
-import { SettingsButton } from '../components/settings-button';
-
+import type { MainSectionProps } from '../core/main-section';
 import type { FooterProps } from './footer';
 import type { NavMainProps } from './nav/types';
-import type { MainSectionProps } from '../core/main-section';
-import type { HeaderSectionProps } from '../core/header-section';
-import type { LayoutSectionProps } from '../core/layout-section';
+
+import type { Breakpoint } from '@mui/material/styles';
+import Alert from '@mui/material/Alert';
+
+import Box from '@mui/material/Box';
+
+import Button from '@mui/material/Button';
+import { useBoolean } from 'minimal-shared/hooks';
+import { Logo } from 'src/components/logo';
+import { usePathname } from 'src/routes/hooks';
+import { paths } from 'src/routes/paths';
+import { MenuButton } from '../components/menu-button';
+import { SettingsButton } from '../components/settings-button';
+import { SignInButton } from '../components/sign-in-button';
+import { HeaderSection } from '../core/header-section';
+import { LayoutSection } from '../core/layout-section';
+
+import { MainSection } from '../core/main-section';
+import { navData as mainNavData } from '../nav-config-main';
+import { Footer, HomeFooter } from './footer';
+import { NavDesktop } from './nav/desktop';
+import { NavMobile } from './nav/mobile';
 
 // ----------------------------------------------------------------------
 

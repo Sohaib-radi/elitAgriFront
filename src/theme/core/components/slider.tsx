@@ -1,8 +1,8 @@
 import type { Theme, Components } from '@mui/material/styles';
 
-import { varAlpha } from 'minimal-shared/utils';
-
 import { sliderClasses } from '@mui/material/Slider';
+
+import { varAlpha } from 'minimal-shared/utils';
 
 // ----------------------------------------------------------------------
 

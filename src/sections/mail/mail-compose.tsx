@@ -1,16 +1,16 @@
-import { varAlpha } from 'minimal-shared/utils';
-import { useBoolean } from 'minimal-shared/hooks';
-import { useState, useEffect, useCallback } from 'react';
-
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
-import Button from '@mui/material/Button';
-import Portal from '@mui/material/Portal';
 import Backdrop from '@mui/material/Backdrop';
-import InputBase from '@mui/material/InputBase';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+
 import IconButton from '@mui/material/IconButton';
+import InputBase from '@mui/material/InputBase';
+import Paper from '@mui/material/Paper';
+import Portal from '@mui/material/Portal';
 import Typography from '@mui/material/Typography';
 import useMediaQuery from '@mui/material/useMediaQuery';
+import { useBoolean } from 'minimal-shared/hooks';
+import { varAlpha } from 'minimal-shared/utils';
+import { useState, useEffect, useCallback } from 'react';
 
 import { Editor } from 'src/components/editor';
 import { Iconify } from 'src/components/iconify';

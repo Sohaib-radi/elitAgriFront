@@ -1,14 +1,14 @@
 import type { CardProps } from '@mui/material/Card';
 
 import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
 import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-import { CONFIG } from 'src/global-config';
-
 import { SvgColor } from 'src/components/svg-color';
+
+import { CONFIG } from 'src/global-config';
 
 // ----------------------------------------------------------------------
 

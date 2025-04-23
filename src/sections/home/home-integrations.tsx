@@ -1,15 +1,15 @@
 import type { BoxProps } from '@mui/material/Box';
 
-import { m } from 'framer-motion';
-
 import Box from '@mui/material/Box';
+
+import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
-import Container from '@mui/material/Container';
-
-import { CONFIG } from 'src/global-config';
+import { m } from 'framer-motion';
 
 import { varScale, MotionViewport } from 'src/components/animate';
+
+import { CONFIG } from 'src/global-config';
 
 import { SectionTitle } from './components/section-title';
 import { FloatLine, FloatDotIcon } from './components/svg-elements';

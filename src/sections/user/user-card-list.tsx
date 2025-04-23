@@ -1,9 +1,9 @@
 import type { IUserCard } from 'src/types/user';
 
-import { useState, useCallback } from 'react';
-
 import Box from '@mui/material/Box';
+
 import Pagination from '@mui/material/Pagination';
+import { useState, useCallback } from 'react';
 
 import { UserCard } from './user-card';
 

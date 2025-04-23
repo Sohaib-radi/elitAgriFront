@@ -1,16 +1,16 @@
-import { useEffect, useCallback } from 'react';
+import type { NavListProps, NavSubListProps } from '../types';
+import { useTheme } from '@mui/material/styles';
 import { usePopoverHover } from 'minimal-shared/hooks';
+
 import { isActiveLink, isExternalLink } from 'minimal-shared/utils';
 
-import { useTheme } from '@mui/material/styles';
+import { useEffect, useCallback } from 'react';
 
 import { usePathname } from 'src/routes/hooks';
+import { NavUl, NavLi, NavDropdown, NavDropdownPaper } from '../components';
+import { navSectionClasses } from '../styles';
 
 import { NavItem } from './nav-item';
-import { navSectionClasses } from '../styles';
-import { NavUl, NavLi, NavDropdown, NavDropdownPaper } from '../components';
-
-import type { NavListProps, NavSubListProps } from '../types';
 
 // ----------------------------------------------------------------------
 

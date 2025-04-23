@@ -1,19 +1,19 @@
 import type { BoxProps } from '@mui/material/Box';
 
+import { SvgIcon } from '@mui/material';
+import Box from '@mui/material/Box';
+
+import Container from '@mui/material/Container';
+import Fab from '@mui/material/Fab';
+import Typography from '@mui/material/Typography';
 import { m } from 'framer-motion';
 import { varAlpha } from 'minimal-shared/utils';
 
-import Fab from '@mui/material/Fab';
-import Box from '@mui/material/Box';
-import { SvgIcon } from '@mui/material';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-
-import { CONFIG } from 'src/global-config';
-
-import { Image } from 'src/components/image';
-import { Iconify } from 'src/components/iconify';
 import { varFade, MotionViewport } from 'src/components/animate';
+
+import { Iconify } from 'src/components/iconify';
+import { Image } from 'src/components/image';
+import { CONFIG } from 'src/global-config';
 
 // ----------------------------------------------------------------------
 

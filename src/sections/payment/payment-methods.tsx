@@ -1,17 +1,17 @@
 import type { BoxProps } from '@mui/material/Box';
 
-import { useState, useCallback } from 'react';
-import { varAlpha } from 'minimal-shared/utils';
-import { useBoolean } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
+
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogTitle from '@mui/material/DialogTitle';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
-import DialogTitle from '@mui/material/DialogTitle';
-import DialogContent from '@mui/material/DialogContent';
-import DialogActions from '@mui/material/DialogActions';
+import { useBoolean } from 'minimal-shared/hooks';
+import { varAlpha } from 'minimal-shared/utils';
+import { useState, useCallback } from 'react';
 
 import { Iconify } from 'src/components/iconify';
 

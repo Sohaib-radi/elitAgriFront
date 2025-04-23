@@ -1,8 +1,8 @@
 import type { BoxProps } from '@mui/material/Box';
 
-import { m } from 'framer-motion';
-
 import Box from '@mui/material/Box';
+
+import { m } from 'framer-motion';
 
 import { _mock } from 'src/_mock';
 

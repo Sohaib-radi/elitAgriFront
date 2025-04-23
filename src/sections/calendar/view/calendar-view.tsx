@@ -3,38 +3,38 @@
 import type { Theme, SxProps } from '@mui/material/styles';
 import type { ICalendarEvent, ICalendarFilters } from 'src/types/calendar';
 
-import Calendar from '@fullcalendar/react';
-import listPlugin from '@fullcalendar/list';
 import dayGridPlugin from '@fullcalendar/daygrid';
-import { useEffect, startTransition } from 'react';
+import interactionPlugin from '@fullcalendar/interaction';
+import listPlugin from '@fullcalendar/list';
+import Calendar from '@fullcalendar/react';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import timelinePlugin from '@fullcalendar/timeline';
-import interactionPlugin from '@fullcalendar/interaction';
-import { useBoolean, useSetState } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
 import Button from '@mui/material/Button';
+
+import Card from '@mui/material/Card';
 import Dialog from '@mui/material/Dialog';
+import DialogTitle from '@mui/material/DialogTitle';
 import { useTheme } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
-import DialogTitle from '@mui/material/DialogTitle';
+import { useBoolean, useSetState } from 'minimal-shared/hooks';
+import { useEffect, startTransition } from 'react';
+
+import { CALENDAR_COLOR_OPTIONS } from 'src/_mock/_calendar';
+
+import { updateEvent, useGetEvents } from 'src/actions/calendar';
+import { Iconify } from 'src/components/iconify';
+import { DashboardContent } from 'src/layouts/dashboard';
 
 import { fDate, fIsAfter, fIsBetween } from 'src/utils/format-time';
 
-import { DashboardContent } from 'src/layouts/dashboard';
-import { CALENDAR_COLOR_OPTIONS } from 'src/_mock/_calendar';
-import { updateEvent, useGetEvents } from 'src/actions/calendar';
-
-import { Iconify } from 'src/components/iconify';
-
-import { CalendarRoot } from '../styles';
-import { useEvent } from '../hooks/use-event';
-import { CalendarForm } from '../calendar-form';
-import { useCalendar } from '../hooks/use-calendar';
-import { CalendarToolbar } from '../calendar-toolbar';
 import { CalendarFilters } from '../calendar-filters';
 import { CalendarFiltersResult } from '../calendar-filters-result';
+import { CalendarForm } from '../calendar-form';
+import { CalendarToolbar } from '../calendar-toolbar';
+import { useCalendar } from '../hooks/use-calendar';
+import { useEvent } from '../hooks/use-event';
+import { CalendarRoot } from '../styles';
 
 // ----------------------------------------------------------------------
 

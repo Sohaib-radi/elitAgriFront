@@ -1,14 +1,14 @@
 'use client';
 
-import { OrganizationalChart } from 'src/components/organizational-chart';
+import type { NodeProps } from './data';
 
+import { OrganizationalChart } from 'src/components/organizational-chart';
+import { ComponentBox, ComponentLayout } from '../../layout';
+import { GROUP_DATA, SIMPLE_DATA } from './data';
 import { GroupNode } from './group-node';
 import { SimpleNode } from './simple-node';
-import { StandardNode } from './standard-node';
-import { GROUP_DATA, SIMPLE_DATA } from './data';
-import { ComponentBox, ComponentLayout } from '../../layout';
 
-import type { NodeProps } from './data';
+import { StandardNode } from './standard-node';
 
 // ----------------------------------------------------------------------
 

@@ -1,20 +1,20 @@
-import type { PaperProps } from '@mui/material/Paper';
 import type { DialogProps } from '@mui/material/Dialog';
+import type { PaperProps } from '@mui/material/Paper';
 import type { CheckoutContextValue } from 'src/types/checkout';
 
 import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
 import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
 import Divider from '@mui/material/Divider';
+import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 
-import { paths } from 'src/routes/paths';
+import { OrderCompleteIllustration } from 'src/assets/illustrations';
+import { Iconify } from 'src/components/iconify';
+
 import { RouterLink } from 'src/routes/components';
 
-import { OrderCompleteIllustration } from 'src/assets/illustrations';
-
-import { Iconify } from 'src/components/iconify';
+import { paths } from 'src/routes/paths';
 
 // ----------------------------------------------------------------------
 

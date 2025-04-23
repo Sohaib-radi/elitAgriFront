@@ -1,12 +1,12 @@
 import type { BoxProps } from '@mui/material/Box';
-import type { InputBaseProps } from '@mui/material/InputBase';
 import type { ButtonBaseProps } from '@mui/material/ButtonBase';
 import type { FormHelperTextProps } from '@mui/material/FormHelperText';
-
-import { useId, useCallback } from 'react';
-import { varAlpha } from 'minimal-shared/utils';
+import type { InputBaseProps } from '@mui/material/InputBase';
 
 import Box from '@mui/material/Box';
+import { varAlpha } from 'minimal-shared/utils';
+
+import { useId, useCallback } from 'react';
 
 import { Iconify } from '../iconify';
 import {

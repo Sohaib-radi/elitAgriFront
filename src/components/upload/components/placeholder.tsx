@@ -1,11 +1,11 @@
 import type { Theme, SxProps } from '@mui/material/styles';
 
-import { mergeClasses } from 'minimal-shared/utils';
-
 import { styled } from '@mui/material/styles';
 
-import { createClasses } from 'src/theme/create-classes';
+import { mergeClasses } from 'minimal-shared/utils';
+
 import { UploadIllustration } from 'src/assets/illustrations';
+import { createClasses } from 'src/theme/create-classes';
 
 // ----------------------------------------------------------------------
 

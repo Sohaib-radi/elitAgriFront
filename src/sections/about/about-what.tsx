@@ -1,22 +1,22 @@
 import type { BoxProps } from '@mui/material/Box';
 
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+
+import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
+import LinearProgress from '@mui/material/LinearProgress';
+import Typography from '@mui/material/Typography';
 import { m } from 'framer-motion';
 import { varAlpha } from 'minimal-shared/utils';
 
-import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
-import Button from '@mui/material/Button';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-import LinearProgress from '@mui/material/LinearProgress';
+import { varFade, MotionViewport } from 'src/components/animate';
 
-import { fPercent } from 'src/utils/format-number';
-
-import { CONFIG } from 'src/global-config';
+import { Iconify } from 'src/components/iconify';
 
 import { Image } from 'src/components/image';
-import { Iconify } from 'src/components/iconify';
-import { varFade, MotionViewport } from 'src/components/animate';
+import { CONFIG } from 'src/global-config';
+import { fPercent } from 'src/utils/format-number';
 
 // ----------------------------------------------------------------------
 

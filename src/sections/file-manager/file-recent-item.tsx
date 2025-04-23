@@ -1,30 +1,30 @@
-import type { IFileManager } from 'src/types/file';
 import type { PaperProps } from '@mui/material/Paper';
+import type { IFileManager } from 'src/types/file';
 
-import { useState, useCallback } from 'react';
-import { useBoolean, usePopover, useCopyToClipboard } from 'minimal-shared/hooks';
-
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
 import Avatar from '@mui/material/Avatar';
-import Divider from '@mui/material/Divider';
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
-import Checkbox from '@mui/material/Checkbox';
-import IconButton from '@mui/material/IconButton';
-import ListItemText from '@mui/material/ListItemText';
 import AvatarGroup, { avatarGroupClasses } from '@mui/material/AvatarGroup';
 
+import Box from '@mui/material/Box';
+import Checkbox from '@mui/material/Checkbox';
+import Divider from '@mui/material/Divider';
+import IconButton from '@mui/material/IconButton';
+import ListItemText from '@mui/material/ListItemText';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
+import Paper from '@mui/material/Paper';
+import { useBoolean, usePopover, useCopyToClipboard } from 'minimal-shared/hooks';
+import { useState, useCallback } from 'react';
+
+import { CustomPopover } from 'src/components/custom-popover';
+import { FileThumbnail } from 'src/components/file-thumbnail';
+
+import { Iconify } from 'src/components/iconify';
+import { toast } from 'src/components/snackbar';
 import { fData } from 'src/utils/format-number';
 import { fDateTime } from 'src/utils/format-time';
 
-import { toast } from 'src/components/snackbar';
-import { Iconify } from 'src/components/iconify';
-import { FileThumbnail } from 'src/components/file-thumbnail';
-import { CustomPopover } from 'src/components/custom-popover';
-
-import { FileManagerShareDialog } from './file-manager-share-dialog';
 import { FileManagerFileDetails } from './file-manager-file-details';
+import { FileManagerShareDialog } from './file-manager-share-dialog';
 
 // ----------------------------------------------------------------------
 

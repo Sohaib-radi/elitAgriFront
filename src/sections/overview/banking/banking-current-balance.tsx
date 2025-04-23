@@ -1,20 +1,20 @@
 import type { BoxProps } from '@mui/material/Box';
 
-import { useCallback } from 'react';
-import { useBoolean, usePopover } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
 import IconButton from '@mui/material/IconButton';
 
-import { fCurrency } from 'src/utils/format-number';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
+import { useBoolean, usePopover } from 'minimal-shared/hooks';
+import { useCallback } from 'react';
 
-import { CONFIG } from 'src/global-config';
+import { Carousel, useCarousel, CarouselDotButtons } from 'src/components/carousel';
+
+import { CustomPopover } from 'src/components/custom-popover';
 
 import { Iconify } from 'src/components/iconify';
-import { CustomPopover } from 'src/components/custom-popover';
-import { Carousel, useCarousel, CarouselDotButtons } from 'src/components/carousel';
+import { CONFIG } from 'src/global-config';
+import { fCurrency } from 'src/utils/format-number';
 
 // ----------------------------------------------------------------------
 

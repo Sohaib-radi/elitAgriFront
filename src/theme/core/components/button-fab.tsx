@@ -1,8 +1,8 @@
 import type { Theme, Components, ComponentsVariants } from '@mui/material/styles';
 
-import { varAlpha } from 'minimal-shared/utils';
-
 import { fabClasses } from '@mui/material/Fab';
+
+import { varAlpha } from 'minimal-shared/utils';
 
 // ----------------------------------------------------------------------
 

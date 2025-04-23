@@ -3,14 +3,14 @@ import type { ChartOptions } from 'src/components/chart';
 
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
-import Stack from '@mui/material/Stack';
 import Divider from '@mui/material/Divider';
+import Stack from '@mui/material/Stack';
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
-import { fNumber } from 'src/utils/format-number';
-
 import { Chart, useChart } from 'src/components/chart';
+
+import { fNumber } from 'src/utils/format-number';
 
 // ----------------------------------------------------------------------
 

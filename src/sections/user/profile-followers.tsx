@@ -1,14 +1,14 @@
 import type { CardProps } from '@mui/material/Card';
 import type { IUserProfileFollower } from 'src/types/user';
 
-import { useState, useCallback } from 'react';
+import Avatar from '@mui/material/Avatar';
 
 import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
 import Button from '@mui/material/Button';
-import Avatar from '@mui/material/Avatar';
-import Typography from '@mui/material/Typography';
+import Card from '@mui/material/Card';
 import ListItemText from '@mui/material/ListItemText';
+import Typography from '@mui/material/Typography';
+import { useState, useCallback } from 'react';
 
 import { Iconify } from 'src/components/iconify';
 

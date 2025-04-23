@@ -4,8 +4,8 @@ import type { Theme, SxProps } from '@mui/material/styles';
 
 import Tooltip from '@mui/material/Tooltip';
 
-import { Label } from 'src/components/label';
 import { Iconify } from 'src/components/iconify';
+import { Label } from 'src/components/label';
 
 import { ComponentBox, ComponentLayout } from '../../layout';
 

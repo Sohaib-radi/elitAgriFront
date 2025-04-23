@@ -1,14 +1,14 @@
 import type { BoxProps } from '@mui/material/Box';
 import type { IKanbanComment } from 'src/types/kanban';
 
-import Box from '@mui/material/Box';
 import Avatar from '@mui/material/Avatar';
+import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
-import { fToNow } from 'src/utils/format-time';
-
 import { Image } from 'src/components/image';
+
 import { Lightbox, useLightBox } from 'src/components/lightbox';
+import { fToNow } from 'src/utils/format-time';
 
 // ----------------------------------------------------------------------
 

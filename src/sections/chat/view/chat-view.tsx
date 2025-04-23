@@ -2,29 +2,29 @@
 
 import type { IChatParticipant } from 'src/types/chat';
 
-import { useState, useEffect, useCallback, startTransition } from 'react';
-
 import Typography from '@mui/material/Typography';
 
-import { paths } from 'src/routes/paths';
-import { useRouter, useSearchParams } from 'src/routes/hooks';
+import { useState, useEffect, useCallback, startTransition } from 'react';
 
-import { CONFIG } from 'src/global-config';
-import { DashboardContent } from 'src/layouts/dashboard';
 import { useGetContacts, useGetConversation, useGetConversations } from 'src/actions/chat';
-
-import { EmptyContent } from 'src/components/empty-content';
-
 import { useMockedUser } from 'src/auth/hooks';
 
-import { ChatNav } from '../chat-nav';
-import { ChatLayout } from '../layout';
-import { ChatRoom } from '../chat-room';
-import { ChatMessageList } from '../chat-message-list';
-import { ChatMessageInput } from '../chat-message-input';
-import { ChatHeaderDetail } from '../chat-header-detail';
+import { EmptyContent } from 'src/components/empty-content';
+import { CONFIG } from 'src/global-config';
+import { DashboardContent } from 'src/layouts/dashboard';
+
+import { useRouter, useSearchParams } from 'src/routes/hooks';
+
+import { paths } from 'src/routes/paths';
+
 import { ChatHeaderCompose } from '../chat-header-compose';
+import { ChatHeaderDetail } from '../chat-header-detail';
+import { ChatMessageInput } from '../chat-message-input';
+import { ChatMessageList } from '../chat-message-list';
+import { ChatNav } from '../chat-nav';
+import { ChatRoom } from '../chat-room';
 import { useCollapseNav } from '../hooks/use-collapse-nav';
+import { ChatLayout } from '../layout';
 
 // ----------------------------------------------------------------------
 

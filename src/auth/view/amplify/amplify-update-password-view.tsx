@@ -1,27 +1,27 @@
 'use client';
 
-import { z as zod } from 'zod';
-import { useCallback } from 'react';
-import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { useBoolean, useCountdownSeconds } from 'minimal-shared/hooks';
-
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import InputAdornment from '@mui/material/InputAdornment';
 
-import { paths } from 'src/routes/paths';
-import { useRouter, useSearchParams } from 'src/routes/hooks';
-
+import { useBoolean, useCountdownSeconds } from 'minimal-shared/hooks';
+import { useCallback } from 'react';
+import { useForm } from 'react-hook-form';
 import { SentIcon } from 'src/assets/icons';
 
-import { Iconify } from 'src/components/iconify';
 import { Form, Field } from 'src/components/hook-form';
+import { Iconify } from 'src/components/iconify';
+
+import { useRouter, useSearchParams } from 'src/routes/hooks';
+
+import { paths } from 'src/routes/paths';
+import { z as zod } from 'zod';
 
 import { FormHead } from '../../components/form-head';
-import { FormReturnLink } from '../../components/form-return-link';
 import { FormResendCode } from '../../components/form-resend-code';
+import { FormReturnLink } from '../../components/form-return-link';
 import { resetPassword, updatePassword } from '../../context/amplify';
 
 // ----------------------------------------------------------------------

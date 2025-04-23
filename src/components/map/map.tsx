@@ -1,11 +1,11 @@
 import type { Theme, SxProps } from '@mui/material/styles';
 import type { MapRef, MapProps as ReactMapProps } from 'react-map-gl/mapbox';
 
-import { lazy, Suspense } from 'react';
-import { useIsClient } from 'minimal-shared/hooks';
-
 import Skeleton from '@mui/material/Skeleton';
 import { styled } from '@mui/material/styles';
+
+import { useIsClient } from 'minimal-shared/hooks';
+import { lazy, Suspense } from 'react';
 
 import { CONFIG } from 'src/global-config';
 

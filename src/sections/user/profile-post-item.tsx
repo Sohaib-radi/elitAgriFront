@@ -1,30 +1,30 @@
 import type { IUserProfilePost } from 'src/types/user';
 
+import Avatar from '@mui/material/Avatar';
+import AvatarGroup, { avatarGroupClasses } from '@mui/material/AvatarGroup';
+
+import Box from '@mui/material/Box';
+import Card from '@mui/material/Card';
+import CardHeader from '@mui/material/CardHeader';
+import Checkbox from '@mui/material/Checkbox';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import IconButton from '@mui/material/IconButton';
+import InputAdornment from '@mui/material/InputAdornment';
+import InputBase from '@mui/material/InputBase';
+import Link from '@mui/material/Link';
+import Paper from '@mui/material/Paper';
+import Stack from '@mui/material/Stack';
+import Typography from '@mui/material/Typography';
 import { varAlpha } from 'minimal-shared/utils';
 import { useRef, useState, useCallback } from 'react';
 
-import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
-import Card from '@mui/material/Card';
-import Paper from '@mui/material/Paper';
-import Stack from '@mui/material/Stack';
-import Avatar from '@mui/material/Avatar';
-import Checkbox from '@mui/material/Checkbox';
-import InputBase from '@mui/material/InputBase';
-import IconButton from '@mui/material/IconButton';
-import CardHeader from '@mui/material/CardHeader';
-import Typography from '@mui/material/Typography';
-import InputAdornment from '@mui/material/InputAdornment';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import AvatarGroup, { avatarGroupClasses } from '@mui/material/AvatarGroup';
-
-import { fDate } from 'src/utils/format-time';
-import { fShortenNumber } from 'src/utils/format-number';
-
-import { Image } from 'src/components/image';
+import { useMockedUser } from 'src/auth/hooks';
 import { Iconify } from 'src/components/iconify';
 
-import { useMockedUser } from 'src/auth/hooks';
+import { Image } from 'src/components/image';
+import { fShortenNumber } from 'src/utils/format-number';
+
+import { fDate } from 'src/utils/format-time';
 
 // ----------------------------------------------------------------------
 

@@ -1,26 +1,26 @@
-import type { ITourItem } from 'src/types/tour';
 import type { Theme, SxProps } from '@mui/material/styles';
+import type { ITourItem } from 'src/types/tour';
 
-import parse from 'autosuggest-highlight/parse';
+import Autocomplete, { autocompleteClasses, createFilterOptions } from '@mui/material/Autocomplete';
+import Avatar from '@mui/material/Avatar';
+import CircularProgress from '@mui/material/CircularProgress';
+import InputAdornment from '@mui/material/InputAdornment';
+
+import Link, { linkClasses } from '@mui/material/Link';
+import TextField from '@mui/material/TextField';
+import Typography from '@mui/material/Typography';
 import match from 'autosuggest-highlight/match';
+import parse from 'autosuggest-highlight/parse';
 import { useDebounce } from 'minimal-shared/hooks';
 import { useState, useEffect, useCallback } from 'react';
 
-import Avatar from '@mui/material/Avatar';
-import TextField from '@mui/material/TextField';
-import Typography from '@mui/material/Typography';
-import Link, { linkClasses } from '@mui/material/Link';
-import InputAdornment from '@mui/material/InputAdornment';
-import CircularProgress from '@mui/material/CircularProgress';
-import Autocomplete, { autocompleteClasses, createFilterOptions } from '@mui/material/Autocomplete';
-
-import { useRouter } from 'src/routes/hooks';
-import { RouterLink } from 'src/routes/components';
-
 import { _tours } from 'src/_mock';
-
 import { Iconify } from 'src/components/iconify';
+
 import { SearchNotFound } from 'src/components/search-not-found';
+
+import { RouterLink } from 'src/routes/components';
+import { useRouter } from 'src/routes/hooks';
 
 // ----------------------------------------------------------------------
 

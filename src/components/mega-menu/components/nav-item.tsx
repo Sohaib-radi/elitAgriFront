@@ -1,13 +1,13 @@
-import { mergeClasses } from 'minimal-shared/utils';
+import type { NavItemProps } from '../types';
 
-import { styled } from '@mui/material/styles';
 import ButtonBase from '@mui/material/ButtonBase';
+import { styled } from '@mui/material/styles';
 
+import { mergeClasses } from 'minimal-shared/utils';
 import { Iconify } from '../../iconify';
-import { createNavItem } from '../utils';
 import { navItemStyles, megaMenuClasses } from '../styles';
 
-import type { NavItemProps } from '../types';
+import { createNavItem } from '../utils';
 
 // ----------------------------------------------------------------------
 

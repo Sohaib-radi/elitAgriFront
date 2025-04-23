@@ -1,8 +1,8 @@
-import { m } from 'framer-motion';
-
 import Box from '@mui/material/Box';
+
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import { m } from 'framer-motion';
 
 import { varFade, MotionContainer } from 'src/components/animate';
 import { Carousel, useCarousel, CarouselArrowNumberButtons } from 'src/components/carousel';

@@ -2,23 +2,23 @@
 
 import { _mock } from 'src/_mock';
 
-import { CarouselFade } from './carousel-fade';
 import { ComponentLayout } from '../../layout';
-import { CarouselYaxis } from './carousel-yaxis';
 import { CarouselAlign } from './carousel-align';
-import { CarouselScale } from './carousel-scale';
-import { CarouselOpacity } from './carousel-opacity';
+import { CarouselAnimation } from './carousel-animation';
+import { CarouselAutoHeight } from './carousel-auto-height';
+import { CarouselAutoScroll } from './carousel-auto-scroll';
+import { CarouselAutoplay } from './carousel-autoplay';
 import { CarouselCustoms } from './carousel-customs';
+import { CarouselDotsNumber } from './carousel-dots-number';
+import { CarouselFade } from './carousel-fade';
+import { CarouselOpacity } from './carousel-opacity';
+import { CarouselParallax } from './carousel-parallax';
+import { CarouselProgress } from './carousel-progress';
+import { CarouselScale } from './carousel-scale';
 import { CarouselThumbsX } from './carousel-thumbs-x';
 import { CarouselThumbsY } from './carousel-thumbs-y';
-import { CarouselAutoplay } from './carousel-autoplay';
-import { CarouselProgress } from './carousel-progress';
-import { CarouselParallax } from './carousel-parallax';
-import { CarouselAnimation } from './carousel-animation';
-import { CarouselAutoScroll } from './carousel-auto-scroll';
-import { CarouselDotsNumber } from './carousel-dots-number';
-import { CarouselAutoHeight } from './carousel-auto-height';
 import { CarouselVariableWidths } from './carousel-variable-widths';
+import { CarouselYaxis } from './carousel-yaxis';
 
 // ----------------------------------------------------------------------
 

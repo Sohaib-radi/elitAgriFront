@@ -1,11 +1,11 @@
-import type { IProductTableFilters } from 'src/types/product';
 import type { UseSetStateReturn } from 'minimal-shared/hooks';
 import type { FiltersResultProps } from 'src/components/filters-result';
-
-import { useCallback } from 'react';
-import { upperFirst } from 'es-toolkit';
+import type { IProductTableFilters } from 'src/types/product';
 
 import Chip from '@mui/material/Chip';
+import { upperFirst } from 'es-toolkit';
+
+import { useCallback } from 'react';
 
 import { chipProps, FiltersBlock, FiltersResult } from 'src/components/filters-result';
 

@@ -2,29 +2,29 @@
 
 import type { IProductItem } from 'src/types/product';
 
+import Box from '@mui/material/Box';
+import Card from '@mui/material/Card';
+import Grid from '@mui/material/Grid';
+
+import Tab from '@mui/material/Tab';
+import Tabs from '@mui/material/Tabs';
+import Typography from '@mui/material/Typography';
 import { useTabs } from 'minimal-shared/hooks';
 import { varAlpha } from 'minimal-shared/utils';
 import { useState, useEffect, useCallback } from 'react';
 
-import Tab from '@mui/material/Tab';
-import Box from '@mui/material/Box';
-import Tabs from '@mui/material/Tabs';
-import Card from '@mui/material/Card';
-import Grid from '@mui/material/Grid';
-import Typography from '@mui/material/Typography';
+import { PRODUCT_PUBLISH_OPTIONS } from 'src/_mock';
+
+import { Iconify } from 'src/components/iconify';
+import { DashboardContent } from 'src/layouts/dashboard';
 
 import { paths } from 'src/routes/paths';
 
-import { PRODUCT_PUBLISH_OPTIONS } from 'src/_mock';
-import { DashboardContent } from 'src/layouts/dashboard';
-
-import { Iconify } from 'src/components/iconify';
-
+import { ProductDetailsCarousel } from '../product-details-carousel';
+import { ProductDetailsDescription } from '../product-details-description';
 import { ProductDetailsReview } from '../product-details-review';
 import { ProductDetailsSummary } from '../product-details-summary';
 import { ProductDetailsToolbar } from '../product-details-toolbar';
-import { ProductDetailsCarousel } from '../product-details-carousel';
-import { ProductDetailsDescription } from '../product-details-description';
 
 // ----------------------------------------------------------------------
 

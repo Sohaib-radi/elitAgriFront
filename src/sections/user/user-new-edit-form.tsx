@@ -1,35 +1,35 @@
 import type { IUserItem } from 'src/types/user';
 
-import { z as zod } from 'zod';
-import { useState, useEffect } from 'react';
-import { useBoolean } from 'minimal-shared/hooks';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { useForm, Controller } from 'react-hook-form';
-import { isValidPhoneNumber } from 'react-phone-number-input/input';
-
+import { Dialog, MenuItem, DialogTitle, DialogActions, DialogContent } from '@mui/material';
 import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
+import FormControlLabel from '@mui/material/FormControlLabel';
+
 import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
 import Switch from '@mui/material/Switch';
 import Typography from '@mui/material/Typography';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import { Dialog, MenuItem, DialogTitle, DialogActions, DialogContent } from '@mui/material';
+import { useBoolean } from 'minimal-shared/hooks';
+import { useState, useEffect } from 'react';
+import { useForm, Controller } from 'react-hook-form';
+import { isValidPhoneNumber } from 'react-phone-number-input/input';
+import { useAuthContext } from 'src/auth/hooks';
 
-import { useRouter } from 'src/routes/hooks';
+import { canEditUserField } from 'src/auth/utils/user-permissions';
 
-import { fData } from 'src/utils/format-number';
-
-import { CONFIG } from 'src/global-config';
-import axios, { endpoints } from 'src/lib/axios';
+import { Form, Field, schemaHelper } from 'src/components/hook-form';
 
 import { Label } from 'src/components/label';
 import { toast } from 'src/components/snackbar';
-import { Form, Field, schemaHelper } from 'src/components/hook-form';
 
-import { useAuthContext } from 'src/auth/hooks';
-import { canEditUserField } from 'src/auth/utils/user-permissions';
+import { CONFIG } from 'src/global-config';
+import axios, { endpoints } from 'src/lib/axios';
+import { useRouter } from 'src/routes/hooks';
+
+import { fData } from 'src/utils/format-number';
+import { z as zod } from 'zod';
 // ----------------------------------------------------------------------
 
 export type NewUserSchemaType = zod.infer<typeof NewUserSchema>;

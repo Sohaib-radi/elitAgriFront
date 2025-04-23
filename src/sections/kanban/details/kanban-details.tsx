@@ -1,38 +1,38 @@
 import type { IKanbanTask } from 'src/types/kanban';
 
-import dayjs from 'dayjs';
-import { useState, useCallback } from 'react';
-import { varAlpha } from 'minimal-shared/utils';
-import { useTabs, useBoolean } from 'minimal-shared/hooks';
-
+import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
-import Tab from '@mui/material/Tab';
+import Button from '@mui/material/Button';
+import Checkbox from '@mui/material/Checkbox';
+
 import Chip from '@mui/material/Chip';
 import Drawer from '@mui/material/Drawer';
-import Button from '@mui/material/Button';
-import Avatar from '@mui/material/Avatar';
-import Tooltip from '@mui/material/Tooltip';
-import { styled } from '@mui/material/styles';
-import Checkbox from '@mui/material/Checkbox';
-import TextField from '@mui/material/TextField';
+import FormControlLabel from '@mui/material/FormControlLabel';
 import FormGroup from '@mui/material/FormGroup';
-import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import LinearProgress from '@mui/material/LinearProgress';
-import FormControlLabel from '@mui/material/FormControlLabel';
+import { styled } from '@mui/material/styles';
+import Tab from '@mui/material/Tab';
+import TextField from '@mui/material/TextField';
+import Tooltip from '@mui/material/Tooltip';
+import Typography from '@mui/material/Typography';
+import dayjs from 'dayjs';
+import { useTabs, useBoolean } from 'minimal-shared/hooks';
+import { varAlpha } from 'minimal-shared/utils';
+import { useState, useCallback } from 'react';
 
+import { useDateRangePicker, CustomDateRangePicker } from 'src/components/custom-date-range-picker';
+import { CustomTabs } from 'src/components/custom-tabs';
 import { Iconify } from 'src/components/iconify';
 import { Scrollbar } from 'src/components/scrollbar';
-import { CustomTabs } from 'src/components/custom-tabs';
-import { useDateRangePicker, CustomDateRangePicker } from 'src/components/custom-date-range-picker';
 
-import { KanbanDetailsToolbar } from './kanban-details-toolbar';
-import { KanbanInputName } from '../components/kanban-input-name';
-import { KanbanDetailsPriority } from './kanban-details-priority';
-import { KanbanDetailsAttachments } from './kanban-details-attachments';
-import { KanbanDetailsCommentList } from './kanban-details-comment-list';
-import { KanbanDetailsCommentInput } from './kanban-details-comment-input';
 import { KanbanContactsDialog } from '../components/kanban-contacts-dialog';
+import { KanbanInputName } from '../components/kanban-input-name';
+import { KanbanDetailsAttachments } from './kanban-details-attachments';
+import { KanbanDetailsCommentInput } from './kanban-details-comment-input';
+import { KanbanDetailsCommentList } from './kanban-details-comment-list';
+import { KanbanDetailsPriority } from './kanban-details-priority';
+import { KanbanDetailsToolbar } from './kanban-details-toolbar';
 
 // ----------------------------------------------------------------------
 

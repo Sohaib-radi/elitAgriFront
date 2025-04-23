@@ -1,11 +1,11 @@
-import type { IMail } from 'src/types/mail';
 import type { ListItemButtonProps } from '@mui/material/ListItemButton';
+import type { IMail } from 'src/types/mail';
 
-import Box from '@mui/material/Box';
 import Avatar from '@mui/material/Avatar';
-import Typography from '@mui/material/Typography';
-import ListItemText from '@mui/material/ListItemText';
+import Box from '@mui/material/Box';
 import ListItemButton from '@mui/material/ListItemButton';
+import ListItemText from '@mui/material/ListItemText';
+import Typography from '@mui/material/Typography';
 
 import { fToNow } from 'src/utils/format-time';
 

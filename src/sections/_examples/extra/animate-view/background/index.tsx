@@ -1,13 +1,13 @@
-import { useState } from 'react';
+import type { ControlPanelProps } from '../control-panel';
 
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 
-import { Toolbar } from './toolbar';
-import { ContainerView } from './container';
+import { useState } from 'react';
 import { ControlPanel } from '../control-panel';
+import { ContainerView } from './container';
 
-import type { ControlPanelProps } from '../control-panel';
+import { Toolbar } from './toolbar';
 
 // ----------------------------------------------------------------------
 

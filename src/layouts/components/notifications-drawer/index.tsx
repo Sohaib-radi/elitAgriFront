@@ -1,29 +1,29 @@
 'use client';
 
+import type { NotificationItemProps } from './notification-item';
+
 import type { IconButtonProps } from '@mui/material/IconButton';
-
-import { m } from 'framer-motion';
-import { useState, useCallback } from 'react';
-import { useBoolean } from 'minimal-shared/hooks';
-
-import Tab from '@mui/material/Tab';
-import Box from '@mui/material/Box';
 import Badge from '@mui/material/Badge';
-import Drawer from '@mui/material/Drawer';
+import Box from '@mui/material/Box';
+
 import Button from '@mui/material/Button';
+import Drawer from '@mui/material/Drawer';
+import IconButton from '@mui/material/IconButton';
+import Tab from '@mui/material/Tab';
 import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
+import { m } from 'framer-motion';
+import { useBoolean } from 'minimal-shared/hooks';
 
-import { Label } from 'src/components/label';
-import { Iconify } from 'src/components/iconify';
-import { Scrollbar } from 'src/components/scrollbar';
-import { CustomTabs } from 'src/components/custom-tabs';
+import { useState, useCallback } from 'react';
 import { varTap, varHover, transitionTap } from 'src/components/animate';
+import { CustomTabs } from 'src/components/custom-tabs';
+import { Iconify } from 'src/components/iconify';
+import { Label } from 'src/components/label';
+
+import { Scrollbar } from 'src/components/scrollbar';
 
 import { NotificationItem } from './notification-item';
-
-import type { NotificationItemProps } from './notification-item';
 
 // ----------------------------------------------------------------------
 

@@ -1,9 +1,9 @@
 import type { CSSObject } from '@mui/material/styles';
 
-import { memo } from 'react';
+import { styled } from '@mui/material/styles';
 import { varAlpha, mergeClasses } from 'minimal-shared/utils';
 
-import { styled } from '@mui/material/styles';
+import { memo } from 'react';
 
 import { kanbanClasses } from '../classes';
 

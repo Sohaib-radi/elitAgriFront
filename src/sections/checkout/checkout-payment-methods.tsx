@@ -2,20 +2,20 @@ import type { BoxProps } from '@mui/material/Box';
 import type { CardProps } from '@mui/material/Card';
 import type { ICheckoutCardOption, ICheckoutPaymentOption } from 'src/types/checkout';
 
-import { varAlpha } from 'minimal-shared/utils';
-import { useBoolean } from 'minimal-shared/hooks';
-import { Controller, useFormContext } from 'react-hook-form';
-
 import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
 import Button from '@mui/material/Button';
-import Dialog from '@mui/material/Dialog';
-import TextField from '@mui/material/TextField';
+import Card from '@mui/material/Card';
+
 import CardHeader from '@mui/material/CardHeader';
-import DialogTitle from '@mui/material/DialogTitle';
-import DialogContent from '@mui/material/DialogContent';
+import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogTitle from '@mui/material/DialogTitle';
 import FormHelperText from '@mui/material/FormHelperText';
+import TextField from '@mui/material/TextField';
+import { useBoolean } from 'minimal-shared/hooks';
+import { varAlpha } from 'minimal-shared/utils';
+import { Controller, useFormContext } from 'react-hook-form';
 
 import { Iconify } from 'src/components/iconify';
 

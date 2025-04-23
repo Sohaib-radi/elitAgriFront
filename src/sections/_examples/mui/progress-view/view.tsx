@@ -2,13 +2,13 @@
 
 import type { Theme, SxProps } from '@mui/material/styles';
 
-import { useRef, useState, useEffect } from 'react';
-
 import Box from '@mui/material/Box';
 
+import { useRef, useState, useEffect } from 'react';
+
 import { ComponentLayout } from '../../layout';
-import { ProgressLinear } from './progress-linear';
 import { ProgressCircular } from './progress-circular';
+import { ProgressLinear } from './progress-linear';
 
 // ----------------------------------------------------------------------
 

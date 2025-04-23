@@ -1,14 +1,14 @@
+import type { SettingsState } from '../types';
 import type { BoxProps } from '@mui/material/Box';
-import type { SliderProps } from '@mui/material/Slider';
 
-import { setFont } from 'minimal-shared/utils';
+import type { SliderProps } from '@mui/material/Slider';
 
 import Box from '@mui/material/Box';
 import Slider, { sliderClasses } from '@mui/material/Slider';
 
-import { OptionButton } from './styles';
+import { setFont } from 'minimal-shared/utils';
 
-import type { SettingsState } from '../types';
+import { OptionButton } from './styles';
 
 // ----------------------------------------------------------------------
 

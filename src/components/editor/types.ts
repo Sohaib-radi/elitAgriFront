@@ -1,7 +1,7 @@
 import type { BoxProps } from '@mui/material/Box';
+import type { ButtonBaseProps } from '@mui/material/ButtonBase';
 import type { Theme, SxProps } from '@mui/material/styles';
 import type { Editor, EditorOptions } from '@tiptap/react';
-import type { ButtonBaseProps } from '@mui/material/ButtonBase';
 
 // ----------------------------------------------------------------------
 

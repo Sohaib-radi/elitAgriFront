@@ -1,10 +1,10 @@
 'use client';
 
-import { useState } from 'react';
-import { varAlpha } from 'minimal-shared/utils';
-
 import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
+
+import { varAlpha } from 'minimal-shared/utils';
+import { useState } from 'react';
 
 import { Iconify } from 'src/components/iconify';
 

@@ -1,28 +1,28 @@
 'use client';
 
 import type { Dayjs } from 'dayjs';
-import type { LanguageValue } from 'src/locales';
 import type { NavSectionProps } from 'src/components/nav-section';
+import type { LanguageValue } from 'src/locales';
 
+import Box from '@mui/material/Box';
+import FormControlLabel from '@mui/material/FormControlLabel';
+
+import Paper from '@mui/material/Paper';
+import Radio from '@mui/material/Radio';
+import RadioGroup from '@mui/material/RadioGroup';
+import TablePagination from '@mui/material/TablePagination';
+import Typography from '@mui/material/Typography';
+import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import dayjs from 'dayjs';
 import { useState, useCallback } from 'react';
 
-import Box from '@mui/material/Box';
-import Radio from '@mui/material/Radio';
-import Paper from '@mui/material/Paper';
-import Typography from '@mui/material/Typography';
-import RadioGroup from '@mui/material/RadioGroup';
-import TablePagination from '@mui/material/TablePagination';
-import { DatePicker } from '@mui/x-date-pickers/DatePicker';
-import FormControlLabel from '@mui/material/FormControlLabel';
-
-import { fDate } from 'src/utils/format-time';
-import { fData, fNumber, fPercent, fCurrency, fShortenNumber } from 'src/utils/format-number';
+import { FlagIcon } from 'src/components/flag-icon';
+import { NavSectionVertical } from 'src/components/nav-section';
 
 import { allLangs, useTranslate } from 'src/locales';
 
-import { FlagIcon } from 'src/components/flag-icon';
-import { NavSectionVertical } from 'src/components/nav-section';
+import { fData, fNumber, fPercent, fCurrency, fShortenNumber } from 'src/utils/format-number';
+import { fDate } from 'src/utils/format-time';
 
 import { ComponentBox, ComponentLayout } from '../../layout';
 import { navData as clientNavData } from './nav-config-translate';

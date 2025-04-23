@@ -1,18 +1,7 @@
-import type { BoxProps } from '@mui/material/Box';
 import type { DropAnimation, UniqueIdentifier } from '@dnd-kit/core';
 import type { NewIndexGetter, AnimateLayoutChanges } from '@dnd-kit/sortable';
+import type { BoxProps } from '@mui/material/Box';
 
-import { useRef, useState, useEffect } from 'react';
-import {
-  arraySwap,
-  arrayMove,
-  useSortable,
-  SortableContext,
-  rectSortingStrategy,
-  rectSwappingStrategy,
-  sortableKeyboardCoordinates,
-  defaultAnimateLayoutChanges,
-} from '@dnd-kit/sortable';
 import {
   useSensor,
   DndContext,
@@ -25,10 +14,21 @@ import {
   MeasuringStrategy,
   defaultDropAnimationSideEffects,
 } from '@dnd-kit/core';
-
+import {
+  arraySwap,
+  arrayMove,
+  useSortable,
+  SortableContext,
+  rectSortingStrategy,
+  rectSwappingStrategy,
+  sortableKeyboardCoordinates,
+  defaultAnimateLayoutChanges,
+} from '@dnd-kit/sortable';
 import Box from '@mui/material/Box';
-import Portal from '@mui/material/Portal';
+
 import Button from '@mui/material/Button';
+import Portal from '@mui/material/Portal';
+import { useRef, useState, useEffect } from 'react';
 
 import { itemClasses } from './classes';
 import ItemBase from './sortable-item-base';

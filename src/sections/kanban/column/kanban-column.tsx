@@ -1,18 +1,18 @@
-import type { Theme, SxProps } from '@mui/material/styles';
 import type { AnimateLayoutChanges } from '@dnd-kit/sortable';
+import type { Theme, SxProps } from '@mui/material/styles';
 import type { IKanbanTask, IKanbanColumn } from 'src/types/kanban';
 
-import { useCallback } from 'react';
+import { useSortable, defaultAnimateLayoutChanges } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
 import { useBoolean } from 'minimal-shared/hooks';
-import { useSortable, defaultAnimateLayoutChanges } from '@dnd-kit/sortable';
+import { useCallback } from 'react';
 
 import { createTask, clearColumn, deleteColumn, updateColumn } from 'src/actions/kanban';
 
 import { toast } from 'src/components/snackbar';
 
-import ColumnBase from './column-base';
 import { KanbanTaskAdd } from '../components/kanban-task-add';
+import ColumnBase from './column-base';
 import { KanbanColumnToolBar } from './kanban-column-toolbar';
 
 // ----------------------------------------------------------------------

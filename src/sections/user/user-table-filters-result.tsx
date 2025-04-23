@@ -1,10 +1,10 @@
-import type { IUserTableFilters } from 'src/types/user';
 import type { UseSetStateReturn } from 'minimal-shared/hooks';
 import type { FiltersResultProps } from 'src/components/filters-result';
-
-import { useCallback } from 'react';
+import type { IUserTableFilters } from 'src/types/user';
 
 import Chip from '@mui/material/Chip';
+
+import { useCallback } from 'react';
 
 import { chipProps, FiltersBlock, FiltersResult } from 'src/components/filters-result';
 

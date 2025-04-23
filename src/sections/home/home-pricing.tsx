@@ -1,24 +1,24 @@
 import type { BoxProps } from '@mui/material/Box';
 
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Container from '@mui/material/Container';
+
+import Divider from '@mui/material/Divider';
+import Stack from '@mui/material/Stack';
+import Tab from '@mui/material/Tab';
+import Tabs from '@mui/material/Tabs';
+import Typography from '@mui/material/Typography';
 import { m } from 'framer-motion';
 import { useTabs } from 'minimal-shared/hooks';
 import { varAlpha } from 'minimal-shared/utils';
 
-import Box from '@mui/material/Box';
-import Tab from '@mui/material/Tab';
-import Tabs from '@mui/material/Tabs';
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
-import Divider from '@mui/material/Divider';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-
-import { paths } from 'src/routes/paths';
-
-import { CONFIG } from 'src/global-config';
+import { varFade, varScale, MotionViewport } from 'src/components/animate';
 
 import { Iconify } from 'src/components/iconify';
-import { varFade, varScale, MotionViewport } from 'src/components/animate';
+
+import { CONFIG } from 'src/global-config';
+import { paths } from 'src/routes/paths';
 
 import { SectionTitle } from './components/section-title';
 import { FloatLine, FloatXIcon } from './components/svg-elements';

@@ -1,6 +1,6 @@
-import AutoHeight from 'embla-carousel-auto-height';
-
 import Box from '@mui/material/Box';
+
+import AutoHeight from 'embla-carousel-auto-height';
 
 import { Carousel, useCarousel, CarouselArrowBasicButtons } from 'src/components/carousel';
 

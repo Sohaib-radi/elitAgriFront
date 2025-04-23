@@ -1,5 +1,5 @@
-import { styled } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
+import { styled } from '@mui/material/styles';
 
 import { Iconify } from '../../iconify';
 

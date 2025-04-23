@@ -1,11 +1,11 @@
-import type { MotionProps } from 'framer-motion';
 import type { BoxProps } from '@mui/material/Box';
-
-import { useRef } from 'react';
-import { m } from 'framer-motion';
+import type { MotionProps } from 'framer-motion';
 
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+
+import { m } from 'framer-motion';
+import { useRef } from 'react';
 
 import { varContainer, MotionViewport } from 'src/components/animate';
 

@@ -1,16 +1,16 @@
 import type { BoxProps } from '@mui/material/Box';
 import type { IJobCandidate } from 'src/types/job';
 
-import { varAlpha } from 'minimal-shared/utils';
+import Avatar from '@mui/material/Avatar';
 
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
-import Stack from '@mui/material/Stack';
-import Avatar from '@mui/material/Avatar';
-import Tooltip from '@mui/material/Tooltip';
-import Pagination from '@mui/material/Pagination';
 import IconButton from '@mui/material/IconButton';
 import ListItemText from '@mui/material/ListItemText';
+import Pagination from '@mui/material/Pagination';
+import Stack from '@mui/material/Stack';
+import Tooltip from '@mui/material/Tooltip';
+import { varAlpha } from 'minimal-shared/utils';
 
 import { Iconify } from 'src/components/iconify';
 

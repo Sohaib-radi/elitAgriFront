@@ -1,17 +1,17 @@
 'use client';
 
-import { z as zod } from 'zod';
-import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
-
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 
-import { paths } from 'src/routes/paths';
-
+import { useForm } from 'react-hook-form';
 import { EmailInboxIcon } from 'src/assets/icons';
 
 import { Form, Field } from 'src/components/hook-form';
+
+import { paths } from 'src/routes/paths';
+
+import { z as zod } from 'zod';
 
 import { FormHead } from '../../../components/form-head';
 import { FormResendCode } from '../../../components/form-resend-code';

@@ -2,25 +2,25 @@
 
 import type { Theme, SxProps } from '@mui/material/styles';
 
-import { ChartPie } from './chart-pie';
-import { ChartBar } from './chart-bar';
-import { ChartLine } from './chart-line';
+import { ComponentBox, ComponentLayout } from '../../layout';
 import { ChartArea } from './chart-area';
-import { ChartMixed } from './chart-mixed';
-import { ChartDonut } from './chart-donut';
-import { ChartScatter } from './chart-scatter';
-import { ChartTreemap } from './chart-treemap';
-import { ChartHeatmap } from './chart-heatmap';
+import { ChartBar } from './chart-bar';
 import { ChartBoxPlot } from './chart-box-plot';
-import { ChartRadarBar } from './chart-radar-bar';
-import { ChartRadialBar } from './chart-radial-bar';
-import { ChartStrokedGauge } from './chart-stroked-gauge';
+import { ChartColumnMultiple } from './chart-column-multiple';
+import { ChartColumnNegative } from './chart-column-negative';
 import { ChartColumnSingle } from './chart-column-single';
 import { ChartColumnStacked } from './chart-column-stacked';
-import { ComponentBox, ComponentLayout } from '../../layout';
-import { ChartColumnNegative } from './chart-column-negative';
-import { ChartColumnMultiple } from './chart-column-multiple';
+import { ChartDonut } from './chart-donut';
+import { ChartHeatmap } from './chart-heatmap';
+import { ChartLine } from './chart-line';
+import { ChartMixed } from './chart-mixed';
+import { ChartPie } from './chart-pie';
+import { ChartRadarBar } from './chart-radar-bar';
+import { ChartRadialBar } from './chart-radial-bar';
+import { ChartScatter } from './chart-scatter';
 import { ChartSemiCircleGauge } from './chart-semi-circle-gauge';
+import { ChartStrokedGauge } from './chart-stroked-gauge';
+import { ChartTreemap } from './chart-treemap';
 
 // ----------------------------------------------------------------------
 

@@ -1,26 +1,26 @@
-import { common, createLowlight } from 'lowlight';
-import LinkExtension from '@tiptap/extension-link';
-import Underline from '@tiptap/extension-underline';
-import { mergeClasses } from 'minimal-shared/utils';
-import ImageExtension from '@tiptap/extension-image';
-import StarterKitExtension from '@tiptap/starter-kit';
-import { useState, useEffect, useCallback } from 'react';
-import TextAlignExtension from '@tiptap/extension-text-align';
-import PlaceholderExtension from '@tiptap/extension-placeholder';
-import CodeBlockLowlightExtension from '@tiptap/extension-code-block-lowlight';
-import { useEditor, EditorContent, ReactNodeViewRenderer } from '@tiptap/react';
-
-import Box from '@mui/material/Box';
-import Portal from '@mui/material/Portal';
+import type { EditorProps } from './types';
 import Backdrop from '@mui/material/Backdrop';
+import Box from '@mui/material/Box';
 import FormHelperText from '@mui/material/FormHelperText';
+import Portal from '@mui/material/Portal';
+import CodeBlockLowlightExtension from '@tiptap/extension-code-block-lowlight';
+import ImageExtension from '@tiptap/extension-image';
+import LinkExtension from '@tiptap/extension-link';
+import PlaceholderExtension from '@tiptap/extension-placeholder';
+import TextAlignExtension from '@tiptap/extension-text-align';
+import Underline from '@tiptap/extension-underline';
 
-import { Toolbar } from './toolbar';
-import { EditorRoot } from './styles';
+import { useEditor, EditorContent, ReactNodeViewRenderer } from '@tiptap/react';
+import StarterKitExtension from '@tiptap/starter-kit';
+import { common, createLowlight } from 'lowlight';
+import { mergeClasses } from 'minimal-shared/utils';
+
+import { useState, useEffect, useCallback } from 'react';
 import { editorClasses } from './classes';
 import { CodeHighlightBlock } from './components/code-highlight-block';
+import { EditorRoot } from './styles';
 
-import type { EditorProps } from './types';
+import { Toolbar } from './toolbar';
 
 // ----------------------------------------------------------------------
 

@@ -1,11 +1,11 @@
-import type { BoxProps } from '@mui/material/Box';
+import type { SettingsState } from '../types';
 
+import type { BoxProps } from '@mui/material/Box';
 import Box from '@mui/material/Box';
+
 import { alpha as hexAlpha } from '@mui/material/styles';
 
 import { OptionButton } from './styles';
-
-import type { SettingsState } from '../types';
 
 // ----------------------------------------------------------------------
 

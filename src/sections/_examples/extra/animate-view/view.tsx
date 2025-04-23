@@ -1,17 +1,17 @@
 'use client';
 
-import { useTabs } from 'minimal-shared/hooks';
+import Box from '@mui/material/Box';
 
 import Tab from '@mui/material/Tab';
-import Box from '@mui/material/Box';
 import Tabs from '@mui/material/Tabs';
+import { useTabs } from 'minimal-shared/hooks';
 
-import { AnimateOther } from './other';
-import { AnimateScroll } from './scroll';
-import { AnimateDialog } from './dialog';
-import { AnimateInview } from './inview';
 import { ComponentLayout } from '../../layout';
 import { AnimateBackground } from './background';
+import { AnimateDialog } from './dialog';
+import { AnimateInview } from './inview';
+import { AnimateOther } from './other';
+import { AnimateScroll } from './scroll';
 import { scrollOptions, inviewOptions, backgroundOptions } from './variant-keys';
 
 // ----------------------------------------------------------------------

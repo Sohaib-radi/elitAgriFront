@@ -1,9 +1,9 @@
-import type { Theme } from '@mui/material/styles';
 import type { AvatarProps } from '@mui/material/Avatar';
-
-import { varAlpha } from 'minimal-shared/utils';
+import type { Theme } from '@mui/material/styles';
 
 import Avatar from '@mui/material/Avatar';
+
+import { varAlpha } from 'minimal-shared/utils';
 
 import { _mock } from 'src/_mock';
 

@@ -1,12 +1,12 @@
-import { Children, isValidElement } from 'react';
-import { mergeClasses } from 'minimal-shared/utils';
-
+import type { CarouselOptions, CarouselThumbsProps } from '../types';
 import { styled } from '@mui/material/styles';
 
-import { carouselClasses } from '../classes';
-import { CarouselSlide } from './carousel-slide';
+import { mergeClasses } from 'minimal-shared/utils';
 
-import type { CarouselOptions, CarouselThumbsProps } from '../types';
+import { Children, isValidElement } from 'react';
+import { carouselClasses } from '../classes';
+
+import { CarouselSlide } from './carousel-slide';
 
 // ----------------------------------------------------------------------
 

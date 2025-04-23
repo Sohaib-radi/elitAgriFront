@@ -1,20 +1,20 @@
 import type { BoxProps } from '@mui/material/Box';
 
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+
+import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
+import Stack from '@mui/material/Stack';
 import { m } from 'framer-motion';
 import { varAlpha } from 'minimal-shared/utils';
 
-import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
-import Container from '@mui/material/Container';
-
-import { paths } from 'src/routes/paths';
-
-import { CONFIG } from 'src/global-config';
+import { varFade, MotionViewport } from 'src/components/animate';
 
 import { Iconify } from 'src/components/iconify';
-import { varFade, MotionViewport } from 'src/components/animate';
+
+import { CONFIG } from 'src/global-config';
+import { paths } from 'src/routes/paths';
 
 import { SectionTitle } from './components/section-title';
 import { FloatLine, CircleSvg, FloatTriangleDownIcon } from './components/svg-elements';

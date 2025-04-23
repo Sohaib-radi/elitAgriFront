@@ -1,27 +1,27 @@
 import type { ICalendarEvent } from 'src/types/calendar';
 
-import { z as zod } from 'zod';
-import { useCallback } from 'react';
-import { uuidv4 } from 'minimal-shared/utils';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { useForm, Controller } from 'react-hook-form';
-
 import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
-import IconButton from '@mui/material/IconButton';
 import DialogActions from '@mui/material/DialogActions';
+import IconButton from '@mui/material/IconButton';
 
-import { fIsAfter } from 'src/utils/format-time';
-
+import Stack from '@mui/material/Stack';
+import Tooltip from '@mui/material/Tooltip';
+import { uuidv4 } from 'minimal-shared/utils';
+import { useCallback } from 'react';
+import { useForm, Controller } from 'react-hook-form';
 import { createEvent, updateEvent, deleteEvent } from 'src/actions/calendar';
 
-import { toast } from 'src/components/snackbar';
+import { ColorPicker } from 'src/components/color-utils';
+
+import { Form, Field } from 'src/components/hook-form';
+
 import { Iconify } from 'src/components/iconify';
 import { Scrollbar } from 'src/components/scrollbar';
-import { Form, Field } from 'src/components/hook-form';
-import { ColorPicker } from 'src/components/color-utils';
+import { toast } from 'src/components/snackbar';
+import { fIsAfter } from 'src/utils/format-time';
+import { z as zod } from 'zod';
 
 // ----------------------------------------------------------------------
 

@@ -1,11 +1,11 @@
 import type { CardProps } from '@mui/material/Card';
 
-import { varAlpha } from 'minimal-shared/utils';
-
 import Box from '@mui/material/Box';
+
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
 import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress';
+import { varAlpha } from 'minimal-shared/utils';
 
 import { fShortenNumber } from 'src/utils/format-number';
 

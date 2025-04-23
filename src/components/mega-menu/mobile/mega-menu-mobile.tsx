@@ -1,20 +1,20 @@
-import { useEffect, cloneElement } from 'react';
+import type { MegaMenuProps } from '../types';
+import Drawer, { drawerClasses } from '@mui/material/Drawer';
+import IconButton from '@mui/material/IconButton';
+
+import { useTheme } from '@mui/material/styles';
 import { useBoolean } from 'minimal-shared/hooks';
 import { mergeClasses } from 'minimal-shared/utils';
 
-import { useTheme } from '@mui/material/styles';
-import IconButton from '@mui/material/IconButton';
-import Drawer, { drawerClasses } from '@mui/material/Drawer';
+import { useEffect, cloneElement } from 'react';
 
 import { usePathname } from 'src/routes/hooks';
-
-import { NavList } from './nav-list';
 import { Iconify } from '../../iconify';
-import { Nav, NavUl } from '../components';
 import { Scrollbar } from '../../scrollbar';
+import { Nav, NavUl } from '../components';
 import { megaMenuVars, megaMenuClasses } from '../styles';
 
-import type { MegaMenuProps } from '../types';
+import { NavList } from './nav-list';
 
 // ----------------------------------------------------------------------
 

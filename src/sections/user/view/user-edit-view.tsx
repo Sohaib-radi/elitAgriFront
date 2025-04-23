@@ -2,11 +2,11 @@
 
 import type { IUserItem } from 'src/types/user';
 
-import { paths } from 'src/routes/paths';
+import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
 
 import { DashboardContent } from 'src/layouts/dashboard';
 
-import { CustomBreadcrumbs } from 'src/components/custom-breadcrumbs';
+import { paths } from 'src/routes/paths';
 
 import { UserNewEditForm } from '../user-new-edit-form';
 

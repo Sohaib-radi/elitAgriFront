@@ -1,13 +1,13 @@
-import type { MapProps } from 'src/components/map';
+import type { ModeProps } from './control-panel';
 import type { ViewStateChangeEvent } from 'react-map-gl/mapbox';
+
+import type { MapProps } from 'src/components/map';
 
 import { useMemo, useState, useCallback } from 'react';
 
 import { Map } from 'src/components/map';
 
 import { MapControlPanel } from './control-panel';
-
-import type { ModeProps } from './control-panel';
 
 // ----------------------------------------------------------------------
 

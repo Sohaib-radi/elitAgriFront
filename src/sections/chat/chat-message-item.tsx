@@ -1,16 +1,16 @@
 import type { IChatMessage, IChatParticipant } from 'src/types/chat';
 
-import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
 import Avatar from '@mui/material/Avatar';
+import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
+import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
-import { fToNow } from 'src/utils/format-time';
+import { useMockedUser } from 'src/auth/hooks';
 
 import { Iconify } from 'src/components/iconify';
 
-import { useMockedUser } from 'src/auth/hooks';
+import { fToNow } from 'src/utils/format-time';
 
 import { getMessage } from './utils/get-message';
 

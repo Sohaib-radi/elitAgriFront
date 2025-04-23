@@ -1,15 +1,15 @@
 import type { BoxProps } from '@mui/material/Box';
 
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+
+import Typography from '@mui/material/Typography';
 import { m } from 'framer-motion';
 import { varAlpha } from 'minimal-shared/utils';
 
-import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
+import { varFade, AnimateText, MotionContainer, animateTextClasses } from 'src/components/animate';
 
 import { CONFIG } from 'src/global-config';
-
-import { varFade, AnimateText, MotionContainer, animateTextClasses } from 'src/components/animate';
 
 // ----------------------------------------------------------------------
 

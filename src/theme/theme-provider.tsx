@@ -1,19 +1,19 @@
 'use client';
 
+import type {} from './extend-theme-types';
+
+import type { ThemeOptions } from './types';
 import type { ThemeProviderProps as MuiThemeProviderProps } from '@mui/material/styles';
 
 import CssBaseline from '@mui/material/CssBaseline';
+
 import { ThemeProvider as ThemeVarsProvider } from '@mui/material/styles';
 
-import { useTranslate } from 'src/locales';
-
 import { useSettingsContext } from 'src/components/settings';
+import { useTranslate } from 'src/locales';
 
 import { createTheme } from './create-theme';
 import { Rtl } from './with-settings/right-to-left';
-
-import type {} from './extend-theme-types';
-import type { ThemeOptions } from './types';
 
 // ----------------------------------------------------------------------
 

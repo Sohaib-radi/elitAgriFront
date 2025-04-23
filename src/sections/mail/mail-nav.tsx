@@ -1,15 +1,15 @@
 import type { IMailLabel } from 'src/types/mail';
 
 import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
-import Drawer from '@mui/material/Drawer';
 import Button from '@mui/material/Button';
+import Drawer from '@mui/material/Drawer';
+import Stack from '@mui/material/Stack';
 
-import { CONFIG } from 'src/global-config';
+import { EmptyContent } from 'src/components/empty-content';
 
 import { Iconify } from 'src/components/iconify';
 import { Scrollbar } from 'src/components/scrollbar';
-import { EmptyContent } from 'src/components/empty-content';
+import { CONFIG } from 'src/global-config';
 
 import { MailNavItem } from './mail-nav-item';
 import { MailNavItemSkeleton } from './mail-skeleton';

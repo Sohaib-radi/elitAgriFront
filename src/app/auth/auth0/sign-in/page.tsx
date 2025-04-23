@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
-import { CONFIG } from 'src/global-config';
-
 import { Auth0SignInView } from 'src/auth/view/auth0';
+
+import { CONFIG } from 'src/global-config';
 
 // ----------------------------------------------------------------------
 

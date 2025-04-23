@@ -1,27 +1,27 @@
+import type { UseNavCollapseReturn } from './hooks/use-collapse-nav';
+
 import type { IChatParticipant } from 'src/types/chat';
-
-import { useCallback } from 'react';
-import { usePopover } from 'minimal-shared/hooks';
-
-import Box from '@mui/material/Box';
-import Badge from '@mui/material/Badge';
 import Avatar from '@mui/material/Avatar';
+
+import AvatarGroup, { avatarGroupClasses } from '@mui/material/AvatarGroup';
+import Badge from '@mui/material/Badge';
+import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
 import IconButton from '@mui/material/IconButton';
 import ListItemText from '@mui/material/ListItemText';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
 import useMediaQuery from '@mui/material/useMediaQuery';
-import AvatarGroup, { avatarGroupClasses } from '@mui/material/AvatarGroup';
+import { usePopover } from 'minimal-shared/hooks';
+
+import { useCallback } from 'react';
+
+import { CustomPopover } from 'src/components/custom-popover';
+import { Iconify } from 'src/components/iconify';
 
 import { fToNow } from 'src/utils/format-time';
 
-import { Iconify } from 'src/components/iconify';
-import { CustomPopover } from 'src/components/custom-popover';
-
 import { ChatHeaderSkeleton } from './chat-skeleton';
-
-import type { UseNavCollapseReturn } from './hooks/use-collapse-nav';
 
 // ----------------------------------------------------------------------
 

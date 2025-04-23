@@ -1,16 +1,16 @@
 import type { IChatParticipant } from 'src/types/chat';
 
-import { useState, useCallback } from 'react';
-import { useBoolean } from 'minimal-shared/hooks';
-
-import Badge from '@mui/material/Badge';
 import Avatar from '@mui/material/Avatar';
-import Collapse from '@mui/material/Collapse';
-import ListItemText from '@mui/material/ListItemText';
-import ListItemButton from '@mui/material/ListItemButton';
+import Badge from '@mui/material/Badge';
 
-import { CollapseButton } from './styles';
+import Collapse from '@mui/material/Collapse';
+import ListItemButton from '@mui/material/ListItemButton';
+import ListItemText from '@mui/material/ListItemText';
+import { useBoolean } from 'minimal-shared/hooks';
+import { useState, useCallback } from 'react';
+
 import { ChatRoomParticipantDialog } from './chat-room-participant-dialog';
+import { CollapseButton } from './styles';
 
 // ----------------------------------------------------------------------
 

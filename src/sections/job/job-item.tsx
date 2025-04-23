@@ -1,26 +1,26 @@
-import type { IJobItem } from 'src/types/job';
 import type { CardProps } from '@mui/material/Card';
+import type { IJobItem } from 'src/types/job';
 
-import { usePopover } from 'minimal-shared/hooks';
+import Avatar from '@mui/material/Avatar';
 
 import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
 import Card from '@mui/material/Card';
-import Avatar from '@mui/material/Avatar';
 import Divider from '@mui/material/Divider';
-import MenuList from '@mui/material/MenuList';
-import MenuItem from '@mui/material/MenuItem';
 import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
+import Link from '@mui/material/Link';
 import ListItemText from '@mui/material/ListItemText';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
+import Typography from '@mui/material/Typography';
+import { usePopover } from 'minimal-shared/hooks';
 
-import { RouterLink } from 'src/routes/components';
-
-import { fDate } from 'src/utils/format-time';
-import { fCurrency } from 'src/utils/format-number';
+import { CustomPopover } from 'src/components/custom-popover';
 
 import { Iconify } from 'src/components/iconify';
-import { CustomPopover } from 'src/components/custom-popover';
+import { RouterLink } from 'src/routes/components';
+
+import { fCurrency } from 'src/utils/format-number';
+import { fDate } from 'src/utils/format-time';
 
 // ----------------------------------------------------------------------
 

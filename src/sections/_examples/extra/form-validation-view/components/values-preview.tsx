@@ -1,19 +1,19 @@
-import type { FieldValues } from 'react-hook-form';
 import type { Theme, SxProps } from '@mui/material/styles';
-
-import { useState } from 'react';
-import { varAlpha } from 'minimal-shared/utils';
-import { useFormContext } from 'react-hook-form';
+import type { FieldValues } from 'react-hook-form';
 
 import Box from '@mui/material/Box';
-import Portal from '@mui/material/Portal';
-import Collapse from '@mui/material/Collapse';
-import Typography from '@mui/material/Typography';
 import ButtonBase from '@mui/material/ButtonBase';
-import IconButton from '@mui/material/IconButton';
+import Collapse from '@mui/material/Collapse';
 
-import { Iconify } from 'src/components/iconify';
+import IconButton from '@mui/material/IconButton';
+import Portal from '@mui/material/Portal';
+import Typography from '@mui/material/Typography';
+import { varAlpha } from 'minimal-shared/utils';
+import { useState } from 'react';
+import { useFormContext } from 'react-hook-form';
+
 import { fileData } from 'src/components/file-thumbnail';
+import { Iconify } from 'src/components/iconify';
 
 // ----------------------------------------------------------------------
 

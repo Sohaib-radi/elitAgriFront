@@ -1,5 +1,5 @@
-import type { MapProps } from 'src/components/map';
 import type { MarkerDragEvent } from 'react-map-gl/mapbox';
+import type { MapProps } from 'src/components/map';
 
 import { useState, useCallback } from 'react';
 

@@ -1,13 +1,13 @@
-import type { Theme } from '@mui/material/styles';
+import type { CarouselArrowButtonsProps } from '../types';
 
-import { varAlpha, mergeClasses } from 'minimal-shared/utils';
+import type { Theme } from '@mui/material/styles';
 
 import { styled } from '@mui/material/styles';
 
-import { ArrowButton } from './arrow-button';
+import { varAlpha, mergeClasses } from 'minimal-shared/utils';
 import { carouselClasses } from '../classes';
 
-import type { CarouselArrowButtonsProps } from '../types';
+import { ArrowButton } from './arrow-button';
 
 // ----------------------------------------------------------------------
 
