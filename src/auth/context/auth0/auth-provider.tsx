@@ -35,7 +35,7 @@ export function AuthProvider({ children }: Props) {
       onRedirectCallback={onRedirectCallback}
       cacheLocation="localstorage"
     >
-      <AuthProviderContainer>{children}</AuthProviderContainer>
+      
     </Auth0Provider>
   );
 }
@@ -92,5 +92,5 @@ function AuthProviderContainer({ children }: Props) {
     [accessToken, status, user]
   );
 
-  return <AuthContext value={memoizedValue}>{children}</AuthContext>;
+  return ;
 }

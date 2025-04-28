@@ -16,11 +16,12 @@ type Props = {
 };
 
 export default async function Page({ params }: Props) {
-  const { id } = await params;
+  // const { id } = await params;
 
-  const { product } = await getProduct(id);
+  // const { product } = await getProduct(id);
 
-  return <ProductDetailsView product={product} />;
+  // return <ProductDetailsView product={product} />;
+  return <div>Products</div>
 }
 
 // ----------------------------------------------------------------------
@@ -36,13 +37,13 @@ export default async function Page({ params }: Props) {
  *
  * NOTE: Remove all "generateStaticParams()" functions if not using static exports.
  */
-export async function generateStaticParams() {
-  const res = await axios.get(endpoints.product.list);
-  const data: IProductItem[] = CONFIG.isStaticExport
-    ? res.data.products
-    : res.data.products.slice(0, 1);
+// export async function generateStaticParams() {
+//   const res = await axios.get(endpoints.product.list);
+//   const data: IProductItem[] = CONFIG.isStaticExport
+//     ? res.data.products
+//     : res.data.products.slice(0, 1);
 
-  return data.map((product: IProductItem) => ({
-    id: product.id,
-  }));
-}
+//   return data.map((product: IProductItem) => ({
+//     id: product.id,
+//   }));
+// }

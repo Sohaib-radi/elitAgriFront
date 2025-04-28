@@ -1,51 +1,49 @@
 'use client';
 
-import type { HeaderSectionProps } from '../core/header-section';
-import type { LayoutSectionProps } from '../core/layout-section';
-
-import type { MainSectionProps } from '../core/main-section';
 import type { Breakpoint } from '@mui/material/styles';
-
 import type { NavItemProps, NavSectionProps } from 'src/components/nav-section';
-import Alert from '@mui/material/Alert';
+
+import { merge } from 'es-toolkit';
+import { useBoolean } from 'minimal-shared/hooks';
+
 import Box from '@mui/material/Box';
+import Alert from '@mui/material/Alert';
+import { useTheme } from '@mui/material/styles';
 import { iconButtonClasses } from '@mui/material/IconButton';
 
-import { useTheme } from '@mui/material/styles';
-import { merge } from 'es-toolkit';
-
-import { useBoolean } from 'minimal-shared/hooks';
+import { allLangs } from 'src/locales';
 import { _contacts, _notifications } from 'src/_mock';
-
-import { useAuthContext } from 'src/auth/hooks';
 
 import { Logo } from 'src/components/logo';
 import { useSettingsContext } from 'src/components/settings';
-import { allLangs } from 'src/locales';
-import { AccountDrawer } from '../components/account-drawer';
-import { ContactsPopover } from '../components/contacts-popover';
 
-import { LanguagePopover } from '../components/language-popover';
-import { MenuButton } from '../components/menu-button';
-import { NotificationsDrawer } from '../components/notifications-drawer';
+import { useAuthContext } from 'src/auth/hooks';
 
-
-import { Searchbar } from '../components/searchbar';
-import { SettingsButton } from '../components/settings-button';
-import { WorkspacesPopover } from '../components/workspaces-popover';
+import { NavMobile } from './nav-mobile';
+import { VerticalDivider } from './content';
+import { NavVertical } from './nav-vertical';
 import { layoutClasses } from '../core/classes';
+import { NavHorizontal } from './nav-horizontal';
+import { useAccountLinks } from '../nav-config-account';
+
+import { MainSection } from '../core/main-section';
+import { Searchbar } from '../components/searchbar';
+import { _workspaces } from '../nav-config-workspace';
+import { MenuButton } from '../components/menu-button';
 import { HeaderSection } from '../core/header-section';
 import { LayoutSection } from '../core/layout-section';
-import { MainSection } from '../core/main-section';
-import { useAccountLinks } from '../nav-config-account';
+import { AccountDrawer } from '../components/account-drawer';
+import { SettingsButton } from '../components/settings-button';
+import { LanguagePopover } from '../components/language-popover';
+import { ContactsPopover } from '../components/contacts-popover';
+import { WorkspacesPopover } from '../components/workspaces-popover';
 import { navData as dashboardNavData } from '../nav-config-dashboard';
-import { _workspaces } from '../nav-config-workspace';
-import { VerticalDivider } from './content';
 import { dashboardLayoutVars, dashboardNavColorVars } from './css-vars';
+import { NotificationsDrawer } from '../components/notifications-drawer';
 
-import { NavHorizontal } from './nav-horizontal';
-import { NavMobile } from './nav-mobile';
-import { NavVertical } from './nav-vertical';
+import type { MainSectionProps } from '../core/main-section';
+import type { HeaderSectionProps } from '../core/header-section';
+import type { LayoutSectionProps } from '../core/layout-section';
 
 // ----------------------------------------------------------------------
 
@@ -73,6 +71,7 @@ export function DashboardLayout({
 
   const { user, loading } = useAuthContext();
   const _account = useAccountLinks();
+
   const settings = useSettingsContext();
 
   const navVars = dashboardNavColorVars(theme, settings.state.navColor, settings.state.navLayout);

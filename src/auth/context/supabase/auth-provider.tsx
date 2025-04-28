@@ -23,7 +23,10 @@ type Props = {
 };
 
 export function AuthProvider({ children }: Props) {
-  const { state, setState } = useSetState<AuthState>({ user: null, loading: true });
+  const { state, setState } = useSetState<AuthState>({
+    user: null, loading: true,
+    permissions: []
+  });
 
   const checkUserSession = useCallback(async () => {
     try {
@@ -76,6 +79,7 @@ export function AuthProvider({ children }: Props) {
           }
         : null,
       checkUserSession,
+      permissions: state.permissions,
       loading: status === 'loading',
       authenticated: status === 'authenticated',
       unauthenticated: status === 'unauthenticated',

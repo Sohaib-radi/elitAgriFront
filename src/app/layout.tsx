@@ -29,10 +29,6 @@ import { primary } from 'src/theme/core/palette';
 // ----------------------------------------------------------------------
 
 const AuthProvider =
-  (CONFIG.auth.method === 'amplify' && AmplifyAuthProvider) ||
-  (CONFIG.auth.method === 'firebase' && FirebaseAuthProvider) ||
-  (CONFIG.auth.method === 'supabase' && SupabaseAuthProvider) ||
-  (CONFIG.auth.method === 'auth0' && Auth0AuthProvider) ||
   JwtAuthProvider;
 
 export const viewport: Viewport = {
